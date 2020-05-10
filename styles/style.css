@@ -1,0 +1,281 @@
+
+/*
+  maroon -- 641B36
+*/
+
+@font-face {
+  font-family: myFirstFont;
+  src:url(abel.ttf);
+}
+
+body {
+  background-color: #F2F2F2;
+}
+#top-banner {
+  width: 100%;
+  height: 40px;
+}
+.container {
+  display : grid;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 100;
+    color: #FEACC6;
+    font-family: myFirstFont;
+}
+h2 {
+  color: #FFFFFF;
+  font-size: 48px;
+  font-family: myFirstFont;
+  font-weight: lighter;
+}
+h3 {
+  color: #162753;
+  font-size: 48px;
+  font-family: myFirstFont;
+}
+h4 {
+  color: #641B36;
+  font-size: 30px;
+  font-family: myFirstFont;
+}
+button {
+  background-color: #FEACC6;
+  color: #162753;
+  font-family: myFirstFont;
+}
+
+/*
+  nav
+*/
+.nav {
+  height: 150px;
+}
+.nav-column {
+  float: left;
+  width: 50%;
+}
+.nav-logo {
+    height: 80px;
+    width: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.nav-links {
+  float: right;
+}
+.nav-link {
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin: 10px;
+}
+#nav-bar-home {
+  color: #162753;
+
+}
+#nav-bar-about {
+  color: #641B36;
+
+}
+#nav-bar-contact {
+  color: #162753;
+
+}
+
+/*
+  Hero row
+*/
+.hero {
+  background-color: #162753;
+  height: 763px;
+}
+.hero-column {
+  float: left;
+  width: 50%;
+  background-color: inherit;
+  height: inherit;
+  align-content: center;
+}
+#hero-flower-image {
+ width: 440px;
+ height: 440px;
+}
+
+/*
+  Nebula row
+*/
+.nebula {
+    background-color: inherit;
+    height: 680px;
+}
+
+.nebula-column-skinny {
+  float: left;
+  width: 10%;
+}
+
+.nebula-column {
+  float: left;
+  width: 45%;
+}
+
+#nebula-red-diamond-image {
+  width : 293px;
+  height : 248px;
+}
+
+#nebula-neb-image {
+ width : 573px;
+ height : 556px;
+}
+
+#nebula-red-flower-image {
+ width : 191px;
+ height : 191px;
+}
+
+#button2 {
+  background-color: #162753;
+  color: #E2C8B1;
+  font-family: myFirstFont;
+}
+
+/*
+  bio section
+*/
+.bio {
+  background-color:  #641B36;
+  height: 663px;
+}
+.bio-column-skinny {
+  float: left;
+  width: 10%;
+}
+.bio-column {
+  float: left;
+  width: 40%;
+}
+h5 {
+  color: #E2C8B1;
+  font-size: 36px;
+  font-family: myFirstFont;
+}
+#bio-text {
+  color: #FFFFFF;
+  font-size: 36px;
+  font-family: myFirstFont;
+}
+#bio-home-image {
+  width: 418px;
+  height: 433px;
+}
+#bio-link {
+  color: #E2C8B1;
+  font-size: 26px;
+  font-family: myFirstFont;
+}
+#gold-flower-bio {
+  width: 293px;
+  height: 248px;
+}
+#gold-diamond-bio {
+  width: 301px;
+  height: 192px;
+}
+
+/*
+  skills
+*/
+
+#skills-main-header {
+  color: #162753;
+  font-size: 48px;
+  font-family: myFirstFont;
+  text-align:  center;
+}
+
+.skills {
+  background-color: inherit;
+  height: 1050px;
+  text-align: center;
+}
+
+.skills-column {
+  float: left;
+  width: 50%;
+  display: grid;
+}
+
+/*
+  might not need to exist
+*/
+.skills-row {
+
+}
+.skills-blue-flower {
+  padding-top: 20px;
+  width: 50px;
+  height: 50px;
+}
+.skills-blue-diamond {
+  width: 85px;
+  height: 60px;
+}
+.skills-heading {
+  font-size: 36px;
+  color: #641B36;
+  font-family: myFirstFont;
+}
+.skills-list {
+}
+.skill-list-item {
+  padding-right: 50px;
+}
+
+li {
+  font-size: 30px;
+  color: #162753;
+  font-family: myFirstFont;
+  list-style-type: none;
+}
+
+
+/*
+  footer
+*/
+
+.footer {
+  background-color:  #162753;
+  height: 414px;
+  position: relative;
+}
+
+.footer-column {
+  float: left;
+  width: 30%;
+}
+
+#footer-text {
+  color:#FEACC6;
+  font-size: 42px;
+  font-family: myFirstFont;
+}
+#footer-gold-diamond {
+  width: 301px;
+  height: 192px;
+}
+#footer-gold-flower {
+  width: 128px;
+  height: 128px;
+}
+#bottom-banner {
+  width: 100%;
+  height: 40px;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+}
