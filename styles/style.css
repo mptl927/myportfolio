@@ -263,29 +263,31 @@ h5 {
   might not need to exist
 */
 .skills-row {
+  width:
 }
 #skills-cell-1 {
   border-bottom: : 1px solid #dfdfdf;
   border-right: : 1px solid #dfdfdf;
+  padding-bottom: 10%;
 }
 #skills-cell-2 {
   border-top: 1px solid #dfdfdf;
-  border-right: 1px solid #dfdfdf;
 }
 #skills-cell-3 {
   border-left: 1px solid #dfdfdf;
   border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 7.5%;
 }
 #skills-cell-4 {
-  border-top: 1px solid #dfdfdf;
   border-left: 1px solid #dfdfdf;
 }
 .skills-blue-flower {
-  padding-top: 20px;
-  width: 50px;
-  height: 50px;
+  margin-top:5%;
+  width: 40px;
+  height: 40px;
 }
 .skills-blue-diamond {
+  margin-top: 5%;
   width: 85px;
   height: 60px;
 }
@@ -293,8 +295,10 @@ h5 {
   font-size: 36px;
   color: #641B36;
   font-family: myFirstFont;
+  margin-top:-.5%;
 }
 .skills-list {
+  margin-top: -5%;
 }
 .skill-list-item {
   padding-right: 50px;
@@ -349,4 +353,8 @@ li {
   bottom: 0px;
   left: 0px;
   position: absolute;
+}
+
+@media screen and  {min-width: 1000px;
+
 }
