@@ -344,6 +344,7 @@ li {
   color:#FEACC6;
   font-size: 42px;
   font-family: myFirstFont;
+  font-weight: ligh
   padding-top: 10%;
 }
 
@@ -364,6 +365,8 @@ li {
   position: absolute;
 }
 
-@media screen and  {min-width: 980px;
-
+@media screen and  {min-width: 1000px;
+  .container{
+    width:95%;
+ }
 }
