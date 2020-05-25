@@ -44,12 +44,17 @@ body {
 
 }
 #nav-bar-about {
-  color: #641B36;
+  color: #162753;
   font-size: 30px;
   font-family: myFirstFont;
 }
 #nav-bar-contact {
-  color: #162753;
+  color: #641B36;
+  font-size: 30px;
+  font-family: myFirstFont;
+}
+#nav-bar-work {
+  color: #641B36;
   font-size: 30px;
   font-family: myFirstFont;
 }
@@ -62,7 +67,9 @@ body {
 #nav-bar-contact:hover {
   color: #E2C8B1;
 }
-
+#nav-bar-work:hover {
+  color: #E2C8B1;
+}
 .hero {
   background-color: #162753;
   height: 500px;
@@ -81,6 +88,7 @@ body {
 h1 {
   font-family: myFirstFont;
   font-size: 68px;
+  font-weight: lighter;
   text-align: center;
   color: #FEACC6;
 }
@@ -150,9 +158,8 @@ p {
 }
 .footer {
   background-color:  #162753;
-  height: 414px;
+  height: 410px;
   position: relative;
-  margin-top: 3%;
 }
 
 .footer-column-1 {
@@ -163,14 +170,24 @@ p {
   float: left;
   width: 80%;
   text-align: center;
+  position : relative;
 }
+
+.footer-column2-row {
+  width : 100%;
+  height: 50%;
+  position: relative;
+  text-align: center;
+}
+
 #footer-text {
-  color:#FEACC6;
+  color:#FFFFFF;
   font-size: 42px;
   font-family: myFirstFont;
-  padding-top: 10%;
   font-weight: lighter;
-}
+  position: relative;
+  top: 30%;
+ }
 
 #footer-gold-diamond {
   width: 120%;
@@ -179,7 +196,7 @@ p {
 #footer-gold-flower {
   width: 130px;
   height: 130px;
-  padding-top: 150%;
+  top: 150%;
 }
 #bottom-banner {
   width: 100%;
@@ -188,9 +205,25 @@ p {
   left: 0px;
   position: absolute;
 }
-
-@media screen and  (min-width: 1000px){
-  .container{
-  width: 95%;
-  }
+#footer-github {
+  height: 50px;
+  width: 50px;
+}
+.footer-icons {
+  display:inline;
+  margin-right: 5%;
+  position: relative;
+  top: -30%;
+}
+#footer-linkedin{
+    margin-left:5%;
+}
+#footer-instagram{
+    margin-left:5%;
+}
+#footer-email{
+    margin-left:5%;
+}
+#footer-github{
+    margin-left:5%;
 }
