@@ -16,10 +16,12 @@ body {
   width: 100%;
   height: 40px;
 }
-.container {
-  display : grid;
+li {
+  font-size: 30px;
+  color: #162753;
+  font-family: myFirstFont;
+  list-style-type: none;
 }
-
 h1 {
     font-size: 72px;
     font-weight: 100;
@@ -42,6 +44,11 @@ h4 {
   font-size: 30px;
   font-family: myFirstFont;
 }
+h5 {
+  color: #E2C8B1;
+  font-size: 36px;
+  font-family: myFirstFont;
+}
 button {
   background-color: #FEACC6;
   color: #162753;
@@ -57,10 +64,6 @@ button {
 */
 .nav {
   height: 150px;
-}
-.nav-column {
-  float: left;
-  width: 50%;
 }
 .nav-logo {
     height: 80px;
@@ -80,17 +83,13 @@ button {
 }
 #nav-bar-home {
   color: #162753;
-
 }
 #nav-bar-about {
   color: #162753;
-
 }
 #nav-bar-contact {
   color: #641B36;
-
 }
-
 #nav-bar-work{
   color: #641B36
 }
@@ -103,31 +102,25 @@ button {
 #nav-bar-contact:hover {
   color: #E2C8B1;
 }
-
 #nav-bar-work:hover {
   color: #E2C8B1;
 }
+
 /*
-  Hero row
+  Hero stuff
 */
-.hero {
+#hero-page-section {
   background-color: #162753;
   height: 800px;
 }
-.hero-column {
-  float: left;
-  width: 50%;
-  background-color: inherit;
-  height: inherit;
+#hero-column {
   align-content: center;
 }
-
 #hero-column-content {
   position: relative;
   top: 10%;
   left: 15%;
 }
-
 #hero-flower-image {
  width: 80%;
  position: relative;
@@ -138,37 +131,12 @@ button {
 /*
   Nebula row
 */
-.nebula {
-    background-color: inherit;
+#nebula-page-section {
     height: 680px;
-    position: relative;
 }
-
-.nebula-column-skinny {
-  float: left;
-  width: 10%;
-}
-
-.nebula-column-med {
-  float: left;
+#nebula-column-3 {
   width: 30%;
 }
-
-.nebula-column-big {
-  float: left;
-  width: 50%;
-}
-
-
-#nebula-red-diamond-image {
-  /*width : 293px;*/
-  width: 130%;
-  height: 248px;
-  position: relative;
-  top: 5%;
-  left: 5%;
-}
-
 #nebula-neb-image {
  width : 573px;
  /*width: 100%;*/
@@ -177,16 +145,8 @@ button {
  padding-top: 7%;
  padding-left: 15%;
 }
-
 #nebula-content {
   padding-left: 10%;
-}
-
-#nebula-red-flower-image {
- /*width : 191px;*/
- width : 100%;
- height : 191px;
- padding-top: 250%;
 }
 
 #button2 {
@@ -198,29 +158,13 @@ button {
 /*
   bio section
 */
-.bio {
+#bio-page-section {
   background-color:  #641B36;
   height: 700px;
 }
-.bio-column-skinny {
-  float: left;
-  width: 10%;
-}
-.bio-column {
+#bio-column {
   float: left;
   width: 40%;
-}
-h5 {
-  color: #E2C8B1;
-  font-size: 36px;
-  font-family: myFirstFont;
-}
-
-#gold-flower-bio {
-  /*width: 293px;*/
-  width: 150px;
-  height: 150px;
-  padding: 10%;
 }
 #bio-content-1 {
   padding-top: 5%;
@@ -245,46 +189,23 @@ h5 {
   font-family: myFirstFont;
   padding-left: 17%;
 }
-#gold-diamond-bio {
-  width: 125%;
-  height: 192px;
-  padding-top: 250%;
-
-}
 
 /*
   skills
 */
-
+#skills-page-section {
+  height: 1050px;
+  text-align: center;
+}
 #skills-main-header {
   color: #162753;
   font-size: 48px;
   font-family: myFirstFont;
   text-align:  center;
 }
-
-.skills {
-  background-color: inherit;
-  height: 1050px;
-  text-align: center;
-}
-
-.skills-column {
-  float: left;
-  width: 50%;
-  display: grid;
-}
-
-/*
-  might not need to exist
-*/
-.skills-row {
-  width:
-}
 #skills-cell-1 {
   border-bottom: : 1px solid #dfdfdf;
   border-right: : 1px solid #dfdfdf;
-  padding-bottom: 10%;
 }
 #skills-cell-2 {
   border-top: 1px solid #dfdfdf;
@@ -292,7 +213,6 @@ h5 {
 #skills-cell-3 {
   border-left: 1px solid #dfdfdf;
   border-bottom: 1px solid #dfdfdf;
-  padding-bottom: 7.5%;
 }
 #skills-cell-4 {
   border-left: 1px solid #dfdfdf;
@@ -320,42 +240,18 @@ h5 {
   padding-right: 50px;
 }
 
-li {
-  font-size: 30px;
-  color: #162753;
-  font-family: myFirstFont;
-  list-style-type: none;
-}
-
-
 /*
   footer
 */
 
-.footer {
+#footer-page-section {
   background-color:  #162753;
   height: 414px;
-  position: relative;
 }
-
-.footer-column-1 {
-  float: left;
-  width: 10%;
-}
-.footer-column-2 {
-  float: left;
+#footer-column-2 {
   width: 80%;
   text-align: center;
-  position : relative;
 }
-
-.footer-column2-row {
-  width : 100%;
-  height: 50%;
-  position: relative;
-  text-align: center;
-}
-
 #footer-text {
   color:#FFFFFF;
   font-size: 42px;
@@ -364,22 +260,12 @@ li {
   position: relative;
   top: 30%;
 }
-
-#footer-gold-diamond {
-  width: 120%;
-  height: 192px;
-}
-#footer-gold-flower {
-  width: 130px;
-  height: 130px;
-  padding-top: 150%;
-}
 #bottom-banner {
   width: 100%;
   height: 40px;
   bottom: 0px;
   left: 0px;
-  position: absolute;
+  position: relative;
 }
 #footer-github {
   height: 50px;
@@ -390,7 +276,6 @@ li {
   margin-right: 5%;
   position: relative;
   top: -30%;
-
 }
 #footer-linkedin{
     margin-left:5%;
