@@ -696,17 +696,86 @@ button {
 */
 #prototyping-page-section {
   background-color: #162753;
+  height: 2800px;
 }
 #prototyping-column-two-header {
   text-align: left;
   color: #FEACC6;
 }
+
+#prototyping-text{
+  color: #F2F2F2;
+}
+#prototyping-bold-text {
+  color: #E2C8B1;
+}
+
+#prototyping-round-button {
+  height: 80%;
+  width: 80%;
+  padding-right: 20%;
+}
+
+#prototyping-square-button {
+  height: 80%;
+  width: 80%;
+  padding-left: 20%;
+}
+
 /*
   Conclusion
 */
 #conclusion-page-section {
-
+  height: 2800px;
 }
 #conclusion-column-two-header {
   text-align: left;
+}
+#conclusion-image-one {
+  width: 80%;
+  padding-right: 20%;
+}
+#conclusion-image-two {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#conclusion-image-three {
+  width: 80%;
+  padding-left: 20%;
+}
+
+
+/*
+  footer
+*/
+#footer-page-section {
+  height: 300px;
+  background-color: #162753;
+}
+
+.footer-column {
+  height: 80%;
+}
+
+#footer-column-two {
+  width: 80%;
+}
+#footer-linkedin-image {
+  height: 80%;
+}
+#footer-instagram-image {
+  height: 80%;
+}
+#footer-email-image {
+  height: 80%;
+}
+#footer-github-image {
+  height: 80%;
+}
+
+#bottom-banner {
+  width: 100%;
+  height: 20%;
+  position: relative;
 }
