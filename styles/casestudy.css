@@ -685,10 +685,25 @@ button {
   Branding
 */
 #branding-page-section {
-
+  height: 3000px;
 }
 #branding-column-two-header {
   text-align: left;
+}
+#branding-column-two {
+    width: 80%;
+}
+#branding-image-one {
+  height: 80%;
+}
+#branding-image-two {
+  height: 80%;
+}
+#branding-image-three {
+  height: 80%;
+}
+#branding-image-four {
+  height: 80%;
 }
 
 /*
