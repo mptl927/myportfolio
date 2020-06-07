@@ -145,15 +145,15 @@ button {
 */
 #hero-page-section {
   background-color: #162753;
-  height: 1200px;
+  height: 1400px;
 }
 #hero-column-small {
   /* overrides "column-small" class*/
-  width: 20%;
+  width: 10%;
 }
 #hero-column {
   /* overrides "column" class*/
-  width: 60%;
+  width: 80%;
 }
 #hero-row {
   height: 60%;
@@ -162,9 +162,11 @@ button {
     height: 40%;
 }
 #hero-gold-flower {
+  /*
   width: 65%;
   padding: 10%;
   position: relative;
+  */
 }
 #hero-neb-image {
   position: relative;
@@ -173,10 +175,12 @@ button {
   width: 60%;
 }
 #hero-gold-diamond {
+  /*
   width: 70%;
   position:relative;
-  transform: rotateY(180deg);
   top: 75%;
+  */
+  transform: rotateY(180deg);
 }
 
 #button2 {
@@ -187,53 +191,19 @@ button {
 
 /* Summary stuff */
 #summary-page-section {
-  height:800px;
-  padding: 5%;
-  display: grid;
+  height:1300px;
 }
-
-#summary-row-2-content {
-  position: relative;
-  margin-left: 10%;
-  margin-right: 10%;
-  bottom: 50%;
+#summary-column-two {
+  width: 80%;
 }
-
-#summary-row-3-content {
-    position: relative;
-    width : 100%;
-    bottom: 25%;
-}
-
 #summary-blue-diamond {
-  width: 280px;
-  height: 190px;
-  position: absolute;
-  top: -5%;
-  left: -10%;
 }
-
 #summary-blue-flower {
-  width: 120px;
-  height: 120px;
-  top: 50%;
-  position: relative;
 }
-
 #summary-red-flower {
-  width: 120px;
-  height: 120px;
-  position: relative;
-  left: 95%;
 }
-
 #summary-red-diamond {
-  width: 150px;
-  height: 200px;
   transform: rotateY(180deg);
-  position: relative;
-  top: 75%;
-  left: 95%;
 }
 
 /* Problem stuff*/
@@ -241,19 +211,15 @@ button {
 #problem-page-section {
   height: 300px;
   background-color: #641B36;
-  padding: 5%;
-  position: relative;
-  width: 100%;
+}
+#problem-column-two {
+  width: 80%;
 }
 #problem-flower {
-  width: 70%;
+
 }
 #problem-diamond {
-  width: 80%;
-  top: 80%;
   transform: rotateY(180deg);
-  position: relative;
-  left: 50%;
 }
 #problem-header{
   color: #E2C8B1;
@@ -271,27 +237,21 @@ button {
 /* Solution stuff */
 
 #solution-page-section {
-  height: 1000px;
-  padding: 5%;
+  height: 1200px;
 }
-
+#solution-column-two {
+  width: 80%;
+}
 #solution-diamond {
-  width: 100%;
-  right: 50%;
-  position: relative;
 }
 #solution-flower {
-  width: 80%;
-  top:90%;
-  left: 50%;
-  position: relative;
 }
 
 #solution-smaller-row {
-  height: 25%;
+  height: 20%;
 }
 #solution-bigger-row {
-  height: 75%;
+  height: 70%;
 }
 
 .solution-image {
@@ -302,20 +262,17 @@ button {
 
 /* Process stuff*/
 #process-page-section {
-  height: 600px;
+  height: 700px;
   background-color: #162753;
-  padding: 5%; /* padding?*/
 }
 
-#process-flower {
+#process-column-two {
   width: 80%;
 }
+#process-flower {
+}
 #process-diamond {
-  width: 80%;
-  top: 80%;
   transform: rotateY(180deg);
-  position: relative;
-  left: 50%;
 }
 #process-header{
   color: #E2C8B1;
@@ -332,8 +289,14 @@ button {
 
 /* User research stuff*/
 #ur-page-section {
-  height: 900px;
-  padding: 5%; /*padding ?*/
+  height: 1500px;
+}
+
+.persona-column-image {
+  height: 5%;
+}
+#ur-column-two {
+  width: 80%;
 }
 #ur-row-smaller {
   height: 22%;
@@ -353,13 +316,8 @@ button {
   position: relative;
 }
 #ur-diamond {
-  width: 90%;
 }
 #ur-flower {
-  width: 80%;
-  top: 80%;
-  position: relative;
-  left: 50%;
 }
 #ur-header{
   color: #162753;
@@ -391,8 +349,9 @@ button {
 #ca-page-section {
   height: 1500px;
   background-color: #162753;
-  margin-top: 5%;
-  padding: 5%;
+}
+#ca-column-two {
+  width: 80%;
 }
 #ca-first-row {
   height: 40%;
@@ -407,13 +366,8 @@ button {
   display: grid;
 }
 #ca-flower {
-  width: 90%;
 }
 #ca-diamond {
-  width: 100%;
-  top: 90%;
-  position: relative;
-  left: 20%;
   transform: rotateY(180deg);
 }
 #ca-header {
@@ -456,36 +410,21 @@ button {
 /* Persona stuff*/
 #persona-page-section{
   height: 3000px;
-  padding: 5%;
+}
+#persona-column-two {
+  width: 80%;
 }
 #persona-red-flower{
-  width: 80%;
 }
 #persona-red-diamond {
-  width: 100%;
-  top:50%;
-  position: relative;
 }
-#persona-red-flower2{
-  width: 80%;
-  top:95%;
-  position: relative;
-}
+
 #persona-blue-diamond{
-  width: 150%;
-  top:25%;
-  position: relative;
   transform: rotateY(180deg);
 }
 #persona-blue-flower {
-  width: 80%;
-  top:60%;
-  position: relative;
 }
 #persona-blue-diamond2{
-  width: 150%;
-  top:100%;
-  position: relative;
   transform: rotateY(180deg);
 }
 #persona-header{
@@ -695,15 +634,21 @@ button {
 }
 #branding-image-one {
   height: 80%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 #branding-image-two {
   height: 80%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 #branding-image-three {
   height: 80%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 #branding-image-four {
-  height: 80%;
+  height: 90%;
 }
 
 /*
@@ -712,6 +657,9 @@ button {
 #prototyping-page-section {
   background-color: #162753;
   height: 2800px;
+}
+#prototyping-column-two {
+  width: 80%;
 }
 #prototyping-column-two-header {
   text-align: left;
@@ -723,20 +671,44 @@ button {
 }
 #prototyping-bold-text {
   color: #E2C8B1;
+  position: relative;
+  left: 30%;
 }
 
 #prototyping-round-button {
   height: 80%;
-  width: 80%;
+  width: 70%;
+  padding-left: 10%;
   padding-right: 20%;
 }
-
 #prototyping-square-button {
   height: 80%;
-  width: 80%;
+  width: 70%;
   padding-left: 20%;
+  padding-right: 10%;
 }
-
+#prototyping-light-logo {
+  width: 50%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+#prototyping-dark-logo {
+  width: 50%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+#prototype-multi-logo {
+  height: 80%;
+  width: 70%;
+  padding-left: 10%;
+  padding-right: 20%;
+}
+#prototype-monochrome-logo {
+  height: 80%;
+  width: 70%;
+  padding-left: 20%;
+  padding-right: 10%;
+}
 /*
   Conclusion
 */

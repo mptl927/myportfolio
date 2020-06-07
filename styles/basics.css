@@ -1,5 +1,6 @@
 
 /* general*/
+
 .container {
   display : grid;
   width: 100%;
@@ -101,18 +102,21 @@
   position: relative;
   width: 50%;
 }
-.column-small-image {
-  width: 90%;
-  height: 20%;
-  padding-left: 5%;
-  padding-right: 5%;
-  position: relative;
-}
 .column-top-image {
   position: absolute;
   top: 5%;
+  height: 10%;
+  width: 100%;
+}
+.column-mid-image {
+  position: absolute;
+  top: 50%;
+  height: 10%;
+  width: 100%;
 }
 .column-bottom-image {
   position: absolute;
-  bottom: 5%;
+  top: 85%;
+  height: 10%;
+  width: 100%;
 }
