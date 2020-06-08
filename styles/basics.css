@@ -106,17 +106,23 @@
   position: absolute;
   top: 5%;
   height: 10%;
-  width: 100%;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .column-mid-image {
   position: absolute;
   top: 50%;
   height: 10%;
-  width: 100%;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .column-bottom-image {
   position: absolute;
   top: 85%;
   height: 10%;
-  width: 100%;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
 }

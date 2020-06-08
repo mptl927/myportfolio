@@ -216,9 +216,14 @@ button {
   width: 80%;
 }
 #problem-flower {
-
+  height: 25%;
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 #problem-diamond {
+  height: 25%;
+  top: 70%;
   transform: rotateY(180deg);
 }
 #problem-header{
@@ -564,10 +569,17 @@ button {
 #wireframes-row-three {
   height: 45%;
 }
-
 #wireframes-link {
-  position: relative;
-  left: 45%;
+    position: relative;
+    left: 45%;
+    color: #641B36;
+    font-family: myFirstFont;
+    font-size: 26px;
+    top: 5%;
+}
+
+.wireframes-column-image {
+  height: 5%;
 }
 
 /*
@@ -626,6 +638,10 @@ button {
 #branding-page-section {
   height: 3000px;
 }
+
+.branding-column-image {
+  height: 5%;
+}
 #branding-column-two-header {
   text-align: left;
 }
@@ -657,6 +673,9 @@ button {
 #prototyping-page-section {
   background-color: #162753;
   height: 2800px;
+}
+.prototyping-column-image {
+  height: 5%;
 }
 #prototyping-column-two {
   width: 80%;
@@ -709,11 +728,22 @@ button {
   padding-left: 20%;
   padding-right: 10%;
 }
+
+#prototype-last-row{
+    top: -15%;
+}
+
 /*
   Conclusion
 */
 #conclusion-page-section {
-  height: 2800px;
+  height: 2000px;
+}
+#conclusion-column-two {
+  width: 80%;
+}
+.conclusion-column-image {
+  height: 5%;
 }
 #conclusion-column-two-header {
   text-align: left;
@@ -736,33 +766,50 @@ button {
 /*
   footer
 */
+
 #footer-page-section {
-  height: 300px;
-  background-color: #162753;
+  background-color:  #162753;
+  height: 414px;
 }
-
-.footer-column {
-  height: 80%;
-}
-
-#footer-column-two {
+#footer-column-2 {
   width: 80%;
+  text-align: center;
 }
-#footer-linkedin-image {
-  height: 80%;
+#footer-text {
+  color:#FFFFFF;
+  font-size: 42px;
+  font-family: myFirstFont;
+  font-weight: lighter;
+  position: relative;
+  top: 30%;
+  left: 35%;
 }
-#footer-instagram-image {
-  height: 80%;
-}
-#footer-email-image {
-  height: 80%;
-}
-#footer-github-image {
-  height: 80%;
-}
-
 #bottom-banner {
   width: 100%;
-  height: 20%;
+  height: 40px;
+  bottom: 0px;
+  left: 0px;
   position: relative;
+}
+#footer-github {
+  height: 50px;
+  width: 50px;
+}
+.footer-icons {
+  display:inline;
+  margin-right: 5%;
+  position: relative;
+  top: -30%;
+}
+#footer-linkedin{
+    margin-left:5%;
+}
+#footer-instagram{
+    margin-left:5%;
+}
+#footer-email{
+    margin-left:5%;
+}
+#footer-github{
+    margin-left:5%;
 }
