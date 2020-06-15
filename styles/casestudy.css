@@ -6,6 +6,9 @@
 body {
   background-color: #F2F2F2;
   font-weight: normal;
+
+  /* maybe figure out why it was overflowing in the first place */
+  overflow-x: hidden;
 }
 
 li {
@@ -183,11 +186,24 @@ button {
   transform: rotateY(180deg);
 }
 
-#button2 {
-  background-color: #FEACC6;
+.hero-button {
+  background-color: #162753;
   color: #162753;
   font-family: myFirstFont;
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #4E9CAF;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  line-height: 25px;
+  background-color: #FEACC6;
+  position: relative;
+  left: 45%;
 }
+
 
 /* Summary stuff */
 #summary-page-section {
@@ -312,7 +328,7 @@ button {
 #ur-row-small {
   height: 4%;
 }
-#ur-image {
+.ur-image {
   width: 47%;
   height: 95%;
   padding-top: 2%;
@@ -352,7 +368,7 @@ button {
 
 /* competitive analysis section */
 #ca-page-section {
-  height: 1500px;
+  height: 1700px;
   background-color: #162753;
 }
 #ca-column-two {
@@ -360,15 +376,12 @@ button {
 }
 #ca-first-row {
   height: 40%;
-  left: 5%;
 }
 #ca-second-row {
   height: 40%;
-  left: 10%;
 }
 #ca-inner-column {
   width: 30%;
-  display: grid;
 }
 #ca-flower {
 }
@@ -379,29 +392,36 @@ button {
   color: #E2C8B1;
   font-size: 32px;
 }
-#ca-content {
+.ca-content {
   color: #F2F2F2;
+}
+#ca-google-drive-image {
+  height: 80%;
 }
 #ca-dropbox-image {
   left: 5%;
+  height: 80%;
 }
 #ca-onedrive-image {
-  width: 70%;
+  width: 80%;
 }
 .ca-google-list {
   font-family: myFirstFont;
   font-size: 26px;
   color: #E2C8B1;
+  margin: 0 0 10px 0;
 }
 .ca-dropbox-list {
   font-family: myFirstFont;
   font-size: 26px;
   color: #E2C8B1;
+  margin: 0 0 10px 0;
 }
 .ca-onedrive-list {
   font-family: myFirstFont;
   font-size: 26px;
   color: #E2C8B1;
+  margin: 0 0 10px 0;
 }
 #ca-link{
   color: #E2C8B1;
@@ -411,7 +431,9 @@ button {
   top: 90%;
   left: 40%;
 }
-
+#ca-dropbox-weaknesses {
+  padding-top: 12%;
+}
 /* Persona stuff*/
 #persona-page-section{
   height: 3000px;
@@ -762,6 +784,22 @@ button {
   padding-left: 20%;
 }
 
+.conclusion-button {
+  color: #162753;
+  font-family: myFirstFont;
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #4E9CAF;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  line-height: 25px;
+  background-color: #FEACC6;
+  position: relative;
+  left: 45%;
+}
 
 /*
   footer
@@ -812,4 +850,67 @@ button {
 }
 #footer-github{
     margin-left:5%;
+}
+
+.back-to-top {
+	position: fixed;
+	right: 1%;
+	bottom: -7.5%;
+	height: 15px;
+	width: 30px;
+	padding: 3px 5px;
+	font-size: 10px;
+	font-weight: bold;
+  font-family: myFirstFont;
+	color: transparent;
+	opacity: 0.5;
+	z-index: 3;
+	visibility: hidden;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.25s ease-in-out;
+
+	&:hover,
+	&:focus {
+		opacity: 1;
+		text-decoration: none;
+	}
+
+	&:focus {
+		outline: thin dotted;
+	}
+}
+
+.back-to-top::before,
+.back-to-top::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top: 0;
+}
+
+.back-to-top::before {
+	top: -20px;
+	z-index: 4;
+	border-bottom: 20px solid #858585;
+
+}
+.back-to-top::after {
+	bottom: 0;
+	z-index: 5;
+	border-bottom: 20px solid #505050;
+}
+.back-to-top:hover,
+.back-to-top:focus {
+	height: 40px;
+	color: #212223;
+}
+.show-back-to-top {
+	display: block;
+	bottom: 1.25%;
+	visibility: visible;
 }

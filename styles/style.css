@@ -113,7 +113,7 @@ button {
   background-color: #162753;
   height: 800px;
 }
-#hero-column {
+.hero-column {
   align-content: center;
 }
 #hero-column-content {
@@ -128,6 +128,21 @@ button {
  left: 20%;
 }
 
+.hero-button {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 25px;
+
+    background-color: #FEACC6;
+    color: #162753;
+    font-size: 20px;
+    font-family: myFirstFont;
+    border-radius: 6px;
+    width: 200px;
+    height: 50px;
+}
 /*
   Nebula row
 */
@@ -149,10 +164,20 @@ button {
   padding-left: 10%;
 }
 
-#button2 {
+.nebula-button {
   background-color: #162753;
   color: #E2C8B1;
   font-family: myFirstFont;
+
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #4E9CAF;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  line-height: 25px;
 }
 
 /*
@@ -162,7 +187,7 @@ button {
   background-color:  #641B36;
   height: 700px;
 }
-#bio-column {
+.bio-column {
   float: left;
   width: 40%;
 }

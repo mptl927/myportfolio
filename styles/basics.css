@@ -4,6 +4,7 @@
 .container {
   display : grid;
   width: 100%;
+  margin: 1px;
 }
 .page-section {
   width: 100%;
