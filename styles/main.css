@@ -112,7 +112,7 @@
 .column-top-image {
   position: absolute;
   top: 5%;
-  height: 10%;
+  height: 15%;
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
@@ -127,11 +127,22 @@
 }
 .column-bottom-image {
   position: absolute;
-  top: 85%;
-  height: 10%;
+  top: 80%;
+  height: 15%;
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
+}
+.column-image-smaller-height {
+  height: 10%;
+}
+.column-image-bigger-height {
+  height: 20%;
+}
+.column-image-wider {
+  width: 95%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 
 /****************
@@ -250,9 +261,9 @@ button {
 /*
   Hero stuff
 */
-#hero-page-section {
+#hero-page-section-home-page {
   background-color: #162753;
-  height: 800px;
+  height: 600px;
 }
 .hero-column {
   align-content: center;
@@ -264,12 +275,13 @@ button {
 }
 #hero-flower-image {
  width: 80%;
+ height: 75%;
  position: relative;
  top: 10%;
  left: 20%;
 }
 
-.hero-button {
+.hero-button-home-page {
     display: block;
     padding: 10px;
     text-align: center;
@@ -281,8 +293,10 @@ button {
     font-size: 20px;
     font-family: myFirstFont;
     border-radius: 6px;
-    width: 200px;
-    height: 50px;
+    width: 240px;
+    height: 30px;
+    left: 3%;
+    position:relative;
 }
 /*
   Nebula row
@@ -313,7 +327,6 @@ button {
   display: block;
   width: 115px;
   height: 25px;
-  background: #4E9CAF;
   padding: 10px;
   text-align: center;
   border-radius: 5px;
@@ -326,7 +339,7 @@ button {
 */
 #bio-page-section {
   background-color:  #641B36;
-  height: 700px;
+  height: 800px;
 }
 .bio-column {
   float: left;
@@ -372,6 +385,7 @@ button {
 #skills-cell-1 {
   border-bottom: : 1px solid #dfdfdf;
   border-right: : 1px solid #dfdfdf;
+  text-align: center;
 }
 #skills-cell-2 {
   border-top: 1px solid #dfdfdf;
@@ -398,12 +412,14 @@ button {
   color: #641B36;
   font-family: myFirstFont;
   margin-top:-.5%;
+  text-align: center;
 }
 .skills-list {
   margin-top: -5%;
 }
 .skill-list-item {
   padding-right: 50px;
+  text-align: center;
 }
 
 /*
@@ -454,6 +470,13 @@ button {
 }
 #footer-github{
     margin-left:5%;
+}
+
+.footer-homepage-image {
+  height: 20%;
+}
+#footer-bottom-image {
+  top: 70%;
 }
 
 
@@ -677,15 +700,14 @@ button {
   width: 80%;
 }
 #summary-blue-diamond {
-}
-#summary-blue-flower {
-}
-#summary-red-flower {
-}
-#summary-red-diamond {
   transform: rotateY(180deg);
 }
-
+.summary-row-one {
+  height: 40%;
+}
+.summary-row-two {
+  height: 60%;
+}
 /* Problem stuff*/
 
 #problem-page-section {
@@ -806,10 +828,6 @@ button {
   padding-right: 2%;
   position: relative;
 }
-#ur-diamond {
-}
-#ur-flower {
-}
 #ur-header{
   color: #162753;
   font-family: myFirstFont;
@@ -905,7 +923,7 @@ button {
 }
 /* Persona stuff*/
 #persona-page-section{
-  height: 3000px;
+  height: 3200px;
 }
 #persona-column-two {
   width: 80%;
@@ -929,6 +947,12 @@ button {
 }
 #motivations-row {
   height: 15%;
+}
+#pictures-and-quotes-row{
+  height: 15%;
+}
+#persona-names-row {
+  height: 3%;
 }
 #user-stories-row {
   height: 12%;
@@ -954,12 +978,12 @@ button {
   position: relative;
 }
 #neha-image{
-  height: 70%;
+  height: 60%;
   width: 100%;
   position: relative;
 }
 #ty-image {
-  height: 70%;
+  height: 60%;
   width: 100%;
   position: relative;
 }
@@ -986,6 +1010,7 @@ button {
 */
 #user-flows-page-section {
   background-color: #162753;
+  height: 1800px;
 }
 #user-flows-column-two-header {
   text-align: left;
@@ -1045,13 +1070,13 @@ button {
   width: 85%;
 }
 #wireframes-row-one {
-  height: 15%;
+  height: 20%;
 }
 #wireframes-row-two {
   height: 40%;
 }
 #wireframes-row-three {
-  height: 45%;
+  height: 40%;
 }
 #wireframes-link {
     position: relative;
@@ -1071,6 +1096,7 @@ button {
 */
 #mockups-page-section {
   background-color: #641B36;
+  height: 1600px;
 }
 
 #mockups-column-two-header {
@@ -1084,10 +1110,10 @@ button {
   width: 80%;
 }
 #mockups-row-1 {
-  height: 25%;
+  height: 35%;
 }
 #mockups-row-2 {
-  height: 75%;
+  height: 65%;
 }
 #mockups-image-1 {
   width: 90%;
@@ -1120,7 +1146,7 @@ button {
   Branding
 */
 #branding-page-section {
-  height: 3000px;
+  height: 3500px;
 }
 
 .branding-column-image {
@@ -1151,6 +1177,14 @@ button {
   height: 90%;
 }
 
+.branding-row-one {
+  height: 34%;
+}
+
+.branding-other-row {
+  height: 22%;
+}
+
 /*
   Prototyping
 */
@@ -1177,6 +1211,11 @@ button {
   position: relative;
   left: 30%;
 }
+#prototyping-bold-text-two {
+  color: #E2C8B1;
+  position: relative;
+  left: 35%;
+}
 
 #prototyping-round-button {
   height: 80%;
@@ -1201,27 +1240,41 @@ button {
   padding-right: 25%;
 }
 #prototype-multi-logo {
-  height: 80%;
+  height: 100%;
   width: 70%;
   padding-left: 10%;
   padding-right: 20%;
 }
 #prototype-monochrome-logo {
-  height: 80%;
+  height: 100%;
   width: 70%;
   padding-left: 20%;
   padding-right: 10%;
 }
 
 #prototype-last-row{
-    top: -15%;
+    top: -5%;
+}
+#prototyping-logos-row {
+  top: 10%;
+}
+
+.prototyping-row-one {
+  height: 30%;
+}
+.prototyping-smaller-row {
+  height: 15%;
+}
+
+.prototyping-other-row {
+  height: 30%;
 }
 
 /*
   Conclusion
 */
 #conclusion-page-section {
-  height: 2000px;
+  height: 2200px;
 }
 #conclusion-column-two {
   width: 80%;
@@ -1229,20 +1282,29 @@ button {
 .conclusion-column-image {
   height: 5%;
 }
+.conclusion-row-one {
+  height: 60%;
+}
+.conclusion-row-two {
+  height: 30%;
+}
 #conclusion-column-two-header {
   text-align: left;
 }
 #conclusion-image-one {
   width: 80%;
+  height: 95%;
   padding-right: 20%;
 }
 #conclusion-image-two {
   width: 80%;
+  height: 95%;
   padding-left: 10%;
   padding-right: 10%;
 }
 #conclusion-image-three {
   width: 80%;
+  height: 95%;
   padding-left: 20%;
 }
 
