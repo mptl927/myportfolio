@@ -2,7 +2,9 @@
 <html>
 <head>
   <title> Recent Work | Mira </title>
+  <link rel="stylesheet" href="styles/reset.css"/>
   <link rel="stylesheet" href="styles/main.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!--
   <link rel="stylesheet" href="styles/casestudy.css"/>
@@ -23,10 +25,10 @@
       </div>
       <div class="nav-column">
         <ul class="nav-links">
-          <li class="nav-link"><a id= "nav-bar-home" href="index.html"> home </a></li>
-          <li class="nav-link"><a id= "nav-bar-work" href="casestudy.html"> work </a></li>
-          <li class="nav-link"><a id= "nav-bar-about" href="about.html"> about </a></li>
-          <li class="nav-link"><a id= "nav-bar-contact" href="#"> contact </a></li>
+          <li class="nav-link"><a class= "nav-bar-home" href="index.html"> home </a></li>
+          <li class="nav-link"><a class= "nav-bar-work" href="casestudy.html"> work </a></li>
+          <li class="nav-link"><a class= "nav-bar-about" href="about.html"> about </a></li>
+          <li class="nav-link"><a class= "nav-bar-contact" href="#"> contact </a></li>
         </ul>
       </div>
     </nav>
@@ -36,14 +38,14 @@
 
         <!-- column 1 -->
         <div class="column-small" id="hero-column-small">
-          <img alt="image" class="column-top-image" id="hero-gold-flower" src="images/flower.png">
+          <img alt="gold flower" class="column-top-image hero-gold-flower" src="images/flower.png">
         </div>
 
         <!-- column 2 -->
         <div class="column" id="hero-column">
           <!-- inner row 1 -->
           <div class="row" id="hero-row">
-            <img alt="image" id="hero-neb-image" src="images/neb.png">
+            <img alt="nebula" id="hero-neb-image" src="images/neb.png">
           </div>
 
           <!-- inner row 2 -->
@@ -58,7 +60,7 @@
 
         <!-- column 3 -->
         <div class="column-small" id="hero-column-small">
-          <img alt="diamond" class="column-bottom-image" id="hero-gold-diamond" src="images/diamond.png">
+          <img alt="diamond" class="column-bottom-image" src="images/diamond.png">
         </div>
 
     </section>
@@ -194,7 +196,7 @@
 
       <!-- column 2 -->
       <div class="column" id="process-column-two">
-        <h3 id="process-header">The Process<h3>
+        <h3 id="process-header">The Process</h3>
         <p id="process-content"> When I was approached to create an identity for this new cloud storage app, I knew that their target demographic included people who wanted to create and work together on projects in real time as well as people who wanted to work on solo projects, but maybe get ideas from other like-minded individuals. What started out with a simple idea to bring people together became Nebula.
         </p>
         <p id="process-content"> Like all projects, we had to start somewhere. In this case, I started with research and analysis of existing apps and research of current and potential users of this new app. I then gathered all the information from surveys and created user personas and stories: what types of people I thought would benefit from a new cloud storage app like Nebula, and what those users would want from this app. Meanwhile, I was able to create a brand identity, color palette, logos etc, to come up with an overall look and feel of Nebula.  From there, the pieces of the puzzle started to fit together. I was able to come up with wireframes, mockups, and, ultimately, prototypes that were tested both in person and remotely.
@@ -257,7 +259,7 @@
 
         <!-- column 1 -->
         <div class="column-small">
-          <img alt="image" class="column-top-image" src="images/flower.png">
+          <img alt="image" class="column-top-image column-image-smaller-height" src="images/flower.png">
         </div>
 
         <!-- column 2 -->
@@ -310,21 +312,23 @@
                   <div class="column-third ca-inner-column">
                     <ul>
                       <li class="ca-google-list"> Google Drive </li>
-                      <li class="ca-google-list"> Strengths: </li>
-                      <ul>
-                        <li class="ca-google-list"> Availability on various platforms</li>
-                        <li class="ca-google-list"> Organization </li>
-                      </ul>
+                      <li class="ca-google-list"> Strengths:
+                        <ul>
+                          <li class="ca-google-list"> Availability on various platforms</li>
+                          <li class="ca-google-list"> Organization </li>
+                        </ul>
+                      </li>
                     </ul>
                   </div>
                   <!-- drop box -->
                   <div class="column-third ca-inner-column">
                     <ul>
                       <li class="ca-dropbox-list">DropBox</li>
-                      <li class="ca-dropbox-list">Strengths:</li>
-                      <ul>
-                        <li class="ca-dropbox-list"> Availability on various platforms</li>
-                      </ul>
+                      <li class="ca-dropbox-list">Strengths:
+                        <ul>
+                          <li class="ca-dropbox-list"> Availability on various platforms</li>
+                        </ul>
+                      </li>
                     </ul>
                   </div>
 
@@ -332,11 +336,12 @@
                   <div class="column-third ca-inner-column">
                     <ul>
                       <li class="ca-onedrive-list">OneDrive</li>
-                      <li class="ca-onedrive-list">Strengths:</li>
-                      <ul>
-                        <li class="ca-onedrive-list">Availability on various platforms</li>
-                        <li class="ca-onedrive-list">Organization</li>
-                      </ul>
+                      <li class="ca-onedrive-list">Strengths:
+                        <ul>
+                          <li class="ca-onedrive-list">Availability on various platforms</li>
+                          <li class="ca-onedrive-list">Organization</li>
+                        </ul>
+                      </li>
                     </ul>
                   </div>
 
@@ -349,33 +354,36 @@
                   <!-- google -->
                   <div class="column-third ca-inner-column">
                     <ul>
-                      <li class="ca-google-list"> Weaknesses: </li>
-                      <ul>
-                        <li class="ca-google-list"> Need Google Account </li>
-                        <li class="ca-google-list"> Not easy to share files </li>
-                      </ul>
+                      <li class="ca-google-list"> Weaknesses:
+                        <ul>
+                          <li class="ca-google-list"> Need Google Account </li>
+                          <li class="ca-google-list"> Not easy to share files </li>
+                        </ul>
+                      </li>
                     </ul>
                   </div>
 
                   <!-- drop box -->
                   <div class="column-third ca-inner-column">
                     <ul>
-                      <li class="ca-dropbox-list">Weaknesses:</li>
-                      <ul>
-                        <li class="ca-dropbox-list">Not enough free storage</li>
-                        <li class="ca-dropbox-list">Increased security risk</li>
-                      </ul>
+                      <li class="ca-dropbox-list">Weaknesses:
+                        <ul>
+                          <li class="ca-dropbox-list">Not enough free storage</li>
+                          <li class="ca-dropbox-list">Increased security risk</li>
+                        </ul>
+                      </li>
                     </ul>
                   </div>
 
                   <!-- one drive -->
                   <div class="column-third ca-inner-column">
                     <ul>
-                      <li class="ca-onedrive-list">Weaknesses:</li>
-                      <ul>
-                        <li class="ca-onedrive-list">Vulnerability to hackers</li>
-                        <li class="ca-onedrive-list">Difficulty sharing files</li>
-                      </ul>
+                      <li class="ca-onedrive-list">Weaknesses:
+                        <ul>
+                          <li class="ca-onedrive-list">Vulnerability to hackers</li>
+                          <li class="ca-onedrive-list">Difficulty sharing files</li>
+                        </ul>
+                      </li>
                     </ul>
                   </div>
 
@@ -397,7 +405,7 @@
 
         <!-- column 3 -->
         <div class="column-small">
-          <img alt="image" class="column-bottom-image" id="ca-diamond" src="images/diamond.png">
+          <img alt="image" class="column-bottom-image column-image-smaller-height" id="ca-diamond" src="images/diamond.png">
         </div>
 
       </section>
@@ -541,7 +549,7 @@
 
         <!-- column 1 -->
         <div class="column-small">
-          <img alt="image" class="column-top-image" src="images/diamond.png">
+          <img alt="image" class="column-top-image column-image-smaller-height" src="images/diamond.png">
         </div>
 
         <!-- column 2 -->
@@ -559,7 +567,7 @@
 
         <!-- column 3 -->
         <div class="column-small">
-          <img alt="image" class="column-bottom-image" src="images/flower.png">
+          <img alt="flower" class="column-bottom-image column-image-smaller-height" src="images/flower.png">
         </div>
 
       </section>
@@ -600,7 +608,7 @@
 
         <!-- column 1 -->
         <div class="column-small">
-          <img alt="image" class="column-top-image" src="images/diamond.png">
+          <img alt="image" class="column-top-image column-image-smaller-height" src="images/diamond.png">
         </div>
 
         <!-- column 2 -->
@@ -626,7 +634,7 @@
 
         <!-- column 3 -->
         <div class="column-small">
-          <img alt="image" class="column-bottom-image" src="images/flower.png">
+          <img alt="flower" class="column-bottom-image column-image-smaller-height" src="images/flower.png">
         </div>
 
       </section>
@@ -780,13 +788,13 @@
 
           <div class="row-third conclusion-row-two">
               <div class="column-third">
-                <img alt="image" class="full-width-image" id="conclusion-image-one" src="images/final3.png">
+                <img alt="final3" class="full-width-image" id="conclusion-image-one" src="images/final3.png">
               </div>
               <div class="column-third">
-                <img alt="image" class="full-width-image" id="conclusion-image-two" src="images/final2.png">
+                <img alt="final2" class="full-width-image" id="conclusion-image-two" src="images/final2.png">
               </div>
               <div class="column-third">
-                <img alt="image" class="full-width-image" id="conclusion-image-three" src="images/final.png">
+                <img alt="final" class="full-width-image" id="conclusion-image-three" src="images/final.png">
               </div>
           </div>
 
@@ -798,15 +806,15 @@
         <!-- column 3 -->
         <div class="column-small">
           <!-- images go here -->
-          <img alt="image" class="column-top-image conclusion-column-image" src="images/red-diamond.png">
-          <img alt="image" class="column-bottom-image conclusion-column-image" src="images/red-flower.png">
+          <img alt="red-diamond" class="column-top-image conclusion-column-image" src="images/red-diamond.png">
+          <img alt="red-flower" class="column-bottom-image conclusion-column-image" src="images/red-flower.png">
         </div>
       </section>
 
-      <footer class="page-section" id="footer-page-section">
+      <footer class="page-section footer-page-section">
         <!-- column 1 -->
         <div class="column-small">
-          <img alt="image" class="column-top-image" src ="images/diamond.png">
+          <img alt="diamond" class="column-top-image" src ="images/diamond.png">
         </div>
 
         <!-- column 2 -->
@@ -820,10 +828,10 @@
           <!-- row 2 -->
           <div class="row">
             <div class="footer-icons">
-              <img alt="image" id="footer-linkedin" src= "images/linkedin.png">
-              <img alt="image" id="footer-instagram" src="images/instagram.png">
-              <img alt="image" id="footer-email" src="images/email.png">
-              <img alt="image" id="footer-github" src="images/github.png">
+              <img alt="linkedin" class="footer-linkedin" src= "images/linkedin.png">
+              <img alt="instagram" class="footer-instagram" src="images/instagram.png">
+              <img alt="email" class="footer-email" src="images/email.png">
+              <img alt="github" class="footer-github" src="images/github.png">
             </div>
           </div>
 
@@ -831,11 +839,11 @@
 
         <!-- column 3 -->
         <div class="column-small">
-          <img alt="image" class="column-bottom-image" src="images/flower.png">
+          <img alt="flower" class="column-bottom-image" id="footer-right-image" src="images/flower.png">
         </div>
 
         <!-- strethes across the bottom -->
-        <img alt="image" id="bottom-banner" src="images/bottom-banner.png">
+        <img alt="banner" id="bottom-banner" src="images/bottom-banner.png">
       </footer>
 
   </div> <!-- end of container -->

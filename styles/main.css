@@ -233,28 +233,28 @@ button {
     padding: 0;
     margin: 10px;
 }
-#nav-bar-home {
+.nav-bar-home {
   color: #162753;
 }
-#nav-bar-about {
+.nav-bar-about {
   color: #162753;
 }
-#nav-bar-contact {
+.nav-bar-contact {
   color: #641B36;
 }
-#nav-bar-work{
+.nav-bar-work{
   color: #641B36
 }
-#nav-bar-home:hover {
+.nav-bar-home:hover {
   color: #E2C8B1;
 }
-#nav-bar-about:hover {
+.nav-bar-about:hover {
   color: #E2C8B1;
 }
-#nav-bar-contact:hover {
+.nav-bar-contact:hover {
   color: #E2C8B1;
 }
-#nav-bar-work:hover {
+.nav-bar-work:hover {
   color: #E2C8B1;
 }
 
@@ -383,8 +383,8 @@ button {
   text-align:  center;
 }
 #skills-cell-1 {
-  border-bottom: : 1px solid #dfdfdf;
-  border-right: : 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
   text-align: center;
 }
 #skills-cell-2 {
@@ -425,8 +425,7 @@ button {
 /*
   footer
 */
-
-#footer-page-section {
+.footer-page-section {
   background-color:  #162753;
   height: 414px;
 }
@@ -449,27 +448,25 @@ button {
   left: 0px;
   position: relative;
 }
-#footer-github {
-  height: 50px;
-  width: 50px;
-}
 .footer-icons {
   display:inline;
   margin-right: 5%;
   position: relative;
   top: -30%;
 }
-#footer-linkedin{
+.footer-linkedin{
     margin-left:5%;
 }
-#footer-instagram{
+.footer-instagram{
     margin-left:5%;
 }
-#footer-email{
+.footer-email{
     margin-left:5%;
 }
-#footer-github{
+.footer-github{
     margin-left:5%;
+    height: 50px;
+    width: 50px;
 }
 
 .footer-homepage-image {
@@ -543,7 +540,6 @@ h4 {
   color: #162753;
   font-size: 26px;
   font-weight: lighter;
-  text-align: left;
 }
 
 button {
@@ -592,43 +588,6 @@ button {
     padding: 0;
     margin: 10px;
 }
-#nav-bar-home {
-  color: #162753;
-  font-size: 30px;
-  font-family: myFirstFont;
-}
-#nav-bar-home {
-  color: #162753;
-  font-size: 30px;
-  font-family: myFirstFont;
-}
-#nav-bar-about {
-  color: #162753;
-  font-size: 30px;
-  font-family: myFirstFont;
-}
-#nav-bar-contact {
-  color: #641B36;
-  font-size: 30px;
-  font-family: myFirstFont;
-}
-#nav-bar-work {
-  color: #641B36;
-  font-size: 30px;
-  font-family: myFirstFont;
-}
-#nav-bar-home:hover {
-  color: #E2C8B1;
-}
-#nav-bar-about:hover {
-  color: #E2C8B1;
-}
-#nav-bar-contact:hover {
-  color: #E2C8B1;
-}
-#nav-bar-work:hover {
-  color: #E2C8B1;
-}
 
 /*
   hero stuff
@@ -651,13 +610,6 @@ button {
 #hero-row-small {
     height: 40%;
 }
-#hero-gold-flower {
-  /*
-  width: 65%;
-  padding: 10%;
-  position: relative;
-  */
-}
 #hero-neb-image {
   position: relative;
   top: 20%;
@@ -665,12 +617,9 @@ button {
   width: 60%;
 }
 #hero-gold-diamond {
-  /*
-  width: 70%;
-  position:relative;
-  top: 75%;
-  */
   transform: rotateY(180deg);
+  top : -10%;
+  position: relative;
 }
 
 .hero-button {
@@ -749,11 +698,6 @@ button {
 #solution-column-two {
   width: 80%;
 }
-#solution-diamond {
-}
-#solution-flower {
-}
-
 #solution-smaller-row {
   height: 30%;
 }
@@ -1329,10 +1273,6 @@ button {
   footer
 */
 
-#footer-page-section {
-  background-color:  #162753;
-  height: 414px;
-}
 #footer-column-2 {
   width: 80%;
   text-align: center;
@@ -1344,7 +1284,6 @@ button {
   font-weight: lighter;
   position: relative;
   top: 30%;
-  left: 35%;
 }
 #bottom-banner {
   width: 100%;
@@ -1357,23 +1296,14 @@ button {
   height: 50px;
   width: 50px;
 }
+#footer-right-image {
+  top: 70%;
+}
 .footer-icons {
   display:inline;
   margin-right: 5%;
   position: relative;
   top: -30%;
-}
-#footer-linkedin{
-    margin-left:5%;
-}
-#footer-instagram{
-    margin-left:5%;
-}
-#footer-email{
-    margin-left:5%;
-}
-#footer-github{
-    margin-left:5%;
 }
 
 .back-to-top {
@@ -1485,53 +1415,14 @@ body {
     padding: 0;
     margin: 10px;
 }
-#nav-bar-home {
-  color: #162753;
-  font-size: 30px;
-  font-family: myFirstFont;
-
-}
-#nav-bar-about {
-  color: #162753;
-  font-size: 30px;
-  font-family: myFirstFont;
-}
-#nav-bar-contact {
-  color: #641B36;
-  font-size: 30px;
-  font-family: myFirstFont;
-}
-#nav-bar-work {
-  color: #641B36;
-  font-size: 30px;
-  font-family: myFirstFont;
-}
-#nav-bar-home:hover {
-  color: #E2C8B1;
-}
-#nav-bar-about:hover {
-  color: #E2C8B1;
-}
-#nav-bar-contact:hover {
-  color: #E2C8B1;
-}
-#nav-bar-work:hover {
-  color: #E2C8B1;
-}
 .hero {
   background-color: #162753;
   height: 500px;
 }
-#hero-gold-flower {
+.hero-gold-flower {
   width: 100px;
   height: 100px;
   padding: 20px;
-}
-#hero-gold-diamond {
-  width: 150px;
-  height: 200px;
-  float: right;
-  position:relative;
 }
 h1 {
   font-family: myFirstFont;
@@ -1541,7 +1432,7 @@ h1 {
   color: #FEACC6;
 }
 .about {
-  height: 2000px;
+  height: 2200px;
   background-color: inherit;
 }
 .about-column {
@@ -1662,16 +1553,4 @@ p {
   margin-right: 5%;
   position: relative;
   top: -30%;
-}
-#footer-linkedin{
-    margin-left:5%;
-}
-#footer-instagram{
-    margin-left:5%;
-}
-#footer-email{
-    margin-left:5%;
-}
-#footer-github{
-    margin-left:5%;
 }
