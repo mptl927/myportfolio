@@ -1416,23 +1416,35 @@ p {
   position: relative;
   top: -30%;
 }
-@media screen and (max-width: 767px){
-    .container {
-        width: 100%;
-        padding: 0 10px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    .container {
-        width: 750px;
-        padding: 0 10px;
-    }
-}
-
 @media screen and (max-width: 375px){
     .container {
         width: 100%;
         padding: 0 10px;
+    }
+    p {
+      font-size: 1.25rem;
+    }
+    h1 {
+      font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    p {
+      font-size: 1.75em;
     }
 }
