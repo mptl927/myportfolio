@@ -31,11 +31,18 @@
 
       <!--hero section-->
       <section class="hero">
-        <img alt="gold flower" class="hero-gold-flower" src="images/flower.png">
-        <h1> Get to know the designer</h1>
-        <img alt="golf diamond" id="hero-gold-diamond" src="images/diamond.png">
-        </section>
-        <!--about secion-->
+          <div class="column-small">
+            <img alt="gold flower" class= "full-width-image" src="images/flower.png">
+          </div>
+          <div class="column-big">
+            <h1 id="hero-heading"> Get to know the designer</h1>
+          </div>
+          <div class="column-small">
+            <img alt="gold diamond" class="full-width-image column-bottom-image about-hero-gold-diamond" src="images/diamond.png">
+          </div>
+      </section>
+
+      <!--about secion-->
       <section class="about">
         <div class ="about-column">
           <h3> My Story</h3>
@@ -67,15 +74,21 @@
       <!--footer-->
       <footer class="footer">
 
-        <div class="footer-column-1">
-          <img alt="image" id="footer-gold-diamond" src ="images/diamond.png">
+        <!-- column 3 -->
+        <div class="column-small">
+          <img alt="diamond" class="column-bottom-image footer-diamond-image" src ="images/diamond.png">
         </div>
 
-        <div class="footer-column-2">
-          <div class="footer-column2-row">
+        <!-- column 2 -->
+        <div class="column-big footer-center-column">
+
+          <!-- row 1 -->
+          <div class="row footer-center-row">
             <h4 id="footer-text" > Let's design something together </h4>
           </div>
-          <div class="footer-column2-row">
+
+          <!-- row 2 -->
+          <div class="row footer-center-row">
             <div class="footer-icons">
               <img alt="linkedin" class="footer-linkedin" src= "images/linkedin.png">
               <img alt="instagram" class="footer-instagram" src="images/instagram.png">
@@ -84,11 +97,16 @@
             </div>
           </div>
         </div>
-        <div class="footer-column-1">
-          <img alt="image" id="footer-gold-flower" src="images/flower.png">
+
+        <!-- column 3 -->
+        <div class="column-small">
+          <img alt="flower" class="column-top-image footer-flower-image" src="images/flower.png">
         </div>
-        <img alt="image" id="bottom-banner" src="images/bottom-banner.png">
+
+        <img alt="bottom banner" id="bottom-banner" src="images/bottom-banner.png">
       </footer>
+
+      <!-- end of container -->
       </div>
     </body>
 </html>
