@@ -169,7 +169,7 @@ body {
   height: 40px;
 }
 li {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #162753;
   font-family: myFirstFont;
   list-style-type: none;
@@ -177,7 +177,7 @@ li {
 h1 {
     color: #FEACC6;
     font-family: myFirstFont;
-    font-size: 68px;
+    font-size: 4.25rem;
     font-weight: lighter;
     text-align: center;
     position:  relative;
@@ -186,7 +186,7 @@ h2 {
   color: #FFFFFF;
   font-family: myFirstFont;
   font-weight: lighter;
-  font-size: 42px;
+  font-size: 2.625rem;
   text-align: center;
   position: relative;
   bottom: 10%;
@@ -194,18 +194,18 @@ h2 {
 h3 {
   color: #162753;
   font-family: myFirstFont;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: lighter;
 }
 h4 {
   color: #641B36;
   font-family: myFirstFont;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: lighter;
 }
 h5 {
   color: #E2C8B1;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: myFirstFont;
 }
 
@@ -288,7 +288,7 @@ h5 {
 
     background-color: #FEACC6;
     color: #162753;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: myFirstFont;
     border-radius: 6px;
     width: 240px;
@@ -353,7 +353,7 @@ h5 {
 }
 #bio-text {
   color: #FFFFFF;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: myFirstFont;
 }
 #bio-home-image {
@@ -362,7 +362,7 @@ h5 {
 }
 #bio-link {
   color: #E2C8B1;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-family: myFirstFont;
   padding-left: 17%;
 }
@@ -376,7 +376,7 @@ h5 {
 }
 #skills-main-header {
   color: #162753;
-  font-size: 48px;
+  font-size: 3rem;
   font-family: myFirstFont;
   text-align:  center;
 }
@@ -406,7 +406,7 @@ h5 {
   height: 60px;
 }
 .skills-heading {
-  font-size: 36px;
+  font-size: 2.25rem;
   color: #641B36;
   font-family: myFirstFont;
   margin-top:-.5%;
@@ -433,7 +433,7 @@ h5 {
 }
 #footer-text {
   color:#FFFFFF;
-  font-size: 42px;
+  font-size: 2.625rem;
   font-family: myFirstFont;
   font-weight: lighter;
   position: relative;
@@ -505,13 +505,8 @@ p {
   color: #641B36;
   font-family: myFirstFont;
   font-weight: lighter;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 1.5em;
-}
-
-#top-banner {
-  width: 100%;
-  height: 40px;
 }
 
 #backToTopButton {
@@ -626,13 +621,13 @@ p {
 #problem-header{
   color: #E2C8B1;
   font-family: myFirstFont;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: lighter;
 }
 #problem-content {
   color: #F2F2F2;
   font-family: myFirstFont;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: lighter;
 }
 
@@ -668,13 +663,13 @@ p {
 #process-header{
   color: #E2C8B1;
   font-family: myFirstFont;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: lighter;
 }
 #process-content {
   color: #F2F2F2;
   font-family: myFirstFont;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: lighter;
 }
 
@@ -730,7 +725,7 @@ p {
 #ur-header{
   color: #162753;
   font-family: myFirstFont;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: lighter;
   position: relative;
   height: 20%;
@@ -738,7 +733,7 @@ p {
 #ur-content {
   color: #641B36;
   font-family: myFirstFont;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: lighter;
   position: relative;
   height: 80%;
@@ -747,7 +742,7 @@ p {
 #ur-link{
   color: #641B36;
   font-family: myFirstFont;
-  font-size: 26px;
+  font-size: 1.625rem;
   position: relative;
   top: 80%;
   left: 45%;
@@ -781,7 +776,7 @@ p {
 }
 #ca-header {
   color: #E2C8B1;
-  font-size: 32px;
+  font-size: 2rem;
 }
 .ca-content {
   color: #F2F2F2;
@@ -801,26 +796,26 @@ p {
 }
 .ca-google-list {
   font-family: myFirstFont;
-  font-size: 26px;
+  font-size: 1.625rem;
   color: #E2C8B1;
   margin: 15% 0 10px 0;
 }
 .ca-dropbox-list {
   font-family: myFirstFont;
-  font-size: 26px;
+  font-size: 1.625rem;
   color: #E2C8B1;
   margin: 15% 0 10px 0;
 }
 .ca-onedrive-list {
   font-family: myFirstFont;
-  font-size: 26px;
+  font-size: 1.625rem;
   color: #E2C8B1;
   margin: 15% 0 10px 0;
 }
 #ca-link{
   color: #E2C8B1;
   font-family: myFirstFont;
-  font-size: 26px;
+  font-size: 1.625rem;
   position: absolute;
   left: 40%;
 }
@@ -838,11 +833,11 @@ p {
   transform: rotateY(180deg);
 }
 #persona-header{
-  font-size: 32px;
+  font-size: 2rem;
   color:#162753;
 }
 #persona-content {
-  font-size: 26px;
+  font-size: 1.625rem;
   color: #641B36;
 }
 .persona-names-row {
@@ -890,18 +885,18 @@ p {
 }
 .neha-info {
   color:#162753;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .ty-info {
   color:#162753;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 #view-user-persona-link {
   position: relative;
   left: 40%;
   font-family: myFirstFont;
   color: #641B36;
-  font-size: 26px;
+  font-size: 1.625rem;
 }
 
 /*
@@ -926,7 +921,7 @@ p {
   left: 45%;
   color: #E2C8B1;
   font-family: myFirstFont;
-  font-size: 26px;
+  font-size: 1.625rem;
   top: 5%;
 }
 #user-flow-text {
@@ -988,7 +983,7 @@ p {
     left: 45%;
     color: #641B36;
     font-family: myFirstFont;
-    font-size: 26px;
+    font-size: 1.625rem;
     top: 5%;
 }
 
@@ -1039,7 +1034,7 @@ p {
   top: -15%;  /* come back and figure out why this needs to be negative*/
   font-family: myFirstFont;
   color: #E2C8B1;
-  font-size: 26px;
+  font-size: 1.625rem;
 }
 
 /*
@@ -1216,7 +1211,7 @@ p {
 }
 #footer-text {
   color:#FFFFFF;
-  font-size: 42px;
+  font-size: 2.625rem;
   font-family: myFirstFont;
   font-weight: lighter;
   position: relative;
@@ -1250,7 +1245,7 @@ p {
     height: 15px;
     width: 30px;
     padding: 3px 5px;
-    font-size: 10px;
+    font-size: .625rem;
     font-weight: bolder;
     font-family: myFirstFont;
     color: transparent;
@@ -1320,10 +1315,6 @@ p {
 body {
   background-color: #F2F2F2;
   font-weight: normal;
-}
-#top-banner {
-  width: 100%;
-  height: 40px;
 }
 .nav {
   height: 150px;
@@ -1420,7 +1411,7 @@ body {
 }
 #footer-text {
   color:#FFFFFF;
-  font-size: 42px;
+  font-size: 2.625rem;
   font-family: myFirstFont;
   font-weight: lighter;
   position: relative;
@@ -1448,11 +1439,8 @@ body {
         width: 100%;
         padding: 0 10px;
     }
-    p {
-      font-size: 1.25rem;
-    }
-    h1 {
-      font-size: 1.25rem;
+    #top-banner {
+      display: none;
     }
 }
 
@@ -1461,17 +1449,11 @@ body {
         width: 100%;
         padding: 0 10px;
     }
-    p {
-      font-size: 1.5rem;
-    }
 }
 
 @media screen and (min-width: 1000px){
     .container {
         width: 100%;
         padding: 0 10px;
-    }
-    p {
-      font-size: 1.75em;
     }
 }
