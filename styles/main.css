@@ -953,14 +953,12 @@ p {
   text-align: left;
 }
 #wireframes-image-one {
-  height: 80%;
   padding-top: 5%;
   padding-left: 10%;
   padding-right: 5%;
   width: 85%;
 }
 #wireframes-image-two {
-  height: 80%;
   padding-left: 10%;
   padding-right: 5%;
   width: 85%;
@@ -968,7 +966,6 @@ p {
 
 #wireframes-column-image-one {
   top: 0%;
-  height: 10%;
   padding-left: 0%;
   padding-right: 0%;
   width: 100%;
@@ -1022,19 +1019,16 @@ p {
 }
 #mockups-image-1 {
   width: 90%;
-  height: 80%;
   padding-left: 5%;
   padding-right: 5%;
 }
 #mockups-image-2 {
   width: 90%;
-  height: 80%;
   padding-left: 5%;
   padding-right: 5%;
 }
 #mockups-image-3 {
   width: 90%;
-  height: 80%;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -1061,22 +1055,18 @@ p {
   text-align: left;
 }
 #branding-image-one {
-  height: 80%;
   padding-left: 25%;
   padding-right: 25%;
 }
 #branding-image-two {
-  height: 80%;
   padding-left: 25%;
   padding-right: 25%;
 }
 #branding-image-three {
-  height: 80%;
   padding-left: 25%;
   padding-right: 25%;
 }
 #branding-image-four {
-  height: 90%;
 }
 .branding-row-one {
   height: 34%;
@@ -1182,18 +1172,15 @@ p {
 }
 #conclusion-image-one {
   width: 80%;
-  height: 95%;
   padding-right: 20%;
 }
 #conclusion-image-two {
   width: 80%;
-  height: 95%;
   padding-left: 10%;
   padding-right: 10%;
 }
 #conclusion-image-three {
   width: 80%;
-  height: 95%;
   padding-left: 20%;
 }
 
@@ -1372,43 +1359,37 @@ body {
   float: right;
   width: 40%;
   padding: 5%;
-  padding-top: 20%;
+  padding-top: 15%;
 
 }
 
 #image-1 {
-  height: 450px;
   width: 450px;
   float: left;
 }
 #bio-red-flower {
-  height: 120px;
   width: 120px;
   padding-top: 25%;
   padding-left: 5%;
 }
 
 #image-2 {
-  height: 450px;
   width: 450px;
   float: right;
   padding-top: 10%;
 }
 #image-3 {
-  height: 450px;
   width: 450px;
   float: left;
   padding-top: 10%;
 }
 #bio-blue-flower {
-  height: 120px;
   width: 120px;
   padding-top: 40%;
   padding-right: 5%;
 }
 
 #bio-red-flower-2 {
-  height: 120px;
   width: 120px;
   padding-top: 40%;
   padding-left: 5%;
