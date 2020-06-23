@@ -112,26 +112,26 @@
 .column-top-image {
   position: absolute;
   top: 5%;
-  height: 15%;
-  width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .column-mid-image {
   position: absolute;
   top: 50%;
-  height: 10%;
-  width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .column-bottom-image {
   position: absolute;
   top: 80%;
-  height: 15%;
-  width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.column-image-smallest-height {
+  height: 5%;
 }
 .column-image-smaller-height {
   height: 10%;
@@ -504,8 +504,9 @@ li {
 p {
   color: #641B36;
   font-family: myFirstFont;
-  font-size: 26px;
   font-weight: lighter;
+  font-size: 32px;
+  line-height: 1.5em;
 }
 
 #top-banner {
@@ -684,6 +685,26 @@ p {
 .persona-column-image {
   height: 5%;
 }
+
+#person-left-column-image-1 {
+  top: 10%;
+}
+#person-left-column-image-2 {
+  top: 40%;
+}
+#person-left-column-image-3 {
+  top: 70%;
+}
+#person-right-column-image-1 {
+  top: 30%;
+}
+#person-right-column-image-2 {
+  top: 60%;
+}
+#person-right-column-image-3 {
+  top: 90%;
+}
+
 #ur-row-smaller {
   height: 25%;
 }
@@ -736,14 +757,23 @@ p {
   height: 1900px;
   background-color: #162753;
 }
-#ca-first-row {
-  height: 45%;
-}
-#ca-second-row {
+.ca-first-row {
   height: 35%;
 }
-#ca-inner-column {
-  width: 30%;
+.ca-second-row {
+  height: 55%;
+}
+.ca-second-inner-row {
+  height: 75%;
+}
+.ca-bottom-column-image {
+  top: 87%;
+  height: 7%;
+}
+.ca-inner-column {
+  width: 25%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
 }
 #ca-diamond {
   transform: rotateY(180deg);
@@ -757,10 +787,13 @@ p {
 }
 #ca-google-drive-image {
   height: 75%;
+  width: 35%;
+  left: 10%;
 }
 #ca-dropbox-image {
-  left: 5%;
+  left: 15%;
   height: 75%;
+  width: 35%;
 }
 #ca-onedrive-image {
   width: 80%;
@@ -769,19 +802,19 @@ p {
   font-family: myFirstFont;
   font-size: 26px;
   color: #E2C8B1;
-  margin: 0 0 10px 0;
+  margin: 15% 0 10px 0;
 }
 .ca-dropbox-list {
   font-family: myFirstFont;
   font-size: 26px;
   color: #E2C8B1;
-  margin: 0 0 10px 0;
+  margin: 15% 0 10px 0;
 }
 .ca-onedrive-list {
   font-family: myFirstFont;
   font-size: 26px;
   color: #E2C8B1;
-  margin: 0 0 10px 0;
+  margin: 15% 0 10px 0;
 }
 #ca-link{
   color: #E2C8B1;
@@ -811,23 +844,21 @@ p {
   font-size: 26px;
   color: #641B36;
 }
-#title-row {
-  height: 7%;
-}
-#motivations-row {
-  height: 15%;
-}
-#pictures-and-quotes-row{
-  height: 15%;
-}
-#persona-names-row {
+.persona-names-row {
   height: 3%;
+  padding-top: 1%;
 }
-#user-stories-row {
-  height: 12%;
+.persona-motivations-row {
+  height: 15%;
 }
-.inner-column {
+.persona-inner-column {
   padding-left: 7%;
+}
+.persona-user-stories-row {
+  height: 15%;
+}
+.persona-user-stories-image {
+ height : 100%;
 }
 #neha-inner-column {
   width: 35%;
@@ -859,12 +890,10 @@ p {
 .neha-info {
   color:#162753;
   font-size: 24px;
-  position: relative;
 }
 .ty-info {
   color:#162753;
   font-size: 24px;
-  position: relative;
 }
 #view-user-persona-link {
   position: relative;
@@ -904,9 +933,14 @@ p {
 }
 #user-flow-row-1 {
   height: 20%;
+  padding-top: 10%;
 }
 #user-flow-row-2 {
-  height: 80%;
+  height: 70%;
+}
+
+.user-flow-column-image {
+  transform: rotateY(180deg);
 }
 
 /*
@@ -931,14 +965,26 @@ p {
   padding-right: 5%;
   width: 85%;
 }
+
+#wireframes-column-image-one {
+  top: 0%;
+  height: 10%;
+  padding-left: 0%;
+  padding-right: 0%;
+  width: 100%;
+}
+#wireframes-column-image-three {
+  top: 30%;
+}
 #wireframes-row-one {
+  padding-top: 10%;
   height: 20%;
 }
 #wireframes-row-two {
-  height: 40%;
+  height: 35%;
 }
 #wireframes-row-three {
-  height: 40%;
+  height: 35%;
 }
 #wireframes-link {
     position: relative;
@@ -950,7 +996,7 @@ p {
 }
 
 .wireframes-column-image {
-  height: 5%;
+  height: 7%;
 }
 
 /*
@@ -1195,7 +1241,7 @@ p {
   width: 50px;
 }
 #footer-right-image {
-  top: 70%;
+  top: 50%;
 }
 .footer-icons {
   display:inline;
@@ -1330,12 +1376,6 @@ body {
 
 }
 
-p {
-  font-family: myFirstFont;
-  font-size: 32px;
-  color: #641B36;
-  line-height: 1.5em;
-}
 #image-1 {
   height: 450px;
   width: 450px;
