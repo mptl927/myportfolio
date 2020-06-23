@@ -646,6 +646,7 @@ p {
 }
 #solution-bigger-row {
   height: 70%;
+  top:-10%;
 }
 
 .solution-image {
@@ -953,14 +954,13 @@ p {
   text-align: left;
 }
 #wireframes-image-one {
-  padding-top: 5%;
-  padding-left: 10%;
-  padding-right: 5%;
+  top:-10%;
   width: 85%;
+  margin-left: 5%;
 }
 #wireframes-image-two {
-  padding-left: 10%;
-  padding-right: 5%;
+  top:-10%;
+  margin-left: 5%;
   width: 85%;
 }
 
@@ -1016,6 +1016,7 @@ p {
 }
 #mockups-row-2 {
   height: 65%;
+  top:-10%;
 }
 #mockups-image-1 {
   width: 90%;
@@ -1045,7 +1046,7 @@ p {
   Branding
 */
 #branding-page-section {
-  height: 3500px;
+  height: 3600px;
 }
 
 .branding-column-image {
@@ -1057,22 +1058,24 @@ p {
 #branding-image-one {
   padding-left: 25%;
   padding-right: 25%;
+  top:-10%;
 }
 #branding-image-two {
   padding-left: 25%;
   padding-right: 25%;
+  top:-10%;
 }
 #branding-image-three {
   padding-left: 25%;
   padding-right: 25%;
+  top:-10%;
 }
-#branding-image-four {
-}
-.branding-row-one {
-  height: 34%;
+.branding-row {
+  height: 25%;
 }
 .branding-other-row {
-  height: 22%;
+  padding-top: 5%;
+  height: 20%;
 }
 
 /*
@@ -1137,7 +1140,7 @@ p {
   padding-right: 10%;
 }
 #prototype-last-row{
-    top: -5%;
+    top: -10%;
 }
 #prototyping-logos-row {
   top: 10%;
@@ -1147,9 +1150,11 @@ p {
 }
 .prototyping-smaller-row {
   height: 15%;
+  top:-5%;
 }
 .prototyping-other-row {
   height: 30%;
+  top:-5%;
 }
 
 /*
@@ -1166,6 +1171,7 @@ p {
 }
 .conclusion-row-two {
   height: 30%;
+  top:-10%;
 }
 #conclusion-column-two-header {
   text-align: left;
