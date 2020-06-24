@@ -301,7 +301,7 @@ h5 {
 */
 #hero-page-section-home-page {
   background-color: #162753;
-  height: 600px;
+  height: 800px;
 }
 .hero-column {
   align-content: center;
@@ -313,18 +313,9 @@ h5 {
 }
 #hero-flower-image {
  width: 80%;
- height: 75%;
  position: relative;
  top: 10%;
  left: 20%;
-}
-@media screen and (max-width: 375px){
-  #hero-column-one {
-    top: 50%;
-  }
-  #hero-column-two {
-    top: -50%;
-  }
 }
 
 .hero-button-home-page {
@@ -336,13 +327,14 @@ h5 {
 
     background-color: #FEACC6;
     color: #162753;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-family: myFirstFont;
     border-radius: 6px;
-    width: 240px;
-    height: 30px;
-    left: 3%;
+    width: 50%;
+    height: 30%;
+    left: 20%;
     position:relative;
+    text-decoration: none;
 }
 /*
   Nebula row
@@ -1577,6 +1569,64 @@ body {
     h2 {
       font-size: 1.375rem;
     }
+      #hero-column-one {
+        top: 40%;
+      }
+      #hero-column-two {
+        top: -50%;
+      }
+      #hero-column-content {
+        position: relative;
+        width: 80%;
+        top: 10%;
+        left: 10%;
+      }
+      #hero-flower-image {
+       width: 80%;
+       position: relative;
+       top: 10%;
+       left: 10%;
+      }
+      .hero-button-home-page {
+          display: block;
+          padding: 10px;
+          text-align: center;
+          font-weight: bold;
+          line-height: 25px;
+
+          background-color: #FEACC6;
+          color: #162753;
+          font-size: 1rem;
+          font-family: myFirstFont;
+          border-radius: 6px;
+          width: 50%;
+          height: 30%;
+          left: 20%;
+          position:relative;
+          text-decoration: none;
+      }
+      .nav-links {
+        display: none;
+      }
+      #nebula-neb-image {
+        width: 70%;
+      }
+      #bottom-banner {
+        display: none;
+      }
+      #footer-text {
+        font-size: 2.225rem;
+      }
+      .column-small {
+        display: none;
+      }
+      #nebula-column-three {
+        top:-10%;
+      }
+      .nebula-button {
+        width: 40%;
+        left: 10%;
+      }
 }
 
 @media screen and (min-width: 768px) {
