@@ -1555,8 +1555,7 @@ body {
 @media screen and (max-width: 375px){
     .container {
         width: 100%;
-        padding: 0 10px;
-    }
+      }
     #top-banner {
       display: none;
     }
@@ -1586,6 +1585,16 @@ body {
        position: relative;
        top: 10%;
        left: 10%;
+      }
+      #hero-neb-image {
+        position: relative;
+        top: 10%;
+        left: 5%;
+        width: 60%;
+      }
+      .nav-logo {
+        height: 50px;
+        width: 50px;
       }
       .hero-button-home-page {
           display: block;
@@ -1625,20 +1634,36 @@ body {
       }
       .nebula-button {
         width: 40%;
-        left: 10%;
+        left: 10%
       }
-}
+      #nebula-content {
+        padding-left: 10%;
+        text-align: center;
+      }
+      .nebula-button {
+        margin-left: 25%;
+      }
+      #bio-home-image {
+        width: 300px;
+        height: 250px;
+        margin-top:10%;
+      }
+      h5 {
+        font-size: 1.5rem;
+      }
 
-@media screen and (min-width: 768px) {
-    .container {
-        width: 100%;
-        padding: 0 10px;
-    }
-}
-
-@media screen and (min-width: 1000px){
-    .container {
-        width: 100%;
-        padding: 0 10px;
-    }
+      #bio-content2 {
+        padding-left: 10%;
+      }
+      #skills-cell-1 {
+        padding-bottom:10%;
+      }
+      #skills-cell-3 {
+      }
+      #skills-cell-4 {
+        padding-top: 25%;
+      }
+      .column-half {
+        height: 40%;
+      }
 }
