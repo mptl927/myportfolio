@@ -1208,7 +1208,7 @@ p {
 #prototyping-text{
   color: #F2F2F2;
 }
-#prototyping-bold-text {
+#prototyping-bold-text-one {
   color: #E2C8B1;
   position: relative;
   left: 30%;
@@ -1217,6 +1217,11 @@ p {
   color: #E2C8B1;
   position: relative;
   left: 35%;
+}
+#prototyping-bold-text-three {
+  color: #E2C8B1;
+  position: relative;
+  left: 30%;
 }
 #prototyping-round-button {
   height: 80%;
@@ -2073,6 +2078,234 @@ body {
     left: 20%;
   }
 
+  /*
+    mockups
+  */
+
+  #mockups-page-section {
+      height: 1400px;
+  }
+  #mockups-column-two-header {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #mockups-text {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #mockups-image-1 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    left: 15%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    top: 20%;
+  }
+
+  #mockups-image-2 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    left: 15%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    top: 25%;
+  }
+
+  #mockups-image-3 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    left: 15%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    top: 30%;
+  }
+
+  #mockups-link {
+    position: relative;
+    top: 25%;
+  }
+
+
+  /*
+    branding
+  */
+  #branding-page-section {
+    height : 2200px;
+  }
+
+  #branding-column-two-header {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .branding-text-content {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.0rem;
+  }
+
+  #branding-image-one {
+      position: relative;
+      top: 120%;
+  }
+  #branding-image-two {
+      position: relative;
+      top: 300%;
+      width: 80%;
+      left: -20%;
+  }
+  #branding-image-three {
+      position: relative;
+      top: 300%;
+      width: 80%;
+      left: -20%;
+  }
+  #branding-image-four {
+      position: relative;
+      top: 300%;
+      width: 80%;
+      left: 10%;
+  }
+
+  #branding-text-one {
+    position: relative;
+    top: 250%;
+  }
+
+  #branding-text-two {
+    position: relative;
+    top: 500%;
+  }
+
+  /*
+  prototyping
+  */
+
+  #prototyping-page-section {
+    height: 1500px;
+  }
+
+  #prototyping-column-two-header {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #prototyping-text {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.0rem;
+  }
+
+  .prototyping-other-row {
+    position: relative;
+    top: 35%;
+  }
+
+  #prototyping-bold-text-one {
+    position: relative;
+    left: -1px;
+    font-size: 1.0rem;
+  }
+
+  #prototyping-round-button {
+    width: 30%;
+  }
+  #prototyping-square-button {
+    width: 30%;
+    position: relative;
+    top: -100%;
+    left: 30%;
+  }
+
+  .prototyping-smaller-row {
+    position: relative;
+    top: 20%;
+  }
+
+  #prototyping-bold-text-two {
+    position: relative;
+    left: -1px;
+    font-size: 1.0rem;
+  }
+
+  #prototyping-light-logo {
+    width: 35%;
+    position: relative;
+    left: -10%;
+  }
+  #prototyping-dark-logo {
+    width: 35%;
+    position: relative;
+    top: -100%;
+    left: 30%;
+  }
+
+  #prototype-last-row {
+    position: relative;
+    top: 15%;
+  }
+
+  #prototyping-bold-text-three {
+    position: relative;
+    left: -1px;
+    font-size: 1.0rem;
+  }
+
+  #prototype-multi-logo {
+    width: 35%;
+    position: relative;
+    left: 0%;
+    height: 200px;
+  }
+
+  #prototype-monochrome-logo {
+    width: 35%;
+    position: relative;
+    top: -100%;
+    left: 30%;
+    height: 200px;
+  }
+
+  /*
+  conclusion
+  */
+  #conclusion-page-section {
+    height: 3300px;
+  }
+
+  #conclusion-column-two-header {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .conclusion-text-content {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.0rem;
+  }
+
+  #conclusion-image-one {
+    position: relative;
+    top: -20%;
+  }
+  #conclusion-image-two {
+    position: relative;
+    top: 130%;
+  }
+  #conclusion-image-three {
+    position: relative;
+    top: 280%;
+  }
+
+  .conclusion-button {
+    position: relative;
+    top: 30%;
+  }
 
 /* end of media query block*/
 }
