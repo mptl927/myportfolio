@@ -1903,4 +1903,102 @@ body {
       position: relative;
       top: 275%;
     }
-}
+
+    /*
+      persona
+    */
+
+    #persona-page-section {
+      height: 1700px;
+    }
+
+    #persona-header {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    #persona-content {
+      font-size: 1.0rem;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    #neha-image {
+      position: relative;
+      top: 1000%;
+      width: 175%;
+      height: 900%;
+      left: -45%;
+    }
+
+    #neha-bio {
+      position: relative;
+      top: 1400%;
+      left: 10%;
+      color: #641B36;
+      font-size: 1.5rem;
+    }
+
+    #neha-quote {
+      position: relative;
+      top: 2100%;
+      width: 250%;
+      left: 40%;
+      color: #641B36;
+      font-size: 1.225rem;
+    }
+    #ty-image {
+      position: relative;
+      top: 2450%;
+      width: 175%;
+      height: 900%;
+      left: 40%;
+    }
+    #ty-bio {
+      position: relative;
+      top: 3700%;
+      left: 10%;
+      color: #641B36;
+      font-size: 1.5rem;
+    }
+    #ty-quote {
+      position: relative;
+      top: 3600%;
+      color: #641B36;
+      font-size: 1.225rem;
+      width: 250%;
+      left: -80%;
+    }
+    .persona-motivations-row {
+      display: none;
+    }
+    .persona-goals-row {
+      display: none;
+    }
+    .persona-frustrations-row {
+      display: none;
+    }
+
+    #view-user-persona-link {
+      top: 325%;
+      font-size: 1.0rem;
+    }
+    #persona-user-stories-text {
+      position: relative;
+      top: 325%;
+      margin-left: 5%;
+      margin-right: 5%;
+      font-size: 1.225rem;
+    }
+
+  #persona-user-stories-image-one {
+    position: relative;
+    top: 325%;
+    margin-bottom:  5%;
+  }
+
+  #persona-user-stories-image-two {
+    position: relative;
+    top: 325%;
+    margin-top:  5%;
+  }
