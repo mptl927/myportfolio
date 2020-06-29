@@ -818,7 +818,7 @@ p {
 #ur-row-smaller {
   height: 25%;
 }
-#ur-row-bigger {
+.ur-row-bigger {
   height: 30%;
   width: 80%;
   padding-left: 10%;
@@ -970,11 +970,11 @@ p {
 .persona-user-stories-image {
  height : 100%;
 }
-#neha-inner-column {
+.neha-inner-column {
   width: 35%;
   margin-right: 2.5%;
 }
-#ty-inner-column {
+.ty-inner-column {
   width: 35%;
   margin-left: 2.5%;
 }
@@ -1038,7 +1038,7 @@ p {
   font-size: 1.625rem;
   top: 5%;
 }
-#user-flow-text {
+.user-flow-text {
   color: #F2F2F2;
 }
 #user-flow-row-1 {
@@ -1816,7 +1816,7 @@ body {
       height: 45%;
     }
 
-    #ur-row-bigger {
+    .ur-row-bigger {
       position: relative;
       top: 10%;
     }
@@ -2024,7 +2024,7 @@ body {
     color: #E2C8B1;
   }
 
-  #user-flow-text {
+  .user-flow-text {
     margin-left: 10%;
     margin-right: 10%;
   }
