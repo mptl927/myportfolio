@@ -1951,7 +1951,7 @@ body {
     #neha-image {
       position: relative;
       top: 1000%;
-      width: 200%;
+      width: 175%;
       height: 900%;
       left: -45%;
     }
@@ -2051,6 +2051,7 @@ body {
   #user-flow-link {
     top: 50%;
     font-size: 1.225rem;
+    left:30%;
   }
 
   /*
@@ -2144,6 +2145,8 @@ body {
   #mockups-link {
     position: relative;
     top: 25%;
+    font-size: 1.225rem;
+    left:30%;
   }
 
 
@@ -2223,18 +2226,20 @@ body {
   }
 
   #prototyping-bold-text-one {
-    position: relative;
-    left: -1px;
+    position: absolute;
     font-size: 1.0rem;
+    left: 5%;
   }
 
   #prototyping-round-button {
     width: 30%;
+    position: absolute;
+    top: 50%;
   }
   #prototyping-square-button {
     width: 30%;
-    position: relative;
-    top: -100%;
+    position: absolute;
+    top: -50%;
     left: 30%;
   }
 
@@ -2244,21 +2249,22 @@ body {
   }
 
   #prototyping-bold-text-two {
-    position: relative;
-    left: -1px;
+    position: absolute;
+    left: 5%;
     font-size: 1.0rem;
   }
 
   #prototyping-light-logo {
     width: 35%;
-    position: relative;
-    left: -10%;
+    position: absolute;
+    left: -20%;
+    top: 300%;
   }
   #prototyping-dark-logo {
     width: 35%;
-    position: relative;
-    top: -100%;
-    left: 30%;
+    position: absolute;
+    top: 200%;
+    left: 20%;
   }
 
   #prototype-last-row {
@@ -2267,26 +2273,26 @@ body {
   }
 
   #prototyping-bold-text-three {
-    position: relative;
-    left: -1px;
+    position: absolute;
+    left: 5%;
     font-size: 1.0rem;
   }
 
   #prototype-multi-logo {
     width: 35%;
-    position: relative;
+    position: absolute;
     left: 0%;
     height: 200px;
+    top:35%;
   }
 
   #prototype-monochrome-logo {
     width: 35%;
-    position: relative;
-    top: -100%;
-    left: 30%;
+    position: absolute;
+    left: 35%;
     height: 200px;
+    top:-65%;
   }
-
   /*
   conclusion
   */
@@ -2307,15 +2313,17 @@ body {
 
   #conclusion-image-one {
     position: relative;
-    top: -20%;
+    top: -40%;
+    left:10%
   }
   #conclusion-image-two {
     position: relative;
-    top: 130%;
+    top: 100%;
   }
   #conclusion-image-three {
     position: relative;
-    top: 280%;
+    top: 220%;
+    padding:10%;
   }
 
   .conclusion-button {
