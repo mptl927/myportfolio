@@ -2017,15 +2017,23 @@ body {
     }
 
   #persona-user-stories-image-one {
-    position: relative;
-    top: 325%;
+    position: absolute;
+    top: 450%;
     margin-bottom:  5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 80%;
   }
 
   #persona-user-stories-image-two {
-    position: relative;
-    top: 325%;
+    position: absolute;
+    top: 550%;
     margin-top:  5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 80%;
   }
 
   /*
