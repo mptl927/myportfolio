@@ -1121,7 +1121,7 @@ p {
   text-align: left;
   color: #FEACC6;
 }
-#mockups-text{
+.mockups-text{
   color: #F2F2F2;
 }
 #mockups-row-1 {
@@ -1205,7 +1205,7 @@ p {
   text-align: left;
   color: #FEACC6;
 }
-#prototyping-text{
+.prototyping-text{
   color: #F2F2F2;
 }
 #prototyping-bold-text-one {
@@ -2107,7 +2107,7 @@ body {
     margin-right: 10%;
   }
 
-  #mockups-text {
+  .mockups-text {
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -2214,7 +2214,7 @@ body {
     margin-right: 10%;
   }
 
-  #prototyping-text {
+  .prototyping-text {
     margin-left: 10%;
     margin-right: 10%;
     font-size: 1.0rem;
