@@ -309,13 +309,13 @@ h5 {
 #hero-column-content {
   position: relative;
   top: 10%;
-  left: 15%;
+  margin-left: 15%;
 }
 #hero-flower-image {
  width: 80%;
  position: relative;
  top: 10%;
- left: 20%;
+ margin-left: 20%;
 }
 
 .hero-button-home-page {
@@ -332,7 +332,7 @@ h5 {
     border-radius: 6px;
     width: 50%;
     height: 30%;
-    left: 20%;
+    margin-left: 20%;
     position:relative;
     text-decoration: none;
 }
@@ -669,7 +669,7 @@ p {
 #hero-neb-image {
   position: relative;
   top: 20%;
-  left: 20%;
+  margin-left: 20%;
   width: 60%;
 }
 #hero-heading {
@@ -695,7 +695,7 @@ p {
   line-height: 25px;
   background-color: #FEACC6;
   position: relative;
-  left: 45%;
+  margin-left: 45%;
 }
 
 
@@ -859,7 +859,7 @@ p {
   font-size: 1.625rem;
   position: relative;
   top: 80%;
-  left: 45%;
+  margin-left: 45%;
 }
 
 /* competitive analysis section */
@@ -898,10 +898,10 @@ p {
 #ca-google-drive-image {
   height: 75%;
   width: 35%;
-  left: 10%;
+  margin-left: 10%;
 }
 #ca-dropbox-image {
-  left: 15%;
+  margin-left: 15%;
   height: 75%;
   width: 35%;
 }
@@ -930,8 +930,8 @@ p {
   color: #E2C8B1;
   font-family: myFirstFont;
   font-size: 1.625rem;
-  position: absolute;
-  left: 40%;
+  position: relative;
+  margin-left: 40%;
 }
 #ca-dropbox-weaknesses {
   padding-top: 12%;
@@ -1007,7 +1007,7 @@ p {
 }
 #view-user-persona-link {
   position: relative;
-  left: 40%;
+  margin-left: 40%;
   font-family: myFirstFont;
   color: #641B36;
   font-size: 1.625rem;
@@ -1032,7 +1032,7 @@ p {
 }
 #user-flow-link {
   position: relative;
-  left: 45%;
+  margin-right: 45%;
   color: #E2C8B1;
   font-family: myFirstFont;
   font-size: 1.625rem;
@@ -1098,7 +1098,7 @@ p {
 }
 #wireframes-link {
     position: relative;
-    left: 45%;
+    margin-left: 45%;
     color: #641B36;
     font-family: myFirstFont;
     font-size: 1.625rem;
@@ -1148,7 +1148,7 @@ p {
 }
 #mockups-link {
   position: relative;
-  left: 45%;
+  margin-right: 45%;
   top: -15%;  /* come back and figure out why this needs to be negative*/
   font-family: myFirstFont;
   color: #E2C8B1;
@@ -1211,17 +1211,17 @@ p {
 #prototyping-bold-text-one {
   color: #E2C8B1;
   position: relative;
-  left: 30%;
+  margin-left: 30%;
 }
 #prototyping-bold-text-two {
   color: #E2C8B1;
   position: relative;
-  left: 35%;
+  margin-left: 35%;
 }
 #prototyping-bold-text-three {
   color: #E2C8B1;
   position: relative;
-  left: 30%;
+  margin-left: 30%;
 }
 #prototyping-round-button {
   height: 80%;
@@ -1322,7 +1322,7 @@ p {
   line-height: 25px;
   background-color: #FEACC6;
   position: relative;
-  left: 45%;
+  margin-left: 30%;
 }
 
 /*
@@ -1544,7 +1544,7 @@ body {
   width: 100%;
   height: 40px;
   bottom: 0px;
-  left: 0px;
+  margin-left: 0px;
   position: absolute;
 }
 #footer-github {
@@ -1590,13 +1590,13 @@ body {
         position: relative;
         width: 80%;
         top: 10%;
-        left: 10%;
+        margin-left: 10%;
       }
       #hero-flower-image {
        width: 80%;
        position: relative;
        top: 30%;
-       left: 10%;
+       margin-left: 10%;
       }
       #hero-neb-image {
         width: 60%;
@@ -1605,7 +1605,7 @@ body {
         top: -20%;
       }
       .hero-button {
-        left: 30%;
+        margin-left: 30%;
       }
       .nav-logo {
         height: 50px;
@@ -1625,9 +1625,9 @@ body {
           border-radius: 6px;
           width: 50%;
           height: 30%;
-          left: 20%;
           position:relative;
           text-decoration: none;
+          margin-right: 20%;
       }
       .nav-links {
         display: none;
@@ -1649,7 +1649,7 @@ body {
       }
       .nebula-button {
         width: 40%;
-        left: 10%
+        margin-left: 10%
       }
       #nebula-content {
         padding-left: 10%;
@@ -1831,7 +1831,7 @@ body {
       font-size: 1.225rem;
       position: relative;
       top: 80%;
-      left: 35%;
+      margin-right: 5%;
     }
 
     /*
@@ -1869,7 +1869,7 @@ body {
       top: 75%;
       width: 100%;
       height: 100%;
-      left: 95%;
+      margin-left: 95%;
     }
     #ca-google-drive-strengths {
       font-size: 1.0rem;
@@ -1888,7 +1888,7 @@ body {
       position: relative;
       top: 650%;
       width: 100%;
-      left: -5%;
+      margin-left: -5%;
     }
     #ca-dropbox-strengths {
       font-size: 1.0rem;
@@ -1907,7 +1907,7 @@ body {
       position: relative;
       top: 1200%;
       width: 150%;
-      left: -150%;
+      margin-left: -150%;
     }
     #ca-onedrive-strengths {
       font-size: 1.0rem;
@@ -1926,7 +1926,7 @@ body {
       font-size: 1.0rem;
       position: absolute;
       top: 275%;
-      left: 20%;
+      margin-left: 20%;
     }
 
     /*
@@ -1953,13 +1953,13 @@ body {
       top: 1000%;
       width: 175%;
       height: 900%;
-      left: -45%;
+      margin-left: -45%;
     }
 
     #neha-bio {
       position: relative;
       top: 1400%;
-      left: 10%;
+      margin-left: 10%;
       color: #641B36;
       font-size: 1.5rem;
     }
@@ -1968,7 +1968,7 @@ body {
       position: relative;
       top: 2100%;
       width: 250%;
-      left: 40%;
+      margin-left: 40%;
       color: #641B36;
       font-size: 1.225rem;
     }
@@ -1977,12 +1977,12 @@ body {
       top: 2450%;
       width: 175%;
       height: 900%;
-      left: 40%;
+      margin-left: 40%;
     }
     #ty-bio {
       position: relative;
       top: 3700%;
-      left: 10%;
+      margin-left: 10%;
       color: #641B36;
       font-size: 1.5rem;
     }
@@ -1992,7 +1992,7 @@ body {
       color: #641B36;
       font-size: 1.225rem;
       width: 250%;
-      left: -80%;
+      margin-left: -80%;
     }
     .persona-motivations-row {
       display: none;
@@ -2096,11 +2096,11 @@ body {
   .wireframes-mobile-image{
     height: 400px;
     width: 75%;
-    left: 10%;
+    margin-left: 10%;
   }
   .wireframes-mobile-text {
     position: relative;
-    left: 20%;
+    margin-left: : 20%;
   }
 
   /*
@@ -2124,7 +2124,7 @@ body {
     width: 50%;
     height: 100%;
     position: relative;
-    left: 15%;
+    margin-left: 15%;
     margin-top: 15%;
     margin-bottom: 15%;
     top: 20%;
@@ -2134,7 +2134,7 @@ body {
     width: 50%;
     height: 100%;
     position: relative;
-    left: 15%;
+    margin-left: 15%;
     margin-top: 15%;
     margin-bottom: 15%;
     top: 25%;
@@ -2144,7 +2144,7 @@ body {
     width: 50%;
     height: 100%;
     position: relative;
-    left: 15%;
+    margin-left: 15%;
     margin-top: 15%;
     margin-bottom: 15%;
     top: 30%;
@@ -2184,19 +2184,19 @@ body {
       position: relative;
       top: 300%;
       width: 80%;
-      left: -20%;
+      margin-left: -20%;
   }
   #branding-image-three {
       position: relative;
       top: 300%;
       width: 80%;
-      left: -20%;
+      margin-left: -20%;
   }
   #branding-image-four {
       position: relative;
       top: 300%;
       width: 80%;
-      left: 10%;
+      margin-left: 10%;
   }
 
   #branding-text-one {
@@ -2236,7 +2236,7 @@ body {
   #prototyping-bold-text-one {
     position: absolute;
     font-size: 1.0rem;
-    left: 5%;
+    margin-left: 5%;
   }
 
   #prototyping-round-button {
@@ -2248,7 +2248,7 @@ body {
     width: 30%;
     position: absolute;
     top: -50%;
-    left: 30%;
+    margin-left: 30%;
   }
 
   .prototyping-smaller-row {
@@ -2258,21 +2258,21 @@ body {
 
   #prototyping-bold-text-two {
     position: absolute;
-    left: 5%;
+    margin-left: 5%;
     font-size: 1.0rem;
   }
 
   #prototyping-light-logo {
     width: 35%;
     position: absolute;
-    left: -20%;
+    margin-left: -20%;
     top: 300%;
   }
   #prototyping-dark-logo {
     width: 35%;
     position: absolute;
     top: 200%;
-    left: 20%;
+    margin-left: 20%;
   }
 
   #prototype-last-row {
@@ -2282,22 +2282,22 @@ body {
 
   #prototyping-bold-text-three {
     position: absolute;
-    left: 5%;
+    margin-left: 5%;
     font-size: 1.0rem;
   }
 
   #prototype-multi-logo {
     width: 35%;
-    position: absolute;
-    left: 0%;
+    position: relative;
+    margin-left: 0%;
     height: 200px;
     top:35%;
   }
 
   #prototype-monochrome-logo {
     width: 35%;
-    position: absolute;
-    left: 35%;
+    position: relative;
+    margin-left: 35%;
     height: 200px;
     top:-65%;
   }
@@ -2337,6 +2337,67 @@ body {
   .conclusion-button {
     position: relative;
     top: 30%;
+  }
+  .back-to-top {
+      position: fixed;
+      margin-right: 10%;
+      bottom: -7.5%;
+      height: 15px;
+      width: 30px;
+      padding: 3px 5px;
+      font-size: .625rem;
+      font-weight: bolder;
+      font-family: myFirstFont;
+      color: transparent;
+      opacity: 0.5;
+      z-index: 3;
+      visibility: hidden;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: all 0.25s ease-in-out;
+  }
+
+  .back-to-top:hover, .back-to-top:focus {
+          opacity: 1;
+          text-decoration: none;
+  }
+
+  .back-to-top:focus {
+          outline: thin dotted;
+  }
+
+  .back-to-top::before,
+  .back-to-top::after {
+  	content: '';
+  	position: absolute;
+  	margin-left: 0;
+  	width: 0;
+  	height: 0;
+  	border: 20px solid transparent;
+  	border-top: 0;
+  }
+
+  .back-to-top::before {
+  	top: -20px;
+  	z-index: 4;
+  	border-bottom: 20px solid #858585;
+
+  }
+  .back-to-top::after {
+  	bottom: 0;
+  	z-index: 5;
+  	border-bottom: 20px solid #505050;
+  }
+  .back-to-top:hover,
+  .back-to-top:focus {
+  	height: 40px;
+  	color: #212223;
+  }
+  .show-back-to-top {
+  	display: block;
+  	bottom: 1.25%;
+  	visibility: visible;
   }
 
 /* end of media query block*/
