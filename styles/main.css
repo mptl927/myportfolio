@@ -1119,7 +1119,7 @@ p {
 
 #mockups-column-two-header {
   text-align: left;
-  color: #FEACC6;
+  color: #E2C8B1;
 }
 .mockups-text{
   color: #F2F2F2;
@@ -1203,7 +1203,7 @@ p {
 }
 #prototyping-column-two-header {
   text-align: left;
-  color: #FEACC6;
+  color: #E2C8B1;
 }
 .prototyping-text{
   color: #F2F2F2;
@@ -1323,6 +1323,7 @@ p {
   background-color: #FEACC6;
   position: relative;
   margin-left: 30%;
+  text-decoration: none;
 }
 
 /*
@@ -1576,6 +1577,7 @@ body {
     }
     h2 {
       font-size: 1.375rem;
+      margin: 5%
     }
     #hero-page-section{
         height: 650px;
@@ -1686,7 +1688,7 @@ body {
         summary
       */
       #summary-page-section {
-        height: 800px;
+        height: 900px;
       }
       #summary-heading {
         margin-left: 10%;
@@ -1775,7 +1777,7 @@ body {
       ur
     */
     #ur-page-section {
-      height : 1400px;
+      height : 1100px;
     }
     #ur-header {
       margin-left: 10%;
@@ -1785,6 +1787,7 @@ body {
       margin-left: 10%;
       margin-right: 10%;
       font-size: 1.0rem;
+      top:-10%
     }
 
     #ur-image-one {
@@ -1793,6 +1796,7 @@ body {
       width : 90%;
       height: 45%;
       margin-bottom: 5%;
+      top:20%;
     }
     #ur-image-two {
       margin-left: 5%;
@@ -1800,6 +1804,7 @@ body {
       width : 90%;
       height: 45%;
       margin-bottom: 5%;
+      top:30%;
     }
     #ur-image-three {
       margin-top : 5%;
@@ -1807,6 +1812,7 @@ body {
       margin-right: 5%;
       width : 90%;
       height: 45%;
+      top:40%;
     }
     #ur-image-four {
       margin-top : 5%;
@@ -1814,6 +1820,7 @@ body {
       margin-right: 5%;
       width : 90%;
       height: 45%;
+      top:50%
     }
 
     .ur-row-bigger {
@@ -1829,9 +1836,8 @@ body {
       color: #641B36;
       font-family: myFirstFont;
       font-size: 1.225rem;
-      position: relative;
-      top: 80%;
-      margin-right: 5%;
+      position: absolute;
+      top: 500%;
     }
 
     /*
@@ -1839,7 +1845,7 @@ body {
     */
     #ca-page-section {
       background-color: #641B36;
-      height: 2500px;
+      height: 2200px;
     }
 
     #ca-header {
@@ -1866,67 +1872,67 @@ body {
 
     #ca-google-drive-image {
       position: relative;
-      top: 75%;
+      top: 225%;
       width: 100%;
       height: 100%;
-      margin-left: 95%;
+      margin-left: 100%;
     }
     #ca-google-drive-strengths {
       font-size: 1.0rem;
       position: relative;
-      top: -90%;
+      top:25%;
       left: 40%;
     }
     #ca-google-drive-weaknesses {
       font-size: 1.0rem;
       position: relative;
-      top: -250%;
+      top: -125%;
       left: 40%;
     }
 
     #ca-dropbox-image{
       position: relative;
-      top: 650%;
+      top: 800%;
       width: 100%;
       margin-left: -5%;
     }
     #ca-dropbox-strengths {
       font-size: 1.0rem;
       position: relative;
-      top: 300%;
+      top: 400%;
       left: -80%;
     }
     #ca-dropbox-weaknesses {
       font-size: 1.0rem;
       position: relative;
       left: -80%;
-      top: 100%;
+      top: 200%;
     }
 
     #ca-onedrive-image{
       position: relative;
-      top: 1200%;
+      top: 1250%;
       width: 150%;
       margin-left: -150%;
     }
     #ca-onedrive-strengths {
       font-size: 1.0rem;
       position: relative;
-      top: 650%;
+      top: 700%;
       left: -200%;
     }
     #ca-onedrive-weaknesses {
       font-size: 1.0rem;
       position: relative;
-      top: 500%;
+      top: 550%;
       left: -200%;
     }
 
     #ca-link {
       font-size: 1.0rem;
       position: absolute;
-      top: 275%;
-      margin-left: 20%;
+      top: 300%;
+      margin-left: 25%;
     }
 
     /*
@@ -1951,7 +1957,7 @@ body {
     #neha-image {
       position: relative;
       top: 1000%;
-      width: 175%;
+      width: 150%;
       height: 900%;
       margin-left: -45%;
     }
@@ -1975,9 +1981,9 @@ body {
     #ty-image {
       position: relative;
       top: 2450%;
-      width: 175%;
+      width: 150%;
       height: 900%;
-      margin-left: 40%;
+      margin-left: 45%;
     }
     #ty-bio {
       position: relative;
@@ -2066,7 +2072,7 @@ body {
   wireframes
   */
 #wireframes-page-section {
-    height: 2100px;
+    height: 2500px;
 }
 
   #wireframes-column-two-header {
@@ -2082,19 +2088,19 @@ body {
 
   #wireframes-image-one{
       position: relative;
-      top: 5%;
+      top: -5%;
   }
   #wireframes-image-two{
     display: none;
+
   }
 
   #mobile-wireframes {
     display: inline;
-    top: -250px;
     position: relative;
+    top: -500px;
   }
   .wireframes-mobile-image{
-    height: 400px;
     width: 75%;
     margin-left: 10%;
   }
@@ -2108,11 +2114,12 @@ body {
   */
 
   #mockups-page-section {
-      height: 1400px;
+      height: 1800px;
   }
   #mockups-column-two-header {
     margin-left: 10%;
     margin-right: 10%;
+    color:#E2C8B1;
   }
 
   .mockups-text {
@@ -2122,39 +2129,35 @@ body {
 
   #mockups-image-1 {
     width: 50%;
-    height: 100%;
     position: relative;
-    margin-left: 15%;
-    margin-top: 15%;
-    margin-bottom: 15%;
-    top: 20%;
+    margin-left: 20%;
+    margin-top: 20%;
+    top: -10%;
   }
 
   #mockups-image-2 {
     width: 50%;
-    height: 100%;
     position: relative;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-top: 15%;
     margin-bottom: 15%;
-    top: 25%;
+    top: 35%;
   }
 
   #mockups-image-3 {
     width: 50%;
-    height: 100%;
     position: relative;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-top: 15%;
     margin-bottom: 15%;
-    top: 30%;
+    top: 65%;
   }
 
   #mockups-link {
     position: relative;
-    top: 25%;
+    top: 40%;
     font-size: 1.225rem;
-    left:30%;
+    left:35%;
   }
 
 
@@ -2162,7 +2165,7 @@ body {
     branding
   */
   #branding-page-section {
-    height : 2200px;
+    height : 2400px;
   }
 
   #branding-column-two-header {
@@ -2173,12 +2176,11 @@ body {
   .branding-text-content {
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 1.0rem;
   }
 
   #branding-image-one {
       position: relative;
-      top: 120%;
+      top: 125%;
   }
   #branding-image-two {
       position: relative;
@@ -2220,6 +2222,7 @@ body {
   #prototyping-column-two-header {
     margin-left: 10%;
     margin-right: 10%;
+    color:#E2C8B1;
   }
 
   .prototyping-text {
@@ -2336,7 +2339,7 @@ body {
 
   .conclusion-button {
     position: relative;
-    top: 30%;
+    top: 26%;
   }
   .back-to-top {
       position: fixed;
