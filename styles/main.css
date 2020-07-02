@@ -296,6 +296,13 @@ h5 {
   color: #E2C8B1;
 }
 
+#desktop-nav-links {
+}
+
+.topNav {
+  display: none;
+}
+
 /*
   Hero stuff
 */
@@ -409,7 +416,15 @@ h5 {
   float: left;
   width: 40%;
 }
-
+#flower-banner-1 {
+  display: none;
+}
+#flower-banner-2 {
+  display: none;
+}
+#footer-image-1 {
+  display: none;
+}
 
 #bio-content-1 {
   padding-top: 5%;
@@ -1467,6 +1482,10 @@ body {
   background-color: #162753;
   height: 500px;
 }
+#about-hero-image {
+  display: none;
+}
+
 .about {
   height: 2200px;
   background-color: inherit;
@@ -1481,7 +1500,6 @@ body {
   width: 40%;
   padding: 5%;
   padding-top: 15%;
-
 }
 
 #image-1 {
@@ -1631,14 +1649,51 @@ body {
           text-decoration: none;
           margin-right: 20%;
       }
+      #desktop-nav-links {
+        display:none;
+      }
+      .topNav {
+        display: inline;
+        position: relative;
+        left: 95%;
+        top: -65px;
+      }
+      .topNav #myLinks {
+        display: none;
+      }
+      .topNav a {
+        color: #641B36;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+
+      .topNav a.icon {
+        background: white;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* Style the active link (or home/logo) */
+      .active {
+        background-color: #4CAF50;
+        color: white;
+      }
+
       .nav-links {
         display: none;
       }
       #nebula-neb-image {
         width: 70%;
-      }
-      #bottom-banner {
-        display: none;
       }
       #footer-text {
         font-size: 2.225rem;
@@ -2401,6 +2456,89 @@ body {
   	display: block;
   	bottom: 1.25%;
   	visibility: visible;
+  }
+
+
+  /*
+  about.html
+  */
+
+  .hero {
+    height: 800px;
+  }
+
+  #hero-heading {
+    position: relative;
+    top: 19%;
+    margin: 10%;
+    font-size: 1.5rem;
+  }
+
+  #hero-gold-flower {
+    position: absolute;
+    top: 0%;
+  }
+
+  #about-hero-image {
+    display: inline;
+    width: 100%;
+    position: relative;
+    top: -291px;
+  }
+
+  #image-1 {
+    display: none;
+  }
+  #bio-red-flower {
+    display: none;
+  }
+  #image-2 {
+    display: none;
+  }
+  #image-3 {
+    display: none;
+  }
+  #bio-blue-flower {
+    display: none;
+  }
+  #bio-red-flower-2 {
+    display: none;
+  }
+  #flower-banner-2 {
+    position: relative;
+    top: -5%;
+  }
+
+  #footer-image-1 {
+    width: 100%;
+  }
+
+  .footer {
+    background-color:  #162753;
+    height: 700px;
+  }
+
+  .about {
+    height: 1500px;
+  }
+
+  .about-column {
+    float: left;
+    width: 100%;
+    padding: 0%;
+  }
+
+  #my-story-heading {
+    margin: 15%;
+  }
+
+  .my-story-text {
+    font-size: 1.0rem;
+    margin: 15%;
+  }
+
+  #bottom-banner {
+    width: 100%;
   }
 
 /* end of media query block*/
