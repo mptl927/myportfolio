@@ -1577,6 +1577,13 @@ body {
   top: -30%;
 }
 
+#contact-page {
+  background-color: #162753;
+}
+#contact-page-image {
+  width: 100%;
+}
+
 /*
   media queries
 */
