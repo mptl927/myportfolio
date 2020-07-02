@@ -1605,19 +1605,22 @@ position: absolute;
     font-family: myFirstFont;
     color: #641B36;
     background-color: rgba(255, 255, 255, 0.75);
+    width: 30%;
   }
   #contact-email {
     font-size: 1.225rem;
     font-family: myFirstFont;
     color: #641B36;
     background-color: rgba(255, 255, 255, 0.75);
+    width: 30%;
   }
   #contact-content {
     font-size: 1.225rem;
     font-family: myFirstFont;
     color: #641B36;
     background-color: rgba(255, 255, 255, 0.75);
-  }
+    width: 65%;
+    }
 /*
   media queries
 */
