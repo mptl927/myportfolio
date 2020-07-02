@@ -1577,13 +1577,19 @@ body {
   top: -30%;
 }
 
-#contact-page {
-  background-color: #162753;
-}
 #contact-page-image {
-  width: 100%;
+  width: 80%;
+  padding: 10%
 }
-
+#overlay {
+position: absolute;
+     top: 25%;
+     left: 0;
+     height: 216%;
+     width: 100%;
+     z-index: 10;
+     background-color: rgba(22, 39, 83, 0.9);
+   }
 /*
   media queries
 */
