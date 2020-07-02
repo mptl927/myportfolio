@@ -368,6 +368,7 @@ h5 {
   background-color: #162753;
   color: #E2C8B1;
   font-family: myFirstFont;
+  text-decoration: none;
 
   display: block;
   width: 115px;
@@ -1619,7 +1620,8 @@ position: absolute;
     font-family: myFirstFont;
     color: #641B36;
     background-color: rgba(255, 255, 255, 0.75);
-    width: 65%;
+    width: 50%;
+    height: 400px;
     }
 /*
   media queries
