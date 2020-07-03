@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="container">
-    <nav>
+    <nav id="contact-">
       <img id="top-banner" alt="Top banner" src="images/banner.png"/>
       <div class="nav-column">
         <img alt="image" class= "nav-logo" src="images/logo.png"/>
@@ -23,18 +23,19 @@
         </ul>
       </div>
     </nav>
-    <section  id="contact-page">
+    <section id="contact-page">
       <img id="contact-page-image" src="images/blue-flower.png">
       <div id="overlay">
       <h2 id="contact-page-header"> Let's create something together!</h2>
-      <form action="/action_page.php">
+      <form action="/action_page.php" id="contact-form">
         <input type="text" id="contact-name" name="fname" value="Name">
         <input type="text" id="contact-email" name="lname" value="E-mail">
         <input type="text" id="contact-content" name="contact-content" value="Tell me about your ideas!">
+        <input type="submit" value="Submit" id="contact-submit-button">
       </form>
     </div>
     </section>
-    <footer class="page-section footer-page-section">
+    <footer class="page-section footer-page-section" id="contact-footer">
 
       <!-- column 1 -->
       <div class="column-small">

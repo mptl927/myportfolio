@@ -556,6 +556,7 @@ h5 {
 .footer-page-section {
   background-color:  #162753;
   height: 414px;
+  width: 100%;
 }
 #footer-column-2 {
   width: 80%;
@@ -1578,6 +1579,9 @@ body {
   top: -30%;
 }
 
+/*
+ contact
+*/
 #contact-page-image {
   width: 80%;
   padding: 10%
@@ -1598,30 +1602,61 @@ position: absolute;
     font-size: 2rem;
     text-align: left;
     position: relative;
-    top: 10%;
+    top: 25%;
     margin-left: 5%;
+  }
+
+  #contact-form {
+    position: relative;
+    top: 25%;
+    margin-left: 5%;
+  }
+
+  #contact-form input{
+    display: block;
   }
   #contact-name {
     font-size: 1.225rem;
     font-family: myFirstFont;
     color: #641B36;
     background-color: rgba(255, 255, 255, 0.75);
-    width: 30%;
+    margin-bottom: 2%;
+    width: 35%;
   }
   #contact-email {
     font-size: 1.225rem;
     font-family: myFirstFont;
     color: #641B36;
     background-color: rgba(255, 255, 255, 0.75);
-    width: 30%;
+    margin-bottom: 2%;
+    width: 35%;
   }
   #contact-content {
     font-size: 1.225rem;
     font-family: myFirstFont;
     color: #641B36;
     background-color: rgba(255, 255, 255, 0.75);
-    width: 50%;
+    margin-bottom: 2%;
     height: 400px;
+    width: 50%;
+    }
+
+    #contact-submit-button {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        line-height: 25px;
+
+        background-color: #FEACC6;
+        color: #162753;
+        font-size: 1rem;
+        font-family: myFirstFont;
+        border-radius: 6px;
+        width: 10%;
+        height: 30%;
+        position:relative;
+        text-decoration: none;
     }
 /*
   media queries
@@ -2586,6 +2621,61 @@ position: absolute;
   #bottom-banner {
     width: 100%;
   }
+
+  /*
+  contact
+  */
+  #contact-nav-section {
+    height: 0px;
+  }
+  #contact-footer {
+    display: none;
+  }
+  #contact-page {
+    position: relative;
+    height: 400px;
+  }
+  #contact-page-image {
+    position: relative;
+    top: 75%;
+  }
+  #contact-page-header {
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 10%;
+    position: relative;
+    font-size: 2.0rem;
+  }
+  #contact-form {
+    position: relative;
+    top: 160px;
+  }
+  #contact-name {
+    margin-left: 5%;
+    margin-right: 10%;
+    width: 85%;
+    top: -45px;
+    position: relative;
+  }
+  #contact-email{
+    margin-left: 5%;
+    margin-right: 10%;
+    width: 85%;
+    top: -45px;
+    position: relative;
+  }
+  #contact-content {
+    margin-left: 5%;
+    margin-right: 10%;
+    width: 85%;
+  }
+  #contact-submit-button {
+    margin-left: 5%;
+    width: 30%;
+    position: relative;
+    top: 25px;
+  }
+
 
 /* end of media query block*/
 }
