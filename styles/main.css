@@ -890,8 +890,14 @@ p {
 .ca-second-row {
   height: 55%;
 }
+#ca-first-inner-row {
+  position: relative;
+  top: 15%;
+}
 .ca-second-inner-row {
   height: 75%;
+  position: relative;
+  top: 10%;
 }
 .ca-bottom-column-image {
   top: 87%;
@@ -951,7 +957,6 @@ p {
   margin-left: 40%;
 }
 #ca-dropbox-weaknesses {
-  padding-top: 12%;
 }
 /* Persona stuff*/
 #persona-page-section{
@@ -999,10 +1004,12 @@ p {
   width: 100%;
   color: #162753;
   position: relative;
+  font-size: 1.5rem;
 }
 #ty-quote {
   width: 100%;
   position: relative;
+  font-size: 1.5rem;
 }
 #neha-image{
   height: 60%;
@@ -1602,13 +1609,13 @@ position: absolute;
     font-size: 2rem;
     text-align: left;
     position: relative;
-    top: 25%;
+    top: 15%;
     margin-left: 5%;
   }
 
   #contact-form {
     position: relative;
-    top: 25%;
+    top: 15%;
     margin-left: 5%;
   }
 
@@ -1639,6 +1646,7 @@ position: absolute;
     margin-bottom: 2%;
     height: 400px;
     width: 50%;
+    resize: none;
     }
 
     #contact-submit-button {
@@ -1658,6 +1666,9 @@ position: absolute;
         position:relative;
         text-decoration: none;
     }
+    .mobile-banner {
+      display: none;
+    }
 /*
   media queries
 */
@@ -1665,9 +1676,15 @@ position: absolute;
     .container {
         width: 100%;
       }
-    #top-banner {
-      display: none;
-    }
+      #top-banner {
+        display: none;
+      }
+      .mobile-banner {
+        display: block;
+      }
+      #bottom-banner {
+        display: none;
+      }
     p {
       font-size: 1rem;
     }
@@ -1984,6 +2001,14 @@ position: absolute;
       height: 2200px;
     }
 
+    #ca-first-inner-row {
+      position: relative;
+      top: 0%;
+    }
+    .ca-second-inner-row {
+      position: relative;
+      top: 0%;
+    }
     #ca-header {
       margin-left: 10%;
       margin-right: 10%;
@@ -2675,6 +2700,15 @@ position: absolute;
     position: relative;
     top: 25px;
   }
+  #overlay {
+  position: absolute;
+       top: 10%;
+       left: 0;
+       height: 216%;
+       width: 100%;
+       z-index: 10;
+       background-color: rgba(22, 39, 83, 0.9);
+     }
 
 
 /* end of media query block*/
