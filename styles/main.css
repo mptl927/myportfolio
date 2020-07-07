@@ -33,27 +33,11 @@
   height: 100%;
   position: relative;
 }
-@media screen and (max-width: 375px){
-  .column-half {
-    float: left;
-    width: 100%;
-    height: 50%;
-    position: relative;
-  }
-}
 .column-quarter {
   float: left;
   width: 25%;
   height: 100%;
   position: relative;
-}
-@media screen and (max-width: 375px){
-  .column-quarter {
-    float: left;
-    width: 100%;
-    height: 25%;
-    position: relative;
-  }
 }
 .column-third {
   float: left;
@@ -61,41 +45,17 @@
   height: 100%;
   position: relative;
 }
-@media screen and (max-width: 375px){
-  .column-third {
-    float: left;
-    width: 100%;
-    height: 33%;
-    position: relative;
-  }
-}
 .column-small {
   float: left;
   width: 10%;
   height: 100%;
   position: relative;
 }
-@media screen and (max-width: 375px){
-  .column-small {
-    float: left;
-    width: 100%;
-    height: 10%;
-    position: relative;
-  }
-}
 .column-big {
   float: left;
   width: 80%;
   height: 100%;
   position: relative;
-}
-@media screen and (max-width: 375px){
-  .column-big {
-    float: left;
-    width: 100%;
-    height: 80%;
-    position: relative;
-  }
 }
 
 /*rows*/
@@ -219,7 +179,6 @@ h1 {
     font-family: myFirstFont;
     font-size: 4.25rem;
     font-weight: lighter;
-    text-align: center;
     position:  relative;
 }
 h2 {
@@ -227,7 +186,6 @@ h2 {
   font-family: myFirstFont;
   font-weight: lighter;
   font-size: 2.625rem;
-  text-align: center;
   position: relative;
   bottom: 10%;
 }
@@ -317,14 +275,27 @@ h5 {
   position: relative;
   top: 10%;
   margin-left: 15%;
+  text-align: left;
+}
+#hero-column-header {
+  margin-bottom: 5%;
 }
 #hero-flower-image {
- width: 80%;
  position: relative;
  top: 10%;
  margin-left: 20%;
 }
 
+#hero-neb-text {
+  top: 10%;
+  position: relative;
+  text-align: center;
+}
+#hero-neb-smaller-text {
+  top: 10%;
+  position: relative;
+  text-align: center;
+}
 .hero-button-home-page {
     display: block;
     padding: 10px;
@@ -337,11 +308,10 @@ h5 {
     font-size: 1rem;
     font-family: myFirstFont;
     border-radius: 6px;
-    width: 50%;
-    height: 30%;
-    margin-left: 20%;
+    width: 30%;
     position:relative;
     text-decoration: none;
+    margin-top :10%;
 }
 /*
   Nebula row
@@ -354,16 +324,20 @@ h5 {
 }
 #nebula-neb-image {
  width : 573px;
- /*width: 100%;*/
  height: 556px;
  position: relative;
  padding-top: 7%;
  padding-left: 15%;
 }
 #nebula-content {
-  padding-left: 10%;
+  position: relative;
+  top: 30%;
+  text-align: left;
 }
-
+#nebula-column-image-two {
+  position: relative;
+  top: 65%;
+}
 .nebula-button {
   background-color: #162753;
   color: #E2C8B1;
@@ -379,32 +353,6 @@ h5 {
   font-weight: bold;
   line-height: 25px;
 }
-
-@media screen and (max-width: 375px){
-  #nebula-column-image-one {
-    visibility: hidden;
-  }
-  #nebula-column-image-two {
-    visibility: hidden;
-  }
-  #nebula-column-two {
-    width: 100%;
-    height: 50%;
-  }
-  #nebula-column-three {
-    width: 100%;
-    height: 30%;
-  }
-  #nebula-neb-image {
-   width : 200px;
-   /*width: 100%;*/
-   height: 200px;
-   position: relative;
-   padding-top: 7%;
-   padding-left: 15%;
-  }
-}
-
 
 /*
   bio section
@@ -451,28 +399,6 @@ h5 {
   padding-left: 17%;
 }
 
-@media screen and (max-width: 375px){
-  .bio-column {
-    float: left;
-    height: 40%;
-    width: 100%;
-  }
-  #bio-column-image-one {
-    visibility: hidden;
-  }
-  #bio-column-image-two {
-    visibility: hidden;
-  }
-  #bio-text {
-    color: #FFFFFF;
-    font-size: 1.2rem;
-    font-family: myFirstFont;
-  }
-  #bio-home-image {
-    width: 200px;
-    height: 200px;
-  }
-}
 
 /*
   skills
@@ -480,6 +406,7 @@ h5 {
 #skills-page-section {
   height: 1050px;
   text-align: center;
+  margin-top: 5%;
 }
 #skills-main-header {
   color: #162753;
@@ -516,38 +443,16 @@ h5 {
   font-size: 2.25rem;
   color: #641B36;
   font-family: myFirstFont;
-  margin-top:-.5%;
+  margin-top: 1%;
   text-align: center;
 }
 .skills-list {
-  margin-top: -5%;
+  margin-top: 5%;
+  margin-left: 5.5%;
 }
 .skill-list-item {
   padding-right: 50px;
   text-align: center;
-}
-
-@media screen and (max-width: 375px){
-  #skills-cell-1 {
-    border-bottom: 0px solid #dfdfdf;
-    border-right: 0px solid #dfdfdf;
-    text-align: center;
-  }
-  #skills-cell-2 {
-    border-top: 0px solid #dfdfdf;
-  }
-  #skills-cell-3 {
-    border-left: 0px solid #dfdfdf;
-    border-bottom: 0px solid #dfdfdf;
-  }
-  #skills-cell-4 {
-    border-left: 0px solid #dfdfdf;
-  }
-  .skill-list-item {
-    padding-right: 50px;
-    text-align: center;
-    font-size: 1.2rem;
-  }
 }
 
 /*
@@ -692,6 +597,7 @@ p {
 #hero-heading {
     position: relative;
     top: 30%;
+    text-align: center;
 }
 .about-hero-gold-diamond {
   height: 20%;
@@ -713,12 +619,14 @@ p {
   background-color: #FEACC6;
   position: relative;
   margin-left: 45%;
+  top: 15%;
 }
 
 
 /* Summary stuff */
 #summary-page-section {
   height:1300px;
+  padding-top: 2.5%;
 }
 #summary-blue-diamond {
   transform: rotateY(180deg);
@@ -734,6 +642,7 @@ p {
 #problem-page-section {
   height: 300px;
   background-color: #641B36;
+  padding-top: 5%;
 }
 #problem-column-two {
   width: 80%;
@@ -766,6 +675,7 @@ p {
 
 #solution-page-section {
   height: 1400px;
+  padding-top: 5%;
 }
 #solution-smaller-row {
   height: 30%;
@@ -787,6 +697,7 @@ p {
 #process-page-section {
   height: 700px;
   background-color: #162753;
+  padding-top: 5%;
 }
 #process-diamond {
   transform: rotateY(180deg);
@@ -807,6 +718,7 @@ p {
 /* User research stuff*/
 #ur-page-section {
   height: 1100px;
+  padding-top: 5%;
 }
 
 .persona-column-image {
@@ -883,6 +795,7 @@ p {
 #ca-page-section {
   height: 1900px;
   background-color: #162753;
+  padding-top: 5%;
 }
 .ca-first-row {
   height: 35%;
@@ -961,6 +874,7 @@ p {
 /* Persona stuff*/
 #persona-page-section{
   height: 3200px;
+  padding-top: 5%;
 }
 #persona-blue-diamond{
   transform: rotateY(180deg);
@@ -1056,11 +970,11 @@ p {
 }
 #user-flow-link {
   position: relative;
-  margin-right: 45%;
   color: #E2C8B1;
   font-family: myFirstFont;
   font-size: 1.625rem;
   top: 5%;
+  margin-left: 45%;
 }
 .user-flow-text {
   color: #F2F2F2;
@@ -1139,6 +1053,7 @@ p {
 #mockups-page-section {
   background-color: #641B36;
   height: 1600px;
+  padding-top: 5%;
 }
 
 #mockups-column-two-header {
@@ -1172,7 +1087,7 @@ p {
 }
 #mockups-link {
   position: relative;
-  margin-right: 45%;
+  margin-left: 45%;
   top: -15%;  /* come back and figure out why this needs to be negative*/
   font-family: myFirstFont;
   color: #E2C8B1;
@@ -1184,6 +1099,11 @@ p {
 */
 #branding-page-section {
   height: 3600px;
+  padding-top: 5%;
+}
+#branding-page-section p {
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .branding-column-image {
@@ -1195,7 +1115,8 @@ p {
 #branding-image-one {
   padding-left: 25%;
   padding-right: 25%;
-  top:-10%;
+  top: 20%;
+  height: 78%;
 }
 #branding-image-two {
   padding-left: 25%;
@@ -1221,6 +1142,7 @@ p {
 #prototyping-page-section {
   background-color: #162753;
   height: 2800px;
+  padding-top: 5%;
 }
 .prototyping-column-image {
   height: 5%;
@@ -1304,6 +1226,11 @@ p {
 */
 #conclusion-page-section {
   height: 2200px;
+  padding-top: 5%;
+}
+#conclusion-page-section p{
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .conclusion-column-image {
   height: 5%;
@@ -1313,7 +1240,7 @@ p {
 }
 .conclusion-row-two {
   height: 30%;
-  top:-10%;
+  top:-1%;
 }
 #conclusion-column-two-header {
   text-align: left;
@@ -1346,7 +1273,7 @@ p {
   line-height: 25px;
   background-color: #FEACC6;
   position: relative;
-  margin-left: 30%;
+  margin-left: 43%;
   text-decoration: none;
 }
 
@@ -1378,12 +1305,6 @@ p {
 }
 #footer-right-image {
   top: 50%;
-}
-.footer-icons {
-  display:inline;
-  margin-right: 5%;
-  position: relative;
-  top: -30%;
 }
 
 .back-to-top {
@@ -1581,7 +1502,7 @@ body {
 }
 .footer-icons {
   display:inline;
-  margin-right: 5%;
+  margin-left: 5%;
   position: relative;
   top: -30%;
 }
@@ -1669,13 +1590,51 @@ position: absolute;
     .mobile-banner {
       display: none;
     }
+
 /*
-  media queries
+  media queries -- mobile phone
 */
 @media screen and (min-width: 375px) and (max-width: 480px){
+
     .container {
         width: 100%;
       }
+
+      .column-big {
+        float: left;
+        width: 100%;
+        height: 80%;
+        position: relative;
+      }
+
+      .column-small {
+        float: left;
+        width: 100%;
+        height: 10%;
+        position: relative;
+      }
+
+      .column-third {
+        float: left;
+        width: 100%;
+        height: 33%;
+        position: relative;
+      }
+
+      .column-quarter {
+        float: left;
+        width: 100%;
+        height: 25%;
+        position: relative;
+      }
+
+      .column-half {
+        float: left;
+        width: 100%;
+        height: 50%;
+        position: relative;
+      }
+
       #top-banner {
         display: none;
       }
@@ -1687,17 +1646,21 @@ position: absolute;
       }
     p {
       font-size: 1rem;
+      padding-top: 1%;
+      padding-bottom: 1%;
     }
     h1 {
       font-size: 2rem;
     }
     h2 {
       font-size: 1.375rem;
-      margin: 5%
     }
-    #hero-page-section{
-        height: 650px;
+    #hero-page-section-home-page {
+      background-color: #162753;
+      height: 800px;
+      padding-top: 10%;
     }
+
       #hero-column-one {
         top: 40%;
       }
@@ -1720,10 +1683,13 @@ position: absolute;
         width: 60%;
       }
       #hero-neb-text {
-        top: -20%;
+        top: -7%;
+        margin-right: 5%;
       }
       .hero-button {
         margin-left: 30%;
+        position: relative;
+        top: 30%;
       }
       .nav-logo {
         height: 50px;
@@ -1745,7 +1711,7 @@ position: absolute;
           height: 30%;
           position:relative;
           text-decoration: none;
-          margin-right: 20%;
+          margin-left: 20%;
       }
       #desktop-nav-links {
         display:none;
@@ -1791,10 +1757,34 @@ position: absolute;
         display: none;
       }
       #nebula-neb-image {
-        width: 70%;
+        margin-left: 8%;
       }
+
+        #nebula-column-image-one {
+          visibility: hidden;
+        }
+        #nebula-column-image-two {
+          visibility: hidden;
+        }
+        #nebula-column-two {
+          width: 100%;
+          height: 50%;
+        }
+        #nebula-column-three {
+          width: 100%;
+          height: 30%;
+        }
+        #nebula-neb-image {
+         width : 200px;
+         /*width: 100%;*/
+         height: 200px;
+         position: relative;
+         padding-top: 7%;
+         padding-left: 15%;
+       }
       #footer-text {
-        font-size: 2.225rem;
+        font-size: 2rem;
+        margin-left:1%;
       }
       .column-small {
         display: none;
@@ -1802,22 +1792,29 @@ position: absolute;
       #nebula-column-three {
         top:-10%;
       }
-      .nebula-button {
-        width: 40%;
-        margin-left: 10%
-      }
       #nebula-content {
         padding-left: 10%;
         text-align: center;
       }
       .nebula-button {
+        width: 40%;
         margin-left: 25%;
+        margin-top: 5%;
       }
       #bio-home-image {
         width: 300px;
         height: 250px;
-        margin-top:10%;
+        margin-top:-20%;
       }
+      #bio-link {
+        color: #E2C8B1;
+        font-size: 1.625rem;
+        font-family: myFirstFont;
+        padding-left: 17%;
+        position: relative;
+        top: 375px;
+      }
+
       h5 {
         font-size: 1.5rem;
       }
@@ -1827,14 +1824,61 @@ position: absolute;
       }
       #skills-cell-1 {
         padding-bottom:10%;
+        border-bottom: 0px solid #dfdfdf;
+        border-right: 0px solid #dfdfdf;
+        text-align: center;
+      }
+      #skills-cell-2 {
+        border-top: 0px solid #dfdfdf;
       }
       #skills-cell-3 {
+        border-left: 0px solid #dfdfdf;
+        border-bottom: 0px solid #dfdfdf;
       }
       #skills-cell-4 {
         padding-top: 25%;
+        border-left: 0px solid #dfdfdf;
       }
+
+      .skills-list {
+        position: relative;
+        margin-left: 10%;
+      }
+      .skill-list-item {
+        padding-right: 50px;
+        text-align: center;
+        font-size: 1.2rem;
+      }
+
       .column-half {
         height: 40%;
+      }
+
+      .bio-column {
+        float: left;
+        height: 40%;
+        width: 100%;
+      }
+      #bio-column-image-one {
+        visibility: hidden;
+      }
+      #bio-column-image-two {
+        visibility: hidden;
+      }
+      #bio-text {
+        color: #FFFFFF;
+        font-size: 1.225rem;
+        font-family: myFirstFont;
+        padding-right:10%;
+      }
+
+
+      /*
+      hero
+      */
+      #hero-page-section {
+        background-color: #162753;
+        height: 700px;
       }
 
       /*
@@ -1842,6 +1886,7 @@ position: absolute;
       */
       #summary-page-section {
         height: 900px;
+        padding-top: 10%;
       }
       #summary-heading {
         margin-left: 10%;
@@ -1852,8 +1897,8 @@ position: absolute;
         margin-right: 10%;
       }
       #summary-user-research-heading {
-        position :relative;
-        top : 180%;
+        position: relative;
+        top: 95%;
       }
       #summary-tools-used-heading {
         position :relative;
@@ -1861,7 +1906,7 @@ position: absolute;
       }
       #summary-user-research {
         position: relative;
-        top : 40%;
+        top : -19%;
       }
       #summary-tools-used {
         position: relative;
@@ -1871,6 +1916,11 @@ position: absolute;
       /*
         problem
       */
+      #problem-page-section {
+        height: 200px;
+        padding-top: 10%;
+      }
+
       #problem-header {
         margin-left: 10%;
         margin-right: 10%;
@@ -1885,6 +1935,10 @@ position: absolute;
       /*
         solution
       */
+      #solution-page-section {
+        height: 600px;
+        padding-top: 10%;
+      }
 
       #solution-header{
         margin-left: 10%;
@@ -1894,19 +1948,17 @@ position: absolute;
         margin-left: 10%;
         margin-right: 10%;
       }
-      #solution-page-section {
-          height: 700px;
-      }
       #solution-smaller-row {
         height: 60%;
       }
       #solution-bigger-row {
         height: 40%;
+        padding-top: 10%;
       }
       .solution-image {
-        width: 30%;
-        margin-left: 1%;
-        margin-right: 1%;
+        width: 27%;
+        margin-left: 2%;
+        margin-right: 2%;
         height: 110%;
       }
 
@@ -1914,7 +1966,8 @@ position: absolute;
       process
     */
     #process-page-section{
-      height: 875px;
+      height: 700px;
+      padding-top: 10%;
     }
     #process-header {
       margin-left: 10%;
@@ -1931,10 +1984,12 @@ position: absolute;
     */
     #ur-page-section {
       height : 1100px;
+      padding-top:  10%;
     }
     #ur-header {
       margin-left: 10%;
       margin-right: 10%;
+      padding-bottom: 10%;
     }
     #ur-content {
       margin-left: 10%;
@@ -1990,7 +2045,8 @@ position: absolute;
       font-family: myFirstFont;
       font-size: 1.225rem;
       position: absolute;
-      top: 500%;
+      top: 567%;
+      margin-left: 144px;
     }
 
     /*
@@ -1998,7 +2054,8 @@ position: absolute;
     */
     #ca-page-section {
       background-color: #641B36;
-      height: 2200px;
+      height: 1800px;
+      padding-top: 10%;
     }
 
     #ca-first-inner-row {
@@ -2012,6 +2069,7 @@ position: absolute;
     #ca-header {
       margin-left: 10%;
       margin-right: 10%;
+      padding-bottom: 5%;
     }
     .ca-content {
       margin-left: 10%;
@@ -2020,73 +2078,78 @@ position: absolute;
     }
     .ca-google-list {
       font-size: 1.2rem;
-      width: 300%;
+      margin-top: 5%;
+      margin-left: 10%;
+      margin-right: 30%;
     }
     .ca-dropbox-list {
       font-size: 1.2rem;
-      width: 300%;
+      margin-top: 5%;
+      margin-left: 10%;
+      margin-right: 30%;
     }
     .ca-onedrive-list {
       font-size: 1.2rem;
-      width: 300%;
+      margin-top: 5%;
+      margin-left: 10%;
+      margin-right: 30%;
     }
 
     #ca-google-drive-image {
-      position: relative;
-      top: 225%;
-      width: 100%;
-      height: 100%;
-      margin-left: 100%;
+      height: 110%;
+      width: 35%;
+      margin-left: 26%;
+      top: 190%;
     }
     #ca-google-drive-strengths {
       font-size: 1.0rem;
       position: relative;
-      top:25%;
-      left: 40%;
+      top: 0%;
+      margin-left: 20%;
     }
     #ca-google-drive-weaknesses {
       font-size: 1.0rem;
       position: relative;
-      top: -125%;
-      left: 40%;
+      top: -140%;
+      left: 18%;
     }
 
     #ca-dropbox-image{
       position: relative;
-      top: 800%;
-      width: 100%;
-      margin-left: -5%;
+      top: 650%;
+      margin-left: 26%;
+      height: 115%;
     }
     #ca-dropbox-strengths {
       font-size: 1.0rem;
       position: relative;
-      top: 400%;
-      left: -80%;
+      top: 300%;
+      margin-left: 19%;
     }
     #ca-dropbox-weaknesses {
       font-size: 1.0rem;
       position: relative;
-      left: -80%;
-      top: 200%;
+      top: 150%;
+      margin-left: 19%;
     }
 
     #ca-onedrive-image{
       position: relative;
-      top: 1250%;
-      width: 150%;
-      margin-left: -150%;
+      top: 1075%;
+      margin-left: 20%;
+      width: 50%;
     }
     #ca-onedrive-strengths {
       font-size: 1.0rem;
       position: relative;
-      top: 700%;
-      left: -200%;
+      top: 525%;
+      margin-left: 20%;
     }
     #ca-onedrive-weaknesses {
       font-size: 1.0rem;
       position: relative;
-      top: 550%;
-      left: -200%;
+      top: 400%;
+      margin-left: 20%;
     }
 
     #ca-link {
@@ -2117,10 +2180,10 @@ position: absolute;
 
     #neha-image {
       position: relative;
-      top: 1000%;
-      width: 150%;
-      height: 900%;
-      margin-left: -45%;
+      top: 860%;
+      width: 50%;
+      height: 756%;
+      margin-left: 25%;
     }
 
     #neha-bio {
@@ -2134,17 +2197,18 @@ position: absolute;
     #neha-quote {
       position: relative;
       top: 2100%;
-      width: 250%;
-      margin-left: 40%;
+      /* width: 250%; */
+      margin-left: 10%;
+      margin-right: 10%;
       color: #641B36;
       font-size: 1.225rem;
     }
     #ty-image {
       position: relative;
       top: 2450%;
-      width: 150%;
-      height: 900%;
-      margin-left: 45%;
+      width: 50%;
+      height: 756%;
+      margin-left: 25%;
     }
     #ty-bio {
       position: relative;
@@ -2158,8 +2222,8 @@ position: absolute;
       top: 3600%;
       color: #641B36;
       font-size: 1.225rem;
-      width: 250%;
-      margin-left: -80%;
+      margin-left: 10%;
+      margin-right: 10%;
     }
     .persona-motivations-row {
       display: none;
@@ -2172,8 +2236,9 @@ position: absolute;
     }
 
     #view-user-persona-link {
-      top: 325%;
+      top: 310%;
       font-size: 1.0rem;
+      margin-left: 33%;
     }
     #persona-user-stories-text {
       position: relative;
@@ -2226,7 +2291,8 @@ position: absolute;
   #user-flow-link {
     top: 50%;
     font-size: 1.225rem;
-    left:30%;
+        /* left: 30%; */
+        margin-left: 32%;
   }
 
   /*
@@ -2249,7 +2315,7 @@ position: absolute;
 
   #wireframes-image-one{
       position: relative;
-      top: -5%;
+      top: -13%;
   }
   #wireframes-image-two{
     display: none;
@@ -2267,7 +2333,7 @@ position: absolute;
   }
   .wireframes-mobile-text {
     position: relative;
-    margin-left: : 20%;
+    margin-left: 20%;
   }
 
   /*
@@ -2318,7 +2384,7 @@ position: absolute;
     position: relative;
     top: 40%;
     font-size: 1.225rem;
-    left:35%;
+    margin-left: 34%;
   }
 
 
@@ -2326,7 +2392,12 @@ position: absolute;
     branding
   */
   #branding-page-section {
-    height : 2400px;
+    height : 2300px;
+  }
+
+  #branding-page-section p{
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
 
   #branding-column-two-header {
@@ -2341,7 +2412,7 @@ position: absolute;
 
   #branding-image-one {
       position: relative;
-      top: 125%;
+      top: 110%;
   }
   #branding-image-two {
       position: relative;
@@ -2399,20 +2470,21 @@ position: absolute;
 
   #prototyping-bold-text-one {
     position: absolute;
-    font-size: 1.0rem;
-    margin-left: 5%;
+        font-size: 1.0rem;
+        margin-left: 5%;
+        top: -25%;
   }
 
   #prototyping-round-button {
     width: 30%;
     position: absolute;
-    top: 50%;
+    top: -20%;
   }
   #prototyping-square-button {
     width: 30%;
-    position: absolute;
-    top: -50%;
-    margin-left: 30%;
+        position: absolute;
+        top: -120%;
+        margin-left: 30%;
   }
 
   .prototyping-smaller-row {
@@ -2422,20 +2494,22 @@ position: absolute;
 
   #prototyping-bold-text-two {
     position: absolute;
-    margin-left: 5%;
-    font-size: 1.0rem;
+        margin-left: 5%;
+        font-size: 1.0rem;
+        top: -200%;
+        margin-left: 14%;
   }
 
   #prototyping-light-logo {
     width: 35%;
     position: absolute;
     margin-left: -20%;
-    top: 300%;
+    top: -224%;
   }
   #prototyping-dark-logo {
     width: 35%;
     position: absolute;
-    top: 200%;
+    top: -340%;
     margin-left: 20%;
   }
 
@@ -2485,22 +2559,23 @@ position: absolute;
 
   #conclusion-image-one {
     position: relative;
-    top: -40%;
+    top: -153%;
     left:10%
   }
   #conclusion-image-two {
     position: relative;
-    top: 100%;
+    top: 0%;
   }
   #conclusion-image-three {
     position: relative;
-    top: 220%;
+    top: 150%;
     padding:10%;
   }
 
   .conclusion-button {
     position: relative;
-    top: 26%;
+        top: 33%;
+        margin-left: 31%;
   }
   .back-to-top {
       position: fixed;
@@ -2610,9 +2685,15 @@ position: absolute;
   #bio-red-flower-2 {
     display: none;
   }
+  #flower-banner-1 {
+    position: relative;
+    top: 2%;
+    display: block;
+  }
   #flower-banner-2 {
     position: relative;
-    top: -5%;
+    top: -8%;
+    display: block;
   }
 
   #footer-image-1 {
@@ -2658,7 +2739,7 @@ position: absolute;
   }
   #contact-page {
     position: relative;
-    height: 400px;
+    height: 1000px;
   }
   #contact-page-image {
     position: relative;
@@ -2704,12 +2785,9 @@ position: absolute;
   position: absolute;
        top: 10%;
        left: 0;
-       height: 216%;
+       height: 100%;
        width: 100%;
        z-index: 10;
        background-color: rgba(22, 39, 83, 0.9);
      }
-
-
-/* end of media query block*/
-}
+   }
