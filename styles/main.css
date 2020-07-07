@@ -2745,7 +2745,7 @@ position: absolute;
   }
   #contact-page-image {
     position: relative;
-    top: 75%;
+    top: 15%;
   }
   #contact-page-header {
     margin-left: 10%;
@@ -2784,12 +2784,13 @@ position: absolute;
     top: 25px;
   }
   #overlay {
-  position: absolute;
+      position: absolute;
        top: 10%;
        left: 0;
        height: 100%;
        width: 100%;
        z-index: 10;
+       top:-1%;
        background-color: rgba(22, 39, 83, 0.9);
      }
    }
