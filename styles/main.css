@@ -2794,3 +2794,6 @@ position: absolute;
        background-color: rgba(22, 39, 83, 0.9);
      }
    }
+@media screen and (min-width: 481px) and (max-width: 768px){
+  
+}
