@@ -32,7 +32,6 @@
   width: 50%;
   height: 100%;
   position: relative;
-  top:-20%;
 }
 .column-quarter {
   float: left;
@@ -122,8 +121,7 @@
   position: absolute;
   top: 50%;
   width: 90%;
-  padding-left: 5%;
-  padding-right: 5%;
+  margin-left:-20%;
 }
 .column-bottom-image {
   position: absolute;
@@ -270,17 +268,17 @@ h5 {
 }
 #hero-column-content {
   position: relative;
-  top: 10%;
-  margin-left: 15%;
-  text-align: left;
+      top: 15%;
+      margin-left: 15%;
+      text-align: left;
 }
 #hero-column-header {
     margin-bottom: 23%;
 }
 #hero-flower-image {
- position: relative;
- top: 10%;
- margin-left: 20%;
+  position: relative;
+  top: 15%;
+  margin-left: 20%;
 }
 
 #hero-neb-text {
@@ -320,10 +318,10 @@ h5 {
   width: 30%;
 }
 #nebula-neb-image {
- width : 573px;
- position: relative;
- padding-top: 7%;
- padding-left: 15%;
+  width: 573px;
+      position: relative;
+      padding-top: 8%;
+      padding-left: 15%;
 }
 #nebula-content {
   position: relative;
@@ -447,10 +445,9 @@ position: relative;
   font-size: 2rem;
   color: #641B36;
   font-family: "Abel", sans-serif;
-  margin-top: 1%;
+  margin-top: 10%;
   text-align: center;
   position: relative;
-  top:60%;
 }
 .skills-list {
   margin-top: 5%;
@@ -859,7 +856,15 @@ p {
   font-family: "Abel", sans-serif;
   font-size: 1.625rem;
   position: relative;
-  margin-left: 40%;
+  margin-left: 35%;
+}
+#strengths-row {
+  position: relative;
+  top: -15%;
+}
+#weaknesses-row {
+  position: relative;
+  top: -20%;
 }
 #ca-dropbox-weaknesses {
 }
@@ -884,7 +889,7 @@ p {
 }
 .persona-names-row {
   height: 3%;
-  padding-top: 1%;
+  padding-top: 8%;
 }
 .persona-motivations-row {
   height: 15%;
@@ -892,8 +897,28 @@ p {
 .persona-inner-column {
   padding-left: 7%;
 }
+
+.persona-frustrations-row {
+  position: relative;
+  top: -121px;
+}
 .persona-user-stories-row {
   height: 15%;
+}
+#persona-user-stories-text {
+  position: relative;
+  top: -100px;
+}
+}
+#persona-user-stories-image-one{
+  position: relative;
+  top: 185px;
+}
+
+}
+#persona-user-stories-image-two{
+  position: relative;
+  top: 185px;
 }
 
 .neha-inner-column {
@@ -937,7 +962,7 @@ p {
   font-family: "Abel", sans-serif;
   color: #641B36;
   font-size: 1.625rem;
-  top:-75px;
+  top: -201px;
 }
 
 /*
@@ -1091,15 +1116,19 @@ p {
   padding-top: 2%;
   padding-bottom: 2%;
 }
-
-
 #branding-column-two-header {
   text-align: left;
 }
 #branding-image-one {
+  margin-top: 10%;
   padding-left: 25%;
   padding-right: 25%;
-  top: 20%;
+  top: 5%;
+  margin-bottom: 10%;
+}
+#branding-text-one {
+  position: relative;
+  top: 40%;
 }
 #branding-image-two {
   padding-left: 25%;
@@ -1139,16 +1168,19 @@ p {
   color: #E2C8B1;
   position: relative;
   margin-left: 30%;
+  top: -175px;
 }
 #prototyping-bold-text-two {
   color: #E2C8B1;
   position: relative;
   margin-left: 35%;
+  top: -53px;
 }
 #prototyping-bold-text-three {
   color: #E2C8B1;
-  position: relative;
-  margin-left: 30%;
+      position: relative;
+      margin-left: 28%;
+      top: -55px;
 }
 #prototyping-round-button {
   height: 80%;
@@ -1175,13 +1207,11 @@ p {
   padding-right: 25%;
 }
 #prototype-multi-logo {
-  height: 100%;
   width: 70%;
   padding-left: 10%;
   padding-right: 20%;
 }
 #prototype-monochrome-logo {
-  height: 100%;
   width: 70%;
   padding-left: 20%;
   padding-right: 10%;
@@ -1201,7 +1231,7 @@ p {
 }
 .prototyping-other-row {
   height: 30%;
-  top:-5%;
+      top: 1%;
 }
 
 /*
@@ -1833,6 +1863,11 @@ position: absolute;
       #bio-content2 {
         padding-left: 10%;
       }
+      .skills-list {
+          position: relative;
+          margin-left: 30%;
+      }
+
       #skills-cell-1 {
         padding-bottom:10%;
         border-bottom: 0px solid #dfdfdf;
@@ -1860,6 +1895,53 @@ position: absolute;
         text-align: center;
         font-size: 1.2rem;
       }
+
+      #skills-heading-one {
+        position: relative;
+        top: 10px;
+      }
+      #skills-list-one {
+        position: relative;
+        top: 10px;
+      }
+      #skills-heading-two {
+        position: relative;
+            top: -312px;
+      }
+      #skills-list-two {
+        position: relative;
+          top: -308px;
+      }
+      #skills-heading-three {
+        position: relative;
+        top: 10px;
+      }
+      #skills-list-three {
+        position: relative;
+        top: 10px;
+      }
+      #skills-heading-four {
+        position: relative;
+        top: -319px;
+      }
+      #skills-list-four {
+        position: relative;
+        top: -319px;
+      }
+      #skills-blue-diamond1 {
+        position: relative;
+            top: -303px;
+      }
+      #skills-blue-diamond2 {
+        position: relative;
+            top: 203px;
+      }
+      #skills-blue-flower2 {
+        position: relative;
+            top: -530px;
+      }
+
+
 
       .column-half {
         height: 40%;
@@ -1909,19 +1991,19 @@ position: absolute;
       }
       #summary-user-research-heading {
         position: relative;
-        top: 95%;
+        top: 150px;
       }
       #summary-tools-used-heading {
         position :relative;
-        top : 750%;
+        top: 450px;
       }
       #summary-user-research {
         position: relative;
-        top : -19%;
+        top: 130px;
       }
       #summary-tools-used {
         position: relative;
-        top: 275%;
+        top: 350px;
       }
 
       /*
@@ -2012,30 +2094,30 @@ position: absolute;
     #ur-image-one {
       margin-left: 5%;
       margin-right: 5%;
-      width : 90%;
+      width: 90%;
       margin-bottom: 5%;
-      top:20%;
+      top: 40px;
     }
     #ur-image-two {
       margin-left: 5%;
       margin-right: 5%;
-      width : 90%;
+      width: 90%;
       margin-bottom: 5%;
-      top:30%;
+      top: 24px;
     }
     #ur-image-three {
-      margin-top : 5%;
+      margin-top: 5%;
       margin-left: 5%;
       margin-right: 5%;
-      width : 90%;
-      top:40%;
+      width: 90%;
+      top: 124px;
     }
     #ur-image-four {
       margin-top : 5%;
       margin-left: 5%;
       margin-right: 5%;
       width : 90%;
-      top:50%
+      top: 104px;
     }
 
     .ur-row-bigger {
@@ -2052,7 +2134,7 @@ position: absolute;
       font-family: "Abel", sans-serif;
       font-size: 1.225rem;
       position: absolute;
-      top: 567%;
+      top: 650%;
       margin-left: 144px;
     }
 
@@ -2061,7 +2143,7 @@ position: absolute;
     */
     #ca-page-section {
       background-color: #641B36;
-      height: 1800px;
+      height: 2000px;
       padding-top: 10%;
     }
 
@@ -2103,60 +2185,60 @@ position: absolute;
     }
 
     #ca-google-drive-image {
-      height: 110%;
       width: 35%;
       margin-left: 26%;
-      top: 190%;
+      top: 130%;
     }
+
     #ca-google-drive-strengths {
       font-size: 1.0rem;
-      position: relative;
-      top: 0%;
-      margin-left: 20%;
+          position: relative;
+          top: 78%;
+          margin-left: 20%;
     }
     #ca-google-drive-weaknesses {
       font-size: 1.0rem;
-      position: relative;
-      top: -140%;
-      left: 18%;
+          position: relative;
+          top: -43%;
+          left: 18%;
     }
 
     #ca-dropbox-image{
       position: relative;
-      top: 650%;
+      top: 600%;
       margin-left: 26%;
-      height: 115%;
+      width: 35%;
     }
     #ca-dropbox-strengths {
       font-size: 1.0rem;
-      position: relative;
-      top: 300%;
-      margin-left: 19%;
+          position: relative;
+          top: 375%;
+          margin-left: 19%;
     }
     #ca-dropbox-weaknesses {
       font-size: 1.0rem;
-      position: relative;
-      top: 150%;
-      margin-left: 19%;
+          position: relative;
+          top: 220%;
+          margin-left: 19%;
     }
 
     #ca-onedrive-image{
       position: relative;
-      top: 1075%;
-      margin-left: 20%;
-      width: 50%;
+          top: 700px;
+          margin-left: 20%;
+          width: 50%;
     }
     #ca-onedrive-strengths {
       font-size: 1.0rem;
       position: relative;
-      top: 525%;
+      top: 600px;
       margin-left: 20%;
     }
     #ca-onedrive-weaknesses {
       font-size: 1.0rem;
-      position: relative;
-      top: 400%;
-      margin-left: 20%;
+          position: relative;
+          top: 499px;
+          margin-left: 20%;
     }
 
     #ca-link {
@@ -2241,9 +2323,9 @@ position: absolute;
     }
 
     #view-user-persona-link {
-      top: 310%;
-      font-size: 1.0rem;
-      margin-left: 33%;
+      top: 614px;
+          font-size: 1.0rem;
+          margin-left: 33%;
     }
     #persona-user-stories-text {
       position: relative;
@@ -2369,7 +2451,7 @@ position: absolute;
     width: 50%;
     position: relative;
     margin-left: 20%;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-bottom: 15%;
     top: 35%;
   }
@@ -2378,7 +2460,7 @@ position: absolute;
     width: 50%;
     position: relative;
     margin-left: 20%;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-bottom: 15%;
     top: 65%;
   }
@@ -2419,26 +2501,26 @@ position: absolute;
   }
   #branding-image-two {
       position: relative;
-      top: 300%;
+      top: 300px;
       width: 80%;
       margin-left: -20%;
   }
   #branding-image-three {
-      position: relative;
-      top: 300%;
-      width: 80%;
-      margin-left: -20%;
+    position: relative;
+    top: 400px;
+    width: 80%;
+    margin-left: -20%;
   }
   #branding-image-four {
-      position: relative;
-      top: 300%;
-      width: 80%;
-      margin-left: 10%;
+    position: relative;
+    top: 587px;
+    width: 80%;
+    margin-left: 10%;
   }
 
   #branding-text-one {
     position: relative;
-    top: 250%;
+    top: 311px;
   }
 
   #branding-text-two {
@@ -2475,7 +2557,7 @@ position: absolute;
     position: absolute;
         font-size: 1.0rem;
         margin-left: 5%;
-        top: -25%;
+        top: -31%;
   }
 
   #prototyping-round-button {
@@ -2492,15 +2574,15 @@ position: absolute;
 
   .prototyping-smaller-row {
     position: relative;
-    top: 20%;
+        top: 15%;
   }
 
   #prototyping-bold-text-two {
     position: absolute;
         margin-left: 5%;
         font-size: 1.0rem;
-        top: -200%;
-        margin-left: 14%;
+        top: -29px;
+        margin-left: 17%;
   }
 
   #prototyping-light-logo {
@@ -2577,12 +2659,12 @@ position: absolute;
 
   .conclusion-button {
     position: relative;
-        top: 33%;
+        top: 30%;
         margin-left: 31%;
   }
   .back-to-top {
       position: fixed;
-      margin-right: 10%;
+      margin-right: 17%;
       bottom: -7.5%;
       height: 15px;
       width: 30px;
@@ -2794,6 +2876,9 @@ position: absolute;
        top:-1%;
        background-color: rgba(22, 39, 83, 0.9);
      }
+     .footer-page-section {
+         height: 250px;
+     }
    }
 @media screen and (min-width: 481px) and (max-width: 768px){
   #overlay {
@@ -2883,6 +2968,14 @@ position: absolute;
   .skills-heading {
     font-size: 1.625rem;
   }
+  .skills-heading {
+    font-size: 1.625rem;
+    color: #641B36;
+    font-family: "Abel", sans-serif;
+    margin-top: 20%;
+    text-align: center;
+    position: relative;
+  }
   #summary-blue-diamond {
     transform: rotateY(180deg);
     width: 214%;
@@ -2895,7 +2988,7 @@ position: absolute;
   .skills-list {
       position: relative;
       margin-top: -20%;
-      margin-left: 20%;
+      margin-left: 30%;
   }
   #problem-header {
     font-size: 1.625rem;
@@ -2961,6 +3054,30 @@ position: absolute;
   .ca-google-list {
     font-size: 1.225rem;
   }
+  #ca-google-drive-strengths {
+    position: relative;
+    top:30%;
+  }
+  #ca-dropbox-strengths {
+    position: relative;
+    top:30%;
+  }
+  #ca-onedrive-strengths {
+    position: relative;
+    top:30%;
+  }
+  #ca-google-drive-weaknesses {
+    position: relative;
+    top:40%;
+  }
+  #ca-dropbox-weaknesses {
+    position: relative;
+    top:40%;
+  }
+  #ca-onedrive-weaknesses {
+    position: relative;
+    top:40%;
+  }
   .ca-onedrive-list {
     font-size: 1.225rem;
   }
@@ -2979,6 +3096,12 @@ position: absolute;
   .ca-second-inner-row{
     top: -10%;
   }
+
+  #strengths-row {
+    position: relative;
+    margin-top: -50%;
+  }
+
   #persona-header{
     font-size: 1.625rem;
   }
@@ -2990,7 +3113,7 @@ position: absolute;
       color: #162753;
       position: relative;
       font-size: 1rem;
-      margin-top: 100%;
+      margin-top: 50%;
       margin-left: 50%;
   }
   #ty-quote {
@@ -2998,25 +3121,25 @@ position: absolute;
       color: #162753;
       position: relative;
       font-size: 1rem;
-      margin-top: 100%;
+      margin-top: 50%;
       margin-left: -100%;
   }
   #neha-image {
-  margin-top: -7%;
+  margin-top: -100%;
   }
   #ty-image {
     margin-left:50%;
-    margin-top: -7%;
+    margin-top: -100%;
   }
   #neha-bio {
     font-size: 1.225rem;
     position: relative;
-  top: 100%;
+    top: -200%;
   }
   #ty-bio {
     font-size: 1.225rem;
     position: relative;
-  top: 100%;
+    top: -200%;
   }
   .neha-info {
     font-size: 1.225rem;
@@ -3030,22 +3153,22 @@ position: absolute;
   }
   .persona-names-row {
     position: relative;
-    top:-4%;
+    padding-top:8%;
     margin-left: 2%;
   }
   .persona-motivations-row {
       height: 15%;
-      top: -5%;
+      top:-10%;
       position: relative;
       margin-left: 5%;
   }
   .persona-goals-row {
-    top:3%;
+    top:-5%;
     position: relative;
     margin-left: 5%;
   }
   .persona-frustrations-row {
-    top: 1%;
+    top: -8%;
     position: relative;
     margin-left: 5%;
   }
@@ -3053,24 +3176,20 @@ position: absolute;
       position: relative;
       margin-left: 35%;
       font-size: 1.225rem;
-  top: 50px;
+  }
+  position: relative;
+      margin-left: 40%;
+      font-family: "Abel", sans-serif;
+      color: #641B36;
+      font-size: 1.625rem;
+      top: -201px;
+  #persona-page-section{
+    height: 1900px;
   }
   #persona-user-stories-text {
     font-size: 1.225rem;
-    position: relative;
-    top:20%;
   }
-  #persona-page-section{
-    height: 2500px;
-  }
-  #persona-user-stories-image-one{
-    position: relative;
-    top: 130px;
-  }
-  #persona-user-stories-image-two{
-    position: relative;
-    top: 185px;
-  }
+
   #user-flows-page-section {
     height: 900px;
   }
