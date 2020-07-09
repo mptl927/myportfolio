@@ -22,7 +22,7 @@
           <li class="nav-link"><a class= "nav-bar-home" href="index.html"> home </a></li>
           <li class="nav-link"><a class= "nav-bar-work" href="casestudy.html"> work </a></li>
           <li class="nav-link"><a class= "nav-bar-about" href="about.html"> about </a></li>
-          <li class="nav-link"><a class= "nav-bar-contact" href="#"> contact </a></li>
+          <li class="nav-link"><a class= "nav-bar-contact" href="contact.html"> contact </a></li>
         </ul>
       </div>
     </nav>
@@ -30,11 +30,14 @@
       <img id="contact-page-image" src="images/blue-flower.png">
       <div id="overlay">
       <h2 id="contact-page-header"> Let's create something together!</h2>
-      <form action="/action_page.php" id="contact-form">
-        <input type="text" id="contact-name" name="fname" value="Name">
-        <input type="text" id="contact-email" name="lname" value="E-mail">
-        <input type="text" id="contact-content" name="contact-content" value="Tell me about your ideas!">
-        <input type="submit" value="Submit" id="contact-submit-button">
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
+        <fieldset id="fs-frm-inputs">
+          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+          <input type="email" name="_replyto" id="email-address" placeholder="E-mail" required="">
+          <textarea rows="5" name="message" id="contact-message" placeholder="Tell me more about your ideas!" required=""></textarea>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        </fieldset>
+        <input type="submit" id="form-submit-button" value="Submit">
       </form>
     </div>
     </section>

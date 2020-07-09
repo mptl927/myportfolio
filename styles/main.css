@@ -32,6 +32,7 @@
   width: 50%;
   height: 100%;
   position: relative;
+  top:-20%;
 }
 .column-quarter {
   float: left;
@@ -115,6 +116,7 @@
   width: 90%;
   padding-left: 5%;
   padding-right: 5%;
+  transform: rotateY(180deg);
 }
 .column-mid-image {
   position: absolute;
@@ -129,13 +131,9 @@
   width: 90%;
   padding-left: 5%;
   padding-right: 5%;
+  transform: rotateY(180deg);
 }
-.column-image-smallest-height {
-  height: 5%;
-}
-.column-image-bigger-height {
-  height: 20%;
-}
+
 .column-image-wider {
   width: 95%;
   padding-left: 2.5%;
@@ -220,6 +218,7 @@ h5 {
 .nav-links {
   float: right;
   margin-top:5%;
+  left:-5%;
 }
 .nav-link {
     display: inline-block;
@@ -445,11 +444,13 @@ position: relative;
   height: 60px;
 }
 .skills-heading {
-  font-size: 2.25rem;
+  font-size: 2rem;
   color: #641B36;
   font-family: "Abel", sans-serif;
   margin-top: 1%;
   text-align: center;
+  position: relative;
+  top:60%;
 }
 .skills-list {
   margin-top: 5%;
@@ -508,11 +509,8 @@ position: relative;
     width: 50px;
 }
 
-.footer-homepage-image {
-  height: 20%;
-}
 #footer-bottom-image {
-  top: 70%;
+  top: 40%;
 }
 
 
@@ -572,6 +570,7 @@ p {
 }
 .nav-links {
   float: right;
+  left:-5%
 }
 .nav-link {
     display: inline-block;
@@ -631,15 +630,13 @@ p {
 
 /* Summary stuff */
 #summary-page-section {
-  height:1300px;
+  height:1000px;
   padding-top: 2.5%;
 }
 #summary-blue-diamond {
   transform: rotateY(180deg);
 }
-.summary-row-one {
-  height: 40%;
-}
+
 .summary-row-two {
   height: 60%;
 }
@@ -724,10 +721,6 @@ p {
 #ur-page-section {
   height: 1100px;
   padding-top: 5%;
-}
-
-.persona-column-image {
-  height: 5%;
 }
 
 #person-left-column-image-1 {
@@ -817,8 +810,7 @@ p {
   top: 10%;
 }
 .ca-bottom-column-image {
-  top: 87%;
-  height: 7%;
+  top: 85%;
 }
 .ca-inner-column {
   width: 25%;
@@ -1040,9 +1032,6 @@ p {
     top: 5%;
 }
 
-.wireframes-column-image {
-  height: 7%;
-}
 
 /*
   Mockups
@@ -1103,9 +1092,7 @@ p {
   padding-bottom: 2%;
 }
 
-.branding-column-image {
-  height: 5%;
-}
+
 #branding-column-two-header {
   text-align: left;
 }
@@ -1140,9 +1127,7 @@ p {
   height: 2800px;
   padding-top: 5%;
 }
-.prototyping-column-image {
-  height: 5%;
-}
+
 #prototyping-column-two-header {
   text-align: left;
   color: #E2C8B1;
@@ -1230,9 +1215,7 @@ p {
   padding-top: 2%;
   padding-bottom: 2%;
 }
-.conclusion-column-image {
-  height: 5%;
-}
+
 .conclusion-row-one {
   height: 60%;
 }
@@ -1528,8 +1511,8 @@ position: absolute;
     font-size: 2rem;
     text-align: left;
     position: relative;
-    top: 15%;
-    margin-left: 5%;
+    top: 5%;
+    margin-left: 10%;
   }
 
   #contact-form {
@@ -1537,11 +1520,24 @@ position: absolute;
     top: 15%;
     margin-left: 5%;
   }
+  #fs-frm-inputs  {
+    border: rgba(22, 39, 83, 0.9);
+    /* background-color: white; */
+  }
 
-  #contact-form input{
+    #fs-frm {
+      position: relative;
+      margin-left: 10%;
+      margin-top: 10%;
+    }
+  #fs-frm input, textarea {
     display: block;
   }
-  #contact-name {
+
+  #contact-form input, textarea{
+    display: block;
+  }
+  #full-name {
     font-size: 1.225rem;
     font-family: "Abel", sans-serif;
     color: #641B36;
@@ -1549,7 +1545,7 @@ position: absolute;
     margin-bottom: 2%;
     width: 35%;
   }
-  #contact-email {
+  #email-address {
     font-size: 1.225rem;
     font-family: "Abel", sans-serif;
     color: #641B36;
@@ -1557,7 +1553,8 @@ position: absolute;
     margin-bottom: 2%;
     width: 35%;
   }
-  #contact-content {
+
+  #contact-message {
     font-size: 1.225rem;
     font-family: "Abel", sans-serif;
     color: #641B36;
@@ -1566,6 +1563,23 @@ position: absolute;
     height: 400px;
     width: 50%;
     resize: none;
+    }
+    #form-submit-button {
+      display: block;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+      line-height: 25px;
+
+      background-color: #FEACC6;
+      color: #162753;
+      font-size: 1rem;
+      font-family: "Abel", sans-serif;
+      border-radius: 6px;
+      width: 10%;
+      height: 30%;
+      position:relative;
+      text-decoration: none;
     }
 
     #contact-submit-button {
@@ -3264,5 +3278,29 @@ position: absolute;
     margin-top: 10%;
     margin-left: -12%;
 }
-
+#footer-text {
+  font: 2rem;
+}
+.footer {
+  height: 300px;
+}
+.footer-page-section {
+    height: 300px;
+}
+#footer-text {
+  font-size: 2rem;
+}
+.skill-list-item {
+    font-size: 1.225rem;
+    top: 75px;
+    position: relative;
+    margin-left: -10%;
+}
+#skills-page-section{
+  height: 900px;
+}
+#overlay{
+  height: 80%;
+  top:15%;
+}
 }
