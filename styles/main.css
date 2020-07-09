@@ -133,9 +133,6 @@
 .column-image-smallest-height {
   height: 5%;
 }
-.column-image-smaller-height {
-  height: 10%;
-}
 .column-image-bigger-height {
   height: 20%;
 }
@@ -620,6 +617,7 @@ p {
   position: relative;
   margin-left: 45%;
   top: 15%;
+  text-decoration: none;
 }
 
 
@@ -686,10 +684,9 @@ p {
 }
 
 .solution-image {
-  margin-left: 1.5%;
-  margin-right: 1.5%;
+  margin:1.5%;
+  margin-left: 1%;
   width: 30%;
-  height: 70%;
   position: relative;
 }
 
@@ -2795,5 +2792,133 @@ position: absolute;
      }
    }
 @media screen and (min-width: 481px) and (max-width: 768px){
-  
+  #overlay {
+    height: 138%;
+  }
+  #hero-column-header {
+    font-size: 2.225rem;
+    width: 125%;
+  }
+  h2 {
+    font-size: 1.625rem;
+    width: 125%;
+  }
+  .hero-button-home-page {
+    width: 40%;
+  }
+  #hero-flower-image {
+    width: 80%;
+  }
+  #hero-page-section-home-page {
+    height: 500px;
+  }
+  #nebula-page-section {
+    height: 400px;
+  }
+  #nebula-neb-image {
+    width: 75%;
+    padding-top: 15%;
+    padding-left:10%;
+  }
+  h3 {
+    font-size: 1.625rem;
+    padding-bottom: 5%;
+  }
+  h4 {
+    font-size: 1.225rem;
+    padding-bottom:5%;
+  }
+  #bio-page-section {
+    height: 500px;
+  }
+  #bio-home-image {
+    width: 100%;
+    height: 75%;
+    padding-left: 15%;
+  }
+  h5 {
+    font-size: 2rem;
+    margin-top:10%;
+  }
+  #bio-text {
+    font-size: 1.325rem;
+    width: 120%;
+  }
+  #bio-link{
+    padding-left:15%;
+    font-size: 1.225rem;
+    position: relative;
+    top:15px;
+  }
+  #footer-text{
+    font-size: 2.5rem;
+    left:2%;
+  }
+  #hero-page-section{
+    height: 750px;
+  }
+  #hero-neb-text {
+    top:0%;
+    font-size: 3rem;
+  }
+  #hero-neb-smaller-text {
+    top:5%;
+    padding-left: 10%;
+    text-align: left;
+  }
+  .hero-button {
+    margin-left:40%;
+  }
+  .summary-text-content {
+    font-size: 1.225rem;
+  }
+  #summary-page-section {
+    height: 750px;
+    padding-top: 2.5%;
+}
+.skills-heading {
+  font-size: 1.625rem;
+}
+#summary-blue-diamond {
+  transform: rotateY(180deg);
+  width: 214%;
+    left: -65%;
+    top: 77%;
+}
+.skill-list-item {
+  font-size: 1.225rem;
+}
+.skills-list {
+    position: relative;
+    margin-top: -20%;
+    margin-left: 20%;
+}
+#problem-header {
+  font-size: 1.625rem;
+}
+#problem-content {
+  font-size: 1.225rem;
+}
+#problem-page-section {
+  height: 250px;
+}
+#solution-page-section {
+  height: 600px;
+}
+#solution-content {
+  font-size: 1.225rem;
+}
+.solution-image {
+    margin: 2%;
+    margin-left: 5%;
+    width: 25%;
+    position: relative;
+    margin-top: 20%;
+}
+#process-header {
+  font-size: 1.625rem;
+}
+#process-text-content {
+  font-size: 1.225rem;
+}
 }
