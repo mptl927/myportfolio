@@ -3408,6 +3408,9 @@ position: absolute;
      #form-submit-button {
        width: 20%;
      }
+     #fs-frm-inputs {
+       padding-top:30%;
+     }
    }
 @media screen and (min-width: 481px) and (max-width: 768px){
   #overlay {
