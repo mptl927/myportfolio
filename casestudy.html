@@ -29,6 +29,7 @@
         <img alt="image" class= "nav-logo" src="images/logo.png"/>
         </a>
       </div>
+
       <div class="nav-column">
         <ul class="nav-links">
           <li class="nav-link"><a class= "nav-bar-home" href="index.html"> home </a></li>
@@ -36,18 +37,39 @@
           <li class="nav-link"><a class= "nav-bar-about" href="about.html"> about </a></li>
           <li class="nav-link"><a class= "nav-bar-contact" href="contact.html"> contact </a></li>
         </ul>
-      </div>
 
-      <div class="topNav">
-        <div id="myLinks">
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
+        <div id="hamburgerMenuToggleTwo">
+
+          <input type="checkbox" />
+
+          <!--
+          Some spans to act as a hamburger.
+
+          They are acting like a real hamburger,
+          not that McDonalds stuff.
+          -->
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <ul id="hamburgerMenuTwo">
+            <a href="index.html">
+              <li>Home</li>
+            </a>
+            <a href="casestudy.html">
+              <li>Work</li>
+            </a>
+            <a href="about.html">
+              <li>About</li>
+            </a>
+            <a href="contact.html">
+              <li>Contact</li>
+            </a>
+          </ul>
+
+        <!-- end of hamburger menu -->
         </div>
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+      <!-- end of column -->
       </div>
     </nav>
 

@@ -255,6 +255,15 @@ h5 {
 #hamburgerMenuToggle {
   display: none;
 }
+#hamburgerMenuToggleTwo {
+  display: none;
+}
+#hamburgerMenuToggleThree {
+  display: none;
+}
+#hamburgerMenuToggleFour {
+  display: none;
+}
 .topNav {
   display: none;
 }
@@ -1685,8 +1694,7 @@ position: absolute;
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
-
-}
+  }
 
       #hamburgerMenuToggle a
       {
@@ -2071,6 +2079,144 @@ position: absolute;
       /*
       hero
       */
+
+      #hamburgerMenuToggleTwo {
+        display: block;
+        position: relative;
+        top: 33px;
+        left: 129px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+  }
+
+      #hamburgerMenuToggleTwo a
+      {
+        text-decoration: none;
+        color: #232323;
+
+        transition: color 0.3s ease;
+      }
+
+      #hamburgerMenuToggleTwo a:hover
+      {
+        color: tomato;
+      }
+
+
+      #hamburgerMenuToggleTwo input
+      {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+
+        cursor: pointer;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+
+        -webkit-touch-callout: none;
+      }
+
+      /*
+       * Just a quick hamburger
+       */
+      #hamburgerMenuToggleTwo span
+      {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+
+        background: #cdcdcd;
+        border-radius: 3px;
+
+        z-index: 1;
+
+        transform-origin: 4px 0px;
+
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    opacity 0.55s ease;
+      }
+
+      #hamburgerMenuToggleTwo span:first-child
+      {
+        transform-origin: 0% 0%;
+      }
+
+      #hamburgerMenuToggleTwo span:nth-last-child(2)
+      {
+        transform-origin: 0% 100%;
+      }
+
+      /*
+       * Transform all the slices of hamburger
+       * into a crossmark.
+       */
+      #hamburgerMenuToggleTwo input:checked ~ span
+      {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #232323;
+      }
+
+      /*
+       * But let's hide the middle one.
+       */
+      #hamburgerMenuToggleTwo input:checked ~ span:nth-last-child(3)
+      {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+      }
+
+      /*
+       * Ohyeah and the last one should go the other direction
+       */
+      #hamburgerMenuToggleTwo input:checked ~ span:nth-last-child(2)
+      {
+        transform: rotate(-45deg) translate(0, -1px);
+      }
+
+      /*
+       * Make this absolute positioned
+       * at the top right of the screen
+       */
+       #hamburgerMenuTwo {
+         position: absolute;
+         background-color: #641B36;
+         width: 300px;
+         margin: -100px 0 0 -336px;
+         padding: 50px;
+         padding-top: 125px;
+         background: #ededed;
+         list-style-type: none;
+         -webkit-font-smoothing: antialiased;
+         transform-origin: 0% 0%;
+         transform: translate(-100%, 0);
+         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+         background-color: #641B36;
+   }
+
+      #hamburgerMenuTwo li
+      {
+        padding: 50px 100px;
+        font-size: 22px;
+        color: #F0E2D5;
+      }
+
+      /*
+       * And let's slide it in from the left
+       */
+      #hamburgerMenuToggleTwo input:checked ~ ul
+      {
+        transform: none;
+      }
+
       #hero-page-section {
         background-color: #162753;
         height: 700px;
@@ -2831,6 +2977,143 @@ position: absolute;
   about.html
   */
 
+  #hamburgerMenuToggleThree {
+    display: block;
+    position: relative;
+    top: 33px;
+    left: 129px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #hamburgerMenuToggleThree a
+  {
+    text-decoration: none;
+    color: #232323;
+
+    transition: color 0.3s ease;
+  }
+
+  #hamburgerMenuToggleThree a:hover
+  {
+    color: tomato;
+  }
+
+
+  #hamburgerMenuToggleThree input
+  {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+
+    -webkit-touch-callout: none;
+  }
+
+  /*
+   * Just a quick hamburger
+   */
+  #hamburgerMenuToggleThree span
+  {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #cdcdcd;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+  }
+
+  #hamburgerMenuToggleThree span:first-child
+  {
+    transform-origin: 0% 0%;
+  }
+
+  #hamburgerMenuToggleThree span:nth-last-child(2)
+  {
+    transform-origin: 0% 100%;
+  }
+
+  /*
+   * Transform all the slices of hamburger
+   * into a crossmark.
+   */
+  #hamburgerMenuToggleThree input:checked ~ span
+  {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+  }
+
+  /*
+   * But let's hide the middle one.
+   */
+  #hamburgerMenuToggleThree input:checked ~ span:nth-last-child(3)
+  {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  /*
+   * Ohyeah and the last one should go the other direction
+   */
+  #hamburgerMenuToggleThree input:checked ~ span:nth-last-child(2)
+  {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  /*
+   * Make this absolute positioned
+   * at the top right of the screen
+   */
+   #hamburgerMenuThree {
+     position: absolute;
+     background-color: #641B36;
+     width: 300px;
+     margin: -100px 0 0 -336px;
+     padding: 50px;
+     padding-top: 125px;
+     background: #ededed;
+     list-style-type: none;
+     -webkit-font-smoothing: antialiased;
+     transform-origin: 0% 0%;
+     transform: translate(-100%, 0);
+     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+     background-color: #641B36;
+  }
+
+  #hamburgerMenuThree li
+  {
+    padding: 50px 100px;
+    font-size: 22px;
+    color: #F0E2D5;
+  }
+
+  /*
+   * And let's slide it in from the left
+   */
+  #hamburgerMenuToggleThree input:checked ~ ul
+  {
+    transform: none;
+  }
+
   .hero {
     height: 800px;
   }
@@ -2918,6 +3201,144 @@ position: absolute;
   /*
   contact
   */
+
+  #hamburgerMenuToggleFour {
+    display: block;
+    position: relative;
+    top: 33px;
+    left: 129px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #hamburgerMenuToggleFour a
+  {
+    text-decoration: none;
+    color: #232323;
+
+    transition: color 0.3s ease;
+  }
+
+  #hamburgerMenuToggleFour a:hover
+  {
+    color: tomato;
+  }
+
+
+  #hamburgerMenuToggleFour input
+  {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+
+    -webkit-touch-callout: none;
+  }
+
+  /*
+   * Just a quick hamburger
+   */
+  #hamburgerMenuToggleFour span
+  {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #cdcdcd;
+    border-radius: 3px;
+
+    z-index: -10;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+  }
+
+  #hamburgerMenuToggleFour span:first-child
+  {
+    transform-origin: 0% 0%;
+  }
+
+  #hamburgerMenuToggleFour span:nth-last-child(2)
+  {
+    transform-origin: 0% 100%;
+  }
+
+  /*
+   * Transform all the slices of hamburger
+   * into a crossmark.
+   */
+  #hamburgerMenuToggleFour input:checked ~ span
+  {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+  }
+
+  /*
+   * But let's hide the middle one.
+   */
+  #hamburgerMenuToggleFour input:checked ~ span:nth-last-child(3)
+  {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  /*
+   * Ohyeah and the last one should go the other direction
+   */
+  #hamburgerMenuToggleFour input:checked ~ span:nth-last-child(2)
+  {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  /*
+   * Make this absolute positioned
+   * at the top right of the screen
+   */
+   #hamburgerMenuFour {
+     position: absolute;
+     background-color: #641B36;
+     width: 300px;
+     margin: -100px 0 0 -336px;
+     padding: 50px;
+     padding-top: 125px;
+     background: #ededed;
+     list-style-type: none;
+     -webkit-font-smoothing: antialiased;
+     transform-origin: 0% 0%;
+     transform: translate(-100%, 0);
+     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+     background-color: #641B36;
+  }
+
+  #hamburgerMenuFour li
+  {
+    padding: 50px 100px;
+    font-size: 22px;
+    color: #F0E2D5;
+  }
+
+  /*
+   * And let's slide it in from the left
+   */
+  #hamburgerMenuToggleFour input:checked ~ ul
+  {
+    transform: none;
+  }
+
   #contact-nav-section {
     height: 0px;
   }
