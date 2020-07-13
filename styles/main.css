@@ -3411,6 +3411,12 @@ position: absolute;
      #fs-frm-inputs {
        padding-top:30%;
      }
+     #full-name {
+       width: 40%;
+     }
+     #email-address {
+       width: 40%;
+     }
    }
 @media screen and (min-width: 481px) and (max-width: 768px){
   #overlay {
