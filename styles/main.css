@@ -3160,11 +3160,13 @@ position: absolute;
     position: relative;
     top: 2%;
     display: block;
+    margin-left: 5%;
   }
   #flower-banner-2 {
     position: relative;
     top: -8%;
     display: block;
+    margin-left:5%;
   }
 
   #footer-image-1 {
