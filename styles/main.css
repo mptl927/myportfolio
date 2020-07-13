@@ -901,7 +901,6 @@ p {
 }
 .persona-names-row {
   height: 3%;
-  padding-top: 8%;
 }
 .persona-motivations-row {
   height: 15%;
@@ -3401,6 +3400,13 @@ position: absolute;
      }
      .footer-page-section {
          height: 250px;
+     }
+     #contact-message {
+       width: 75%;
+       height: 300px;
+     }
+     #form-submit-button {
+       width: 20%;
      }
    }
 @media screen and (min-width: 481px) and (max-width: 768px){
