@@ -1827,6 +1827,7 @@ position: absolute;
       }
       .mobile-banner {
         display: block;
+        width: 100%;
       }
       #bottom-banner {
         display: none;
