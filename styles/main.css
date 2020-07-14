@@ -1686,20 +1686,19 @@ position: absolute;
       }
 
       #hamburgerMenuToggle {
-    display: block;
-    position: relative;
-    top: -46px;
-    left: 310px;
-    z-index: 1;
-    -webkit-user-select: none;
-    user-select: none;
-  }
+        display: block;
+        position: relative;
+        top: -46px;
+        left: 310px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+      }
 
       #hamburgerMenuToggle a
       {
         text-decoration: none;
         color: #232323;
-
         transition: color 0.3s ease;
       }
 
@@ -1707,7 +1706,6 @@ position: absolute;
       {
         color: tomato;
       }
-
 
       #hamburgerMenuToggle input
       {
@@ -1736,8 +1734,9 @@ position: absolute;
         height: 4px;
         margin-bottom: 5px;
         position: relative;
+        background-color: #641B36;
 
-        background: #cdcdcd;
+
         border-radius: 3px;
 
         z-index: 1;
@@ -1748,6 +1747,7 @@ position: absolute;
                     background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                     opacity 0.55s ease;
       }
+
 
       #hamburgerMenuToggle span:first-child
       {
@@ -1767,7 +1767,7 @@ position: absolute;
       {
         opacity: 1;
         transform: rotate(45deg) translate(-2px, -1px);
-        background: #232323;
+        background: #F0E2D5;
       }
 
       /*
@@ -1792,20 +1792,19 @@ position: absolute;
        * at the top right of the screen
        */
        #hamburgerMenu {
-     position: absolute;
-     background-color: #641B36;
-     width: 300px;
-     margin: -100px 0 0 -336px;
-     padding: 50px;
-     padding-top: 125px;
-     background: #ededed;
-     list-style-type: none;
-     -webkit-font-smoothing: antialiased;
-     transform-origin: 0% 0%;
-     transform: translate(-100%, 0);
-     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-     background-color: #641B36;
-   }
+         background: rgba(100, 27, 54, 0.95);
+         position: absolute;
+         width: 300px;
+         height: 800px;
+         margin: -100px 0 0 -336px;
+         padding: 50px;
+         padding-top: 125px;
+         list-style-type: none;
+         -webkit-font-smoothing: antialiased;
+         transform-origin: 0% 0%;
+         transform: translate(-100%, 0);
+         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+      }
 
       #hamburgerMenu li
       {
@@ -2080,7 +2079,6 @@ position: absolute;
       /*
       hero
       */
-
       #hamburgerMenuToggleTwo {
         display: block;
         position: relative;
@@ -2089,7 +2087,7 @@ position: absolute;
         z-index: 1;
         -webkit-user-select: none;
         user-select: none;
-  }
+      }
 
       #hamburgerMenuToggleTwo a
       {
@@ -2133,7 +2131,7 @@ position: absolute;
         margin-bottom: 5px;
         position: relative;
 
-        background: #cdcdcd;
+        background-color: #641B36;
         border-radius: 3px;
 
         z-index: 1;
@@ -2163,7 +2161,7 @@ position: absolute;
       {
         opacity: 1;
         transform: rotate(45deg) translate(-2px, -1px);
-        background: #232323;
+        background: #F0E2D5;;
       }
 
       /*
@@ -2187,21 +2185,22 @@ position: absolute;
        * Make this absolute positioned
        * at the top right of the screen
        */
+
+
        #hamburgerMenuTwo {
          position: absolute;
-         background-color: #641B36;
          width: 300px;
+         height: 800px;
          margin: -100px 0 0 -336px;
          padding: 50px;
          padding-top: 125px;
-         background: #ededed;
          list-style-type: none;
          -webkit-font-smoothing: antialiased;
          transform-origin: 0% 0%;
          transform: translate(-100%, 0);
          transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-         background-color: #641B36;
-   }
+         background: rgba(100, 27, 54, 0.95);
+       }
 
       #hamburgerMenuTwo li
       {
@@ -3022,6 +3021,7 @@ position: absolute;
   /*
    * Just a quick hamburger
    */
+
   #hamburgerMenuToggleThree span
   {
     display: block;
@@ -3040,6 +3040,9 @@ position: absolute;
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 opacity 0.55s ease;
+  }
+  #hamburgerMenuToggleThree span {
+    background-color: #641B36;
   }
 
   #hamburgerMenuToggleThree span:first-child
@@ -3060,7 +3063,7 @@ position: absolute;
   {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
+    background: #F0E2D5;
   }
 
   /*
@@ -3088,6 +3091,7 @@ position: absolute;
      position: absolute;
      background-color: #641B36;
      width: 300px;
+     height: 800px;
      margin: -100px 0 0 -336px;
      padding: 50px;
      padding-top: 125px;
@@ -3268,6 +3272,9 @@ position: absolute;
                 background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 opacity 0.55s ease;
   }
+  #hamburgerMenuToggleFour span {
+    background-color: #641B36;
+  }
 
   #hamburgerMenuToggleFour span:first-child
   {
@@ -3287,7 +3294,7 @@ position: absolute;
   {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
+    background: #F0E2D5;
   }
 
   /*
@@ -3315,6 +3322,7 @@ position: absolute;
      position: absolute;
      background-color: #641B36;
      width: 300px;
+     height: 800px;
      margin: -100px 0 0 -336px;
      padding: 50px;
      padding-top: 125px;
