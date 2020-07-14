@@ -3336,7 +3336,8 @@ position: absolute;
      transform-origin: 0% 0%;
      transform: translate(-100%, 0);
      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-     background-color: #641B36;
+     -webkit-font-smoothing: antialiased;
+     background: rgba(100, 27, 54, 0.95);
   }
 
   #hamburgerMenuFour li
