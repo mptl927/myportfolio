@@ -728,7 +728,7 @@ p {
 
 /* User research stuff*/
 #ur-page-section {
-  height: 1100px;
+  height: 1200px;
   padding-top: 5%;
 }
 
@@ -2527,7 +2527,7 @@ position: absolute;
 
     #neha-bio {
       position: relative;
-      top: 1400%;
+      top: 1800%;
       margin-left: 10%;
       color: #641B36;
       font-size: 1.5rem;
@@ -2535,7 +2535,7 @@ position: absolute;
 
     #neha-quote {
       position: relative;
-      top: 2100%;
+      top: 2400%;
       /* width: 250%; */
       margin-left: 10%;
       margin-right: 10%;
@@ -2544,20 +2544,20 @@ position: absolute;
     }
     #ty-image {
       position: relative;
-      top: 2450%;
+      top: 2700%;
       width: 50%;
       margin-left: 25%;
     }
     #ty-bio {
       position: relative;
-      top: 3700%;
+      top: 4400%;
       margin-left: 10%;
       color: #641B36;
       font-size: 1.5rem;
     }
     #ty-quote {
       position: relative;
-      top: 3600%;
+      top: 4000%;
       color: #641B36;
       font-size: 1.225rem;
       margin-left: 10%;
@@ -2574,13 +2574,13 @@ position: absolute;
     }
 
     #view-user-persona-link {
-      top: 614px;
+      top: 700px;
           font-size: 1.0rem;
           margin-left: 33%;
     }
     #persona-user-stories-text {
       position: relative;
-      top: 325%;
+      top: 350%;
       margin-left: 5%;
       margin-right: 5%;
       font-size: 1.225rem;
@@ -2588,7 +2588,7 @@ position: absolute;
 
   #persona-user-stories-image-one {
     position: absolute;
-    top: 450%;
+    top: 475%;
     margin-bottom:  5%;
     margin-left: 10%;
     margin-right: 10%;
@@ -2814,12 +2814,12 @@ position: absolute;
   #prototyping-round-button {
     width: 30%;
     position: absolute;
-    top: -20%;
+    margin-top: 26%;
   }
   #prototyping-square-button {
     width: 30%;
         position: absolute;
-        top: -120%;
+        top: -150%;
         margin-left: 30%;
   }
 
@@ -2832,7 +2832,7 @@ position: absolute;
     position: absolute;
         margin-left: 5%;
         font-size: 1.0rem;
-        top: -29px;
+        margin-top: 15%;
         margin-left: 17%;
   }
 
@@ -2840,12 +2840,12 @@ position: absolute;
     width: 35%;
     position: absolute;
     margin-left: -20%;
-    top: -224%;
+    margin-top: 17%;
   }
   #prototyping-dark-logo {
     width: 35%;
     position: absolute;
-    top: -340%;
+    margin-top: 15%;
     margin-left: 20%;
   }
 
