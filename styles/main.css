@@ -1734,6 +1734,7 @@ position: absolute;
         height: 4px;
         margin-bottom: 5px;
         position: relative;
+        background: #cdcdcd;
         background-color: #641B36;
 
 
@@ -2044,13 +2045,17 @@ position: absolute;
       }
       #skills-blue-diamond2 {
         position: relative;
-            top: 203px;
+            top: 250px;
       }
       #skills-blue-flower2 {
         position: relative;
             top: -530px;
       }
-
+      .skills-blue-flower {
+        margin-top:5%;
+        width: 40px;
+        height: 40px;
+      }
 
 
       .column-half {
@@ -2093,7 +2098,6 @@ position: absolute;
       {
         text-decoration: none;
         color: #232323;
-
         transition: color 0.3s ease;
       }
 
@@ -2112,7 +2116,6 @@ position: absolute;
         top: -7px;
         left: -5px;
 
-        cursor: pointer;
         cursor: pointer;
         opacity: 0;
         z-index: 2;
@@ -2161,7 +2164,7 @@ position: absolute;
       {
         opacity: 1;
         transform: rotate(45deg) translate(-2px, -1px);
-        background: #F0E2D5;;
+        background: #F0E2D5;
       }
 
       /*
@@ -3217,6 +3220,7 @@ position: absolute;
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
+    z-index: 11;
   }
 
   #hamburgerMenuToggleFour a
@@ -3264,7 +3268,7 @@ position: absolute;
     background: #cdcdcd;
     border-radius: 3px;
 
-    z-index: -10;
+    z-index: 10;
 
     transform-origin: 4px 0px;
 
@@ -3409,7 +3413,7 @@ position: absolute;
        z-index: 10;
        top:-1%;
        background-color: rgba(22, 39, 83, 0.9);
-     }
+    }
      .footer-page-section {
          height: 250px;
      }
@@ -3727,12 +3731,6 @@ position: absolute;
       margin-left: 35%;
       font-size: 1.225rem;
   }
-  position: relative;
-      margin-left: 40%;
-      font-family: "Abel", sans-serif;
-      color: #641B36;
-      font-size: 1.625rem;
-      top: -201px;
   #persona-page-section{
     height: 1900px;
   }
