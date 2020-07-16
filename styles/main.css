@@ -1648,6 +1648,7 @@ position: absolute;
 
     .container {
         width: 100%;
+        overflow: hidden;
       }
 
       .column-big {
@@ -1795,7 +1796,7 @@ position: absolute;
        #hamburgerMenu {
          background: rgba(100, 27, 54, 0.95);
          position: absolute;
-         width: 100%;
+         width: 400px;
          height: 800px;
          margin: -100px 0 0 -336px;
          padding: 50px;
@@ -2192,7 +2193,7 @@ position: absolute;
 
        #hamburgerMenuTwo {
          position: absolute;
-         width: 100%;
+         width: 400px;
          height: 800px;
          margin: -100px 0 0 -336px;
          padding: 50px;
@@ -3093,7 +3094,7 @@ position: absolute;
    #hamburgerMenuThree {
      position: absolute;
      background-color: #641B36;
-     width: 100%;
+     width: 400px;
      height: 800px;
      margin: -100px 0 0 -336px;
      padding: 50px;
@@ -3104,7 +3105,7 @@ position: absolute;
      transform-origin: 0% 0%;
      transform: translate(-100%, 0);
      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-     background-color: #641B36;
+     background-color: rgba(100, 27, 54, 0.95);;
   }
 
   #hamburgerMenuThree li
@@ -3171,7 +3172,7 @@ position: absolute;
   }
   #flower-banner-2 {
     position: relative;
-    top: -8%;
+    top: -5%;
     display: block;
     margin-left:5%;
   }
@@ -3186,7 +3187,7 @@ position: absolute;
   }
 
   .about {
-    height: 1500px;
+    height: 1200px;
   }
 
   .about-column {
@@ -3201,7 +3202,7 @@ position: absolute;
 
   .my-story-text {
     font-size: 1.0rem;
-    margin: 15%;
+    margin: 5%;
   }
 
   #bottom-banner {
@@ -3325,7 +3326,7 @@ position: absolute;
    #hamburgerMenuFour {
      position: absolute;
      background-color: #641B36;
-     width: 1005;
+     width: 400px;
      height: 800px;
      margin: -100px 0 0 -336px;
      padding: 50px;
