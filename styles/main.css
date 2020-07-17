@@ -449,6 +449,7 @@ position: relative;
 .skills-blue-flower {
   width: 40px;
   height: 40px;
+  margin-bottom: 2%;
 }
 .skills-blue-diamond {
   width: 85px;
@@ -464,7 +465,6 @@ position: relative;
 }
 .skills-list {
   margin-top: 5%;
-  margin-left: 5.5%;
 }
 .skill-list-item {
   text-align: center;
@@ -697,7 +697,7 @@ p {
 /* Solution stuff */
 
 #solution-page-section {
-  height: 1400px;
+  height: 1200px;
   padding-top: 5%;
 }
 #solution-smaller-row {
@@ -717,12 +717,14 @@ p {
 
 /* Process stuff*/
 #process-page-section {
-  height: 700px;
+  height: 600px;
   background-color: #162753;
   padding-top: 5%;
 }
 #process-diamond {
   transform: rotateY(180deg);
+  position: relative;
+  margin-top: -20%
 }
 #process-header{
   color: #E2C8B1;
@@ -810,7 +812,7 @@ p {
 
 /* competitive analysis section */
 #ca-page-section {
-  height: 1900px;
+  height: 1500px;
   background-color: #162753;
   padding-top: 5%;
 }
@@ -917,7 +919,7 @@ p {
   height: 15%;
 }
 .persona-inner-column {
-  padding-left: 7%;
+  padding-right: 15%;
 }
 
 .persona-frustrations-row {
@@ -989,17 +991,17 @@ p {
 */
 #user-flows-page-section {
   background-color: #162753;
-  height: 1800px;
+  height: 1400px;
 }
 #user-flows-column-two-header {
   text-align: left;
   color: #E2C8B1;
 }
 #user-flow-image {
-  height: 70%;
   width: 85%;
   padding-left: 10%;
   padding-right: 5%;
+
 }
 #user-flow-link {
   position: relative;
@@ -1028,20 +1030,20 @@ p {
   Wireframes
 */
 #wireframes-page-section {
-  height: 2400px;
+  height: 1700px;
 }
 #wireframes-column-two-header {
   text-align: left;
 }
 #wireframes-image-one {
-
+  margin-top: 5%;
   width: 85%;
   margin-left: 5%;
 }
 #wireframes-image-two {
-  top:-10%;
   margin-left: 5%;
   width: 85%;
+  margin-top: 5%;
   display: visible;
 }
 #mobile-wireframes {
@@ -1059,7 +1061,6 @@ p {
 }
 #wireframes-row-one {
   padding-top: 10%;
-  height: 20%;
 }
 #wireframes-row-two {
   height: 35%;
@@ -1069,7 +1070,7 @@ p {
 }
 #wireframes-link {
     position: relative;
-    margin-left: 45%;
+    margin-left: 40%;
     color: #641B36;
     font-family: "Abel", sans-serif;
     font-size: 1.625rem;
@@ -1082,7 +1083,7 @@ p {
 */
 #mockups-page-section {
   background-color: #641B36;
-  height: 1600px;
+  height: 1300px;
   padding-top: 5%;
 }
 
@@ -1118,7 +1119,6 @@ p {
 #mockups-link {
   position: relative;
   margin-left: 45%;
-  top: -15%;  /* come back and figure out why this needs to be negative*/
   font-family: "Abel", sans-serif;
   color: #E2C8B1;
   font-size: 1.625rem;
@@ -1530,12 +1530,7 @@ body {
   height: 50px;
   width: 50px;
 }
-.footer-icons {
-  display:inline;
-  margin-left: 5%;
-  position: relative;
-  top: -30%;
-}
+
 
 /*
  contact
