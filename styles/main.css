@@ -193,6 +193,7 @@ h4 {
   font-family: "Abel", sans-serif;
   font-size: 1.625rem;
   font-weight: lighter;
+  margin-top:5%;
 }
 h5 {
   color: #E2C8B1;
@@ -285,7 +286,7 @@ h5 {
       text-align: left;
 }
 #hero-column-header {
-    margin-bottom: 23%;
+    margin-bottom: 5%;
 }
 #hero-flower-image {
   position: relative;
@@ -384,7 +385,7 @@ top: 38px;
 }
 
 #bio-content-1 {
-  padding-top: 5%;
+  padding-top: 20%;
   padding-left: 15%;
 }
 #bio-content-2 {
@@ -393,8 +394,10 @@ top: 38px;
 }
 #bio-text {
   color: #FFFFFF;
-  font-size: 2.25rem;
+  font-size: 1.625rem;
   font-family: "Abel", sans-serif;
+  width: 75%;
+  margin-top:10%;
 }
 #bio-home-image {
   width: 418px;
@@ -404,7 +407,7 @@ top: 38px;
   color: #E2C8B1;
   font-size: 1.625rem;
   font-family: "Abel", sans-serif;
-  padding-left: 17%;
+  margin-left: 15%;
   top: 50px;
 position: relative;
 }
@@ -444,12 +447,10 @@ position: relative;
   height: 450px;
 }
 .skills-blue-flower {
-  margin-top:5%;
   width: 40px;
   height: 40px;
 }
 .skills-blue-diamond {
-  margin-top: 5%;
   width: 85px;
   height: 60px;
 }
@@ -457,7 +458,7 @@ position: relative;
   font-size: 2rem;
   color: #641B36;
   font-family: "Abel", sans-serif;
-  margin-top: 10%;
+  margin-top: .0025%;
   text-align: center;
   position: relative;
 }
@@ -466,8 +467,8 @@ position: relative;
   margin-left: 5.5%;
 }
 .skill-list-item {
-  padding-right: 50px;
   text-align: center;
+  line-height: 2.5rem;
 }
 
 /*
@@ -553,10 +554,20 @@ p {
   color: #641B36;
   font-family: "Abel", sans-serif;
   font-weight: lighter;
-  font-size: 2rem;
+  font-size: 1.625rem;
   line-height: 1.5em;
+  margin-top:2%;
 }
-
+#summary-user-research-heading {
+  position: relative;
+  margin-top:20%;
+  margin-left: 5%
+}
+#summary-tools-used-heading {
+  position: relative;
+  margin-top:20%;
+  margin-left: 5%
+}
 #backToTopButton {
   position: fixed;
   right: 100px;
@@ -3438,7 +3449,7 @@ position: absolute;
    }
 @media screen and (min-width: 481px) and (max-width: 768px){
   .container {
-    overflow: hidden;
+    overflow: hidden
   }
   #overlay {
     height: 138%;
