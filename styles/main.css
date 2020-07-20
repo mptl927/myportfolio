@@ -464,7 +464,8 @@ position: relative;
   position: relative;
 }
 .skills-list {
-  margin-top: 5%;
+  margin-top: -15%;
+  margin-left: 15%;
 }
 .skill-list-item {
   text-align: center;
@@ -560,12 +561,12 @@ p {
 }
 #summary-user-research-heading {
   position: relative;
-  margin-top:20%;
+  margin-top:10%;
   margin-left: 5%
 }
 #summary-tools-used-heading {
   position: relative;
-  margin-top:20%;
+  margin-top:10%;
   margin-left: 5%
 }
 #backToTopButton {
@@ -713,6 +714,7 @@ p {
   margin-left: 1%;
   width: 30%;
   position: relative;
+  margin-top: 5%;
 }
 
 /* Process stuff*/
@@ -876,6 +878,10 @@ p {
   color: #E2C8B1;
   margin: 15% 0 10px 0;
 }
+.ca-list-header {
+  font-weight: bold;
+}
+
 #ca-link{
   color: #E2C8B1;
   font-family: "Abel", sans-serif;
@@ -931,15 +937,14 @@ p {
 }
 #persona-user-stories-text {
   position: relative;
-  top: -100px;
+  top:-40%;
 }
 #persona-user-stories-image-one{
   position: relative;
-  top: -94px;
+  margin-top: -15%;
 }
 #persona-user-stories-image-two{
   position: relative;
-  top: -96px;
 }
 
 .neha-inner-column {
@@ -1030,21 +1035,19 @@ p {
   Wireframes
 */
 #wireframes-page-section {
-  height: 1700px;
+  height: 1900px;
 }
 #wireframes-column-two-header {
   text-align: left;
 }
 #wireframes-image-one {
-  margin-top: 5%;
-  width: 85%;
-  margin-left: 5%;
+  margin-top: 15%;
 }
-#wireframes-image-two {
-  margin-left: 5%;
-  width: 85%;
-  margin-top: 5%;
-  display: visible;
+.wireframes-image-two {
+    margin-left: 12%;
+      /* width: 55%; */
+      margin-top: 30%;
+      display: visible;
 }
 #mobile-wireframes {
   display: none;
@@ -2660,10 +2663,6 @@ position: absolute;
       position: relative;
       top: -13%;
   }
-  #wireframes-image-two{
-    display: none;
-
-  }
 
   #mobile-wireframes {
     display: inline;
@@ -3476,11 +3475,9 @@ position: absolute;
   }
   h3 {
     font-size: 1.625rem;
-    padding-bottom: 5%;
   }
   h4 {
     font-size: 1.225rem;
-    padding-bottom:5%;
   }
   #bio-page-section {
     height: 500px;
@@ -3527,7 +3524,7 @@ position: absolute;
     font-size: 1.225rem;
   }
   #summary-page-section {
-    height: 750px;
+    height: 900px;
     padding-top: 2.5%;
   }
   .skills-heading {
@@ -3551,9 +3548,9 @@ position: absolute;
     font-size: 1.225rem;
   }
   .skills-list {
-      position: relative;
-      margin-top: -20%;
-      margin-left: 30%;
+    position: relative;
+    margin-top: -30%;
+    margin-left: 20%;
   }
   #problem-header {
     font-size: 1.625rem;
@@ -3594,7 +3591,6 @@ position: absolute;
   }
   #ur-content {
     font-size: 1.225rem;
-    margin-top:-5%;
   }
   .ur-image {
       width: 45%;
@@ -3621,15 +3617,24 @@ position: absolute;
   }
   #ca-google-drive-strengths {
     position: relative;
-    top:30%;
+    top:45%;
+  }
+  #ca-google-drive-image {
+    margin-top:20%;
+  }
+  #ca-dropbox-image {
+    margin-top:20%;
+  }
+  #ca-onedrive-image {
+    margin-top:20%;
   }
   #ca-dropbox-strengths {
     position: relative;
-    top:30%;
+    top:45%;
   }
   #ca-onedrive-strengths {
     position: relative;
-    top:30%;
+    top:45%;
   }
   #ca-google-drive-weaknesses {
     position: relative;
@@ -3678,43 +3683,43 @@ position: absolute;
       color: #162753;
       position: relative;
       font-size: 1rem;
-      margin-top: 50%;
-      margin-left: 50%;
+      margin-top: 100%;
   }
   #ty-quote {
       width: 200%;
       color: #162753;
       position: relative;
       font-size: 1rem;
-      margin-top: 50%;
+      margin-top: 100%;
       margin-left: -100%;
   }
-  #neha-image {
-  margin-top: -100%;
-  }
+
   #ty-image {
     margin-left:50%;
-    margin-top: -100%;
   }
   #neha-bio {
     font-size: 1.225rem;
     position: relative;
-    top: -200%;
+    top: -80%;
+    margin-left: 10%;
+    width: 100%;
   }
   #ty-bio {
     font-size: 1.225rem;
     position: relative;
-    top: -200%;
+    top: -80%;
+    margin-left: 10%;
+    width: 100%;
   }
   .neha-info {
     font-size: 1.225rem;
     position: relative;
-  top: 20%;
+    top: 50%;
   }
   .ty-info {
     font-size: 1.225rem;
     position: relative;
-  top: 20%;
+    top: 50%;
   }
   .persona-names-row {
     position: relative;
@@ -3728,12 +3733,11 @@ position: absolute;
       margin-left: 5%;
   }
   .persona-goals-row {
-    top:-5%;
     position: relative;
     margin-left: 5%;
   }
   .persona-frustrations-row {
-    top: -8%;
+    margin-top: 15%;
     position: relative;
     margin-left: 5%;
   }
@@ -3741,9 +3745,10 @@ position: absolute;
       position: relative;
       margin-left: 35%;
       font-size: 1.225rem;
+      top:5%;
   }
   #persona-page-section{
-    height: 1900px;
+    height: 2400px;
   }
   #persona-user-stories-text {
     font-size: 1.225rem;
@@ -3756,8 +3761,6 @@ position: absolute;
     font-size: 1.225rem;
   }
   #user-flow-image {
-      width: 85%;
-      padding-left: 10%;
       padding-top: 15%;
   }
   #user-flow-link {
@@ -3767,12 +3770,18 @@ position: absolute;
   #wireframes-page-section {
     height: 1400px;
   }
+  .wireframes-image-two {
+    FONT-WEIGHT: 100;
+    margin-left: 10%;
+    width: 20%;
+    margin-top: 20%;
+  }
   #wireframes-text {
     font-size: 1.225rem;
   }
   #wireframes-link{
     font-size: 1.225rem;
-    margin-left:35%;
+    margin-left:40%;
   }
   #mockups-page-section {
     height: 900px;
