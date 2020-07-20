@@ -1178,7 +1178,7 @@ p {
 */
 #prototyping-page-section {
   background-color: #162753;
-  height: 2800px;
+  height: 3000px;
   padding-top: 5%;
 }
 
@@ -1193,43 +1193,45 @@ p {
   color: #E2C8B1;
   position: relative;
   margin-left: 30%;
-  top: -300px;
+  top: -50%;
 }
 #prototyping-bold-text-two {
   color: #E2C8B1;
   position: relative;
   margin-left: 35%;
-  top: 0px;
+  top:-250px;
 }
 #prototyping-bold-text-three {
   color: #E2C8B1;
       position: relative;
       margin-left: 28%;
-      top: 0px;
+      margin-top:-25%;
 }
 #prototyping-round-button {
   width: 70%;
   padding-left: 10%;
   padding-right: 20%;
   padding-top:5%;
-  margin-top: -45%;
+  margin-top: -70%;
 }
 #prototyping-square-button {
   width: 70%;
   padding-left: 20%;
   padding-right: 10%;
   padding-top:5%;
-  margin-top: -45%;
+  margin-top: -70%;
 }
 #prototyping-light-logo {
   width: 50%;
   padding-left: 25%;
   padding-right: 25%;
+  top:-275px;
 }
 #prototyping-dark-logo {
   width: 50%;
   padding-left: 25%;
   padding-right: 25%;
+  top:-275px;
 }
 #prototype-multi-logo {
   width: 70%;
@@ -1263,7 +1265,7 @@ p {
   Conclusion
 */
 #conclusion-page-section {
-  height: 2200px;
+  height: 1900px;
   padding-top: 5%;
 }
 #conclusion-page-section p{
@@ -1284,15 +1286,21 @@ p {
 #conclusion-image-one {
   width: 80%;
   padding-right: 20%;
+  position: relative;
+  margin-top: -40%;
 }
 #conclusion-image-two {
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
+  position: relative;
+  margin-top: -40%;
 }
 #conclusion-image-three {
   width: 80%;
   padding-left: 20%;
+  position: relative;
+  margin-top: -40%;
 }
 
 .conclusion-button {
@@ -3872,29 +3880,29 @@ position: absolute;
     color: #E2C8B1;
     position: relative;
     margin-left: 27%;
-    top: -500%;
+    margin-top:25%;
 }
 #prototyping-light-logo {
   position: relative;
-  top: -550%;
+  margin-top: 7%;
 }
 #prototyping-dark-logo {
   position: relative;
-  top: -550%;
+  margin-top: 5%;
 }
 #prototyping-bold-text-three {
     color: #E2C8B1;
     position: relative;
     margin-left: 15%;
-    top:-400%;
-}
+    top:-175%;
+  }
 #prototype-multi-logo {
   position: relative;
-  top:-75%;
+  top:-30%;
 }
 #prototype-monochrome-logo {
   position: relative;
-  top:-75%;
+  top:-30%;
 }
 .prototyping-other-row {
     height: 30%;
