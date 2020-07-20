@@ -464,8 +464,7 @@ position: relative;
   position: relative;
 }
 .skills-list {
-  margin-top: -15%;
-  margin-left: 15%;
+    margin-left: 10%;
 }
 .skill-list-item {
   text-align: center;
@@ -561,13 +560,13 @@ p {
 }
 #summary-user-research-heading {
   position: relative;
-  margin-top:10%;
-  margin-left: 5%
+  margin-top:15%;
+  margin-left: 10%
 }
 #summary-tools-used-heading {
   position: relative;
-  margin-top:10%;
-  margin-left: 5%
+  margin-top:15%;
+  margin-left: 10%
 }
 #backToTopButton {
   position: fixed;
