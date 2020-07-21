@@ -1705,6 +1705,11 @@ position: absolute;
         position: relative;
       }
 
+      .row-third {
+          width: 100%;
+          margin-top: 15%;
+          position: relative;
+      }
       #hamburgerMenuToggle {
         display: block;
         position: relative;
@@ -2249,7 +2254,7 @@ position: absolute;
         summary
       */
       #summary-page-section {
-        height: 900px;
+        height: 1200px;
         padding-top: 10%;
       }
       #summary-heading {
@@ -2262,15 +2267,19 @@ position: absolute;
       }
       #summary-user-research-heading {
         position: relative;
-        top: 150px;
-      }
+        font-size: 1.625rem;
+        margin-left: -5%;
+        margin-top:20%;
+    }
       #summary-tools-used-heading {
         position :relative;
-        top: 450px;
+        margin-top: 140%;
+        font-size: 1.625rem;
+        margin-left: -5%;
       }
       #summary-user-research {
         position: relative;
-        top: 130px;
+        margin-top: -5%;
       }
       #summary-tools-used {
         position: relative;
@@ -2321,7 +2330,7 @@ position: absolute;
       }
       .solution-image {
         width: 27%;
-        margin-left: 2%;
+        margin-left: 3%;
         margin-right: 2%;
         height: 110%;
       }
@@ -2347,7 +2356,7 @@ position: absolute;
       ur
     */
     #ur-page-section {
-      height : 1100px;
+      height : 1200px;
       padding-top:  10%;
     }
     #ur-header {
@@ -2403,7 +2412,7 @@ position: absolute;
     #ur-link{
       color: #641B36;
       font-family: "Abel", sans-serif;
-      font-size: 1.225rem;
+      font-size: 1rem;
       position: absolute;
       top: 650%;
       margin-left: 144px;
@@ -2513,10 +2522,10 @@ position: absolute;
     }
 
     #ca-link {
-      font-size: 1.0rem;
-      position: absolute;
-      top: 300%;
-      margin-left: 25%;
+        font-size: 1rem;
+        position: absolute;
+        margin-top: 110%;
+        margin-left: 30%;
     }
 
     /*
@@ -2548,7 +2557,7 @@ position: absolute;
     #neha-bio {
       position: relative;
       top: 1800%;
-      margin-left: 10%;
+      margin-left: 20%;
       color: #641B36;
       font-size: 1.5rem;
     }
@@ -2556,9 +2565,8 @@ position: absolute;
     #neha-quote {
       position: relative;
       top: 2400%;
-      /* width: 250%; */
+      width: 85%;
       margin-left: 10%;
-      margin-right: 10%;
       color: #641B36;
       font-size: 1.225rem;
     }
@@ -2571,7 +2579,7 @@ position: absolute;
     #ty-bio {
       position: relative;
       top: 4400%;
-      margin-left: 10%;
+      margin-left: 20%;
       color: #641B36;
       font-size: 1.5rem;
     }
@@ -2581,7 +2589,7 @@ position: absolute;
       color: #641B36;
       font-size: 1.225rem;
       margin-left: 10%;
-      margin-right: 10%;
+      width: 85%;
     }
     .persona-motivations-row {
       display: none;
@@ -2594,7 +2602,7 @@ position: absolute;
     }
 
     #view-user-persona-link {
-      top: 700px;
+          top: 720px;
           font-size: 1.0rem;
           margin-left: 33%;
     }
@@ -2603,7 +2611,6 @@ position: absolute;
       top: 350%;
       margin-left: 5%;
       margin-right: 5%;
-      font-size: 1.225rem;
     }
 
   #persona-user-stories-image-one {
@@ -2628,7 +2635,7 @@ position: absolute;
   user flows
   */
   #user-flows-page-section {
-      height: 900px;
+      height: 700px;
   }
   #user-flows-column-two-header {
     margin-left: 10%;
@@ -2646,16 +2653,15 @@ position: absolute;
   }
   #user-flow-link {
     top: 50%;
-    font-size: 1.225rem;
-        /* left: 30%; */
-        margin-left: 32%;
+    font-size: 1rem;
+    margin-left: 35%;
   }
 
   /*
   wireframes
   */
 #wireframes-page-section {
-    height: 2500px;
+    height: 2600px;
 }
 
   #wireframes-column-two-header {
@@ -2671,7 +2677,9 @@ position: absolute;
 
   #wireframes-image-one{
       position: relative;
-      top: -13%;
+      margin-top: 20%;
+      margin-left: 5%;
+      width: 90%;
   }
 
   #mobile-wireframes {
@@ -2687,6 +2695,18 @@ position: absolute;
     position: relative;
     margin-left: 20%;
   }
+  #wireframes-row-three {
+    position: relative;
+    margin-top:-140%;
+  }
+  #wireframes-link {
+    position: relative;
+    margin-left: 30%;
+    color: #641B36;
+    font-family: "Abel", sans-serif;
+    font-size: 1rem;
+    top: 5%;
+}
 
   /*
     mockups
@@ -2710,33 +2730,27 @@ position: absolute;
     width: 50%;
     position: relative;
     margin-left: 20%;
-    margin-top: 20%;
-    top: -10%;
   }
 
   #mockups-image-2 {
     width: 50%;
     position: relative;
     margin-left: 20%;
-    margin-top: 20%;
-    margin-bottom: 15%;
-    top: 35%;
+    margin-top: 50%;
   }
 
   #mockups-image-3 {
     width: 50%;
     position: relative;
     margin-left: 20%;
-    margin-top: 20%;
-    margin-bottom: 15%;
-    top: 65%;
+    margin-top: 90%;
   }
 
   #mockups-link {
-    position: relative;
-    top: 40%;
-    font-size: 1.225rem;
-    margin-left: 34%;
+      position: relative;
+      top: 50%;
+      font-size: 1rem;
+      margin-left: 35%;
   }
 
 
@@ -2744,7 +2758,7 @@ position: absolute;
     branding
   */
   #branding-page-section {
-    height : 2300px;
+    height : 2100px;
   }
 
   #branding-page-section p{
@@ -2764,35 +2778,31 @@ position: absolute;
 
   #branding-image-one {
       position: relative;
-      top: 110%;
+      margin-top: 150%;
   }
   #branding-image-two {
       position: relative;
-      top: 300px;
-      width: 80%;
-      margin-left: -20%;
+      margin-top: -20%;
   }
   #branding-image-three {
     position: relative;
-    top: 400px;
-    width: 80%;
-    margin-left: -20%;
+    margin-top: -10%;
   }
   #branding-image-four {
     position: relative;
-    top: 587px;
+    margin-top: 30%;
     width: 80%;
     margin-left: 10%;
   }
 
   #branding-text-one {
     position: relative;
-    top: 311px;
+    margin-top: 100%;
   }
 
   #branding-text-two {
     position: relative;
-    top: 500%;
+    margin-top:100%;
   }
 
   /*
@@ -2800,7 +2810,7 @@ position: absolute;
   */
 
   #prototyping-page-section {
-    height: 1500px;
+    height: 1400px;
   }
 
   #prototyping-column-two-header {
@@ -2822,21 +2832,23 @@ position: absolute;
 
   #prototyping-bold-text-one {
     position: absolute;
-        font-size: 1.0rem;
-        margin-left: 5%;
-        top: -31%;
+    font-size: 1.0rem;
+    margin-left: 10%;
+        /* top: -31%; */
+    margin-top: 46%;
   }
 
   #prototyping-round-button {
     width: 30%;
     position: absolute;
-    margin-top: 26%;
+    margin-top: 7%;
+    margin-left: 5%;
   }
   #prototyping-square-button {
     width: 30%;
-        position: absolute;
-        top: -150%;
-        margin-left: 30%;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -29%;
   }
 
   .prototyping-smaller-row {
@@ -2846,23 +2858,23 @@ position: absolute;
 
   #prototyping-bold-text-two {
     position: absolute;
-        margin-left: 5%;
-        font-size: 1.0rem;
-        margin-top: 15%;
-        margin-left: 17%;
+    margin-left: 5%;
+    font-size: 1.0rem;
+    margin-top: 110%;
+    margin-left: 17%;
   }
 
   #prototyping-light-logo {
     width: 35%;
     position: absolute;
-    margin-left: -20%;
-    margin-top: 17%;
+    margin-left: -15%;
+    margin-top: 117%;
   }
   #prototyping-dark-logo {
     width: 35%;
     position: absolute;
-    margin-top: 15%;
-    margin-left: 20%;
+    margin-top: 115%;
+    margin-left: 25%;
   }
 
   #prototype-last-row {
@@ -2872,8 +2884,9 @@ position: absolute;
 
   #prototyping-bold-text-three {
     position: absolute;
-    margin-left: 5%;
+    margin-left: 1%;
     font-size: 1.0rem;
+    margin-top: 27%;
   }
 
   #prototype-multi-logo {
@@ -2881,7 +2894,7 @@ position: absolute;
     position: relative;
     margin-left: 0%;
     height: 200px;
-    top:35%;
+    margin-top: 30%;
   }
 
   #prototype-monochrome-logo {
@@ -2889,7 +2902,7 @@ position: absolute;
     position: relative;
     margin-left: 35%;
     height: 200px;
-    top:-65%;
+    margin-top: 12%;
   }
   /*
   conclusion
@@ -2911,22 +2924,22 @@ position: absolute;
 
   #conclusion-image-one {
     position: relative;
-    top: -153%;
+    margin-top: -120%;
     left:10%
   }
   #conclusion-image-two {
     position: relative;
-    top: 0%;
+    top: 30%;
   }
   #conclusion-image-three {
     position: relative;
-    top: 150%;
+    margin-top: 70%;
     padding:10%;
   }
 
   .conclusion-button {
     position: relative;
-        top: 30%;
+        margin-top: 175%;
         margin-left: 31%;
   }
   .back-to-top {
@@ -3781,7 +3794,6 @@ position: absolute;
     height: 1400px;
   }
   .wireframes-image-two {
-    FONT-WEIGHT: 100;
     margin-left: 10%;
     width: 20%;
     margin-top: 20%;
