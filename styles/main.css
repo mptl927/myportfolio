@@ -321,6 +321,9 @@ h5 {
     text-decoration: none;
     margin-top :10%;
 }
+.hero-button-home-page:hover {
+  background-color: #E2C8B1;
+}
 /*
   Nebula row
 */
@@ -361,6 +364,9 @@ h5 {
   line-height: 25px;
   position: relative;
 top: 38px;
+}
+.nebula-button:hover {
+  background-color: #641B36;
 }
 
 /*
@@ -460,8 +466,8 @@ position: relative;
   color: #641B36;
   font-family: "Abel", sans-serif;
   margin-top: .0025%;
-  text-align: center;
   position: relative;
+  margin-left: 10%;
 }
 .skills-list {
     margin-left: 10%;
@@ -646,7 +652,9 @@ p {
   top: 15%;
   text-decoration: none;
 }
-
+.hero-button:hover {
+   background-color: #E2C8B1;
+}
 
 /* Summary stuff */
 #summary-page-section {
@@ -1319,6 +1327,10 @@ p {
   margin-left: 43%;
   text-decoration: none;
 }
+.conclusion-button:hover {
+  background-color: #162753;
+  color:#FEACC6;
+}
 
 /*
   footer
@@ -1460,7 +1472,7 @@ body {
 }
 
 .about {
-  height: 2200px;
+  height: 1800px;
   background-color: inherit;
 }
 .about-column {
