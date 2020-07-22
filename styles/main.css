@@ -506,7 +506,7 @@ position: relative;
 }
 .footer-icons {
   display:inline;
-  margin-left: 9%;
+  margin-left: -5%;
   position: relative;
   top: -30%;
 }
@@ -567,12 +567,12 @@ p {
 #summary-user-research-heading {
   position: relative;
   margin-top:15%;
-  margin-left: 10%
+  margin-left: 40%
 }
 #summary-tools-used-heading {
   position: relative;
   margin-top:15%;
-  margin-left: 10%
+  margin-left: 45%
 }
 #backToTopButton {
   position: fixed;
@@ -1699,6 +1699,9 @@ position: absolute;
     .mobile-banner {
       display: none;
     }
+    .footer-icons {
+      margin-left: 9%;
+    }
 
 /*
   media queries -- mobile phone
@@ -1766,7 +1769,12 @@ position: absolute;
         -webkit-user-select: none;
         user-select: none;
       }
-
+      h4 {
+        margin-left: -10%;
+      }
+#skills-page-section {
+      height: 1200px;
+}
       #hamburgerMenuToggle a
       {
         text-decoration: none;
@@ -2028,15 +2036,14 @@ position: absolute;
       #bio-home-image {
         width: 300px;
         height: 250px;
-        margin-top:-20%;
       }
       #bio-link {
         color: #E2C8B1;
-        font-size: 1.625rem;
+        font-size: 1rem;
         font-family: "Abel", sans-serif;
-        padding-left: 17%;
+        margin-left: 35%;
         position: relative;
-        top: 375px;
+        top: 325px;
       }
 
       h5 {
@@ -2052,7 +2059,6 @@ position: absolute;
       }
 
       #skills-cell-1 {
-        padding-bottom:10%;
         border-bottom: 0px solid #dfdfdf;
         border-right: 0px solid #dfdfdf;
         text-align: center;
@@ -2078,10 +2084,13 @@ position: absolute;
         text-align: center;
         font-size: 1.2rem;
       }
-
+      .skills-heading {
+        margin-left: 5%;
+}
       #skills-heading-one {
         position: relative;
         top: 10px;
+        font-size: 1.625rem;
       }
       #skills-list-one {
         position: relative;
@@ -2089,7 +2098,9 @@ position: absolute;
       }
       #skills-heading-two {
         position: relative;
-            top: -312px;
+        top: -312px;
+        margin-left: -1%;
+        font-size: 1.625rem;
       }
       #skills-list-two {
         position: relative;
@@ -2098,6 +2109,7 @@ position: absolute;
       #skills-heading-three {
         position: relative;
         top: 10px;
+        font-size: 1.625rem;
       }
       #skills-list-three {
         position: relative;
@@ -2105,15 +2117,17 @@ position: absolute;
       }
       #skills-heading-four {
         position: relative;
-        top: -319px;
+        top: -300px;
+        font-size: 1.625rem;
+        margin-left: -3%;
       }
       #skills-list-four {
         position: relative;
-        top: -319px;
+        top: -300px;
       }
       #skills-blue-diamond1 {
         position: relative;
-            top: -303px;
+            top: -300px;
       }
       #skills-blue-diamond2 {
         position: relative;
@@ -2121,10 +2135,10 @@ position: absolute;
       }
       #skills-blue-flower2 {
         position: relative;
-            top: -530px;
+            top: -540px;
       }
       .skills-blue-flower {
-        margin-top:5%;
+        margin-top:-20%;
         width: 40px;
         height: 40px;
       }
@@ -2149,7 +2163,7 @@ position: absolute;
         color: #FFFFFF;
         font-size: 1.225rem;
         font-family: "Abel", sans-serif;
-        padding-right:10%;
+        width: 90%;
       }
 
 
@@ -2315,14 +2329,14 @@ position: absolute;
       #summary-user-research-heading {
         position: relative;
         font-size: 1.625rem;
-        margin-left: -5%;
+        margin-left: 30%;
         margin-top:20%;
     }
       #summary-tools-used-heading {
         position :relative;
         margin-top: 140%;
         font-size: 1.625rem;
-        margin-left: -5%;
+        margin-left: 35%;
       }
       #summary-user-research {
         position: relative;
