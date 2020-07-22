@@ -506,7 +506,7 @@ position: relative;
 }
 .footer-icons {
   display:inline;
-  margin-right: 5%;
+  margin-left: 9%;
   position: relative;
   top: -30%;
 }
@@ -1332,6 +1332,34 @@ p {
   color:#FEACC6;
 }
 
+#contact-button{
+    color: #162753;
+  font-family: "Abel", sans-serif;
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #4E9CAF;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  line-height: 25px;
+  background-color: #FEACC6;
+  position: relative;
+  margin-left: 43%;
+  text-decoration: none;
+  margin-top:10%;
+}
+#contact-button:hover {
+  background-color: #162753;
+  color:#FEACC6;
+}
+#about-page-contact {
+  color:#162753;
+  position: relative;
+  margin-top:20%;
+}
+
 /*
   footer
 */
@@ -1722,6 +1750,13 @@ position: absolute;
           margin-top: 15%;
           position: relative;
       }
+      #about-page-contact {
+        margin-left: 5%;
+        text-align: center;
+      }
+      #contact-button {
+        margin-left: 30%;
+      }
       #hamburgerMenuToggle {
         display: block;
         position: relative;
@@ -1972,8 +2007,8 @@ position: absolute;
          padding-left: 15%;
        }
       #footer-text {
-        font-size: 2rem;
-        margin-left:1%;
+        font-size: 1.775rem;
+        margin-left:20%;
       }
       .column-small {
         display: none;
@@ -3164,7 +3199,7 @@ position: absolute;
   }
 
   .hero {
-    height: 800px;
+    height: 600px;
   }
 
   #hero-heading {
@@ -3183,7 +3218,7 @@ position: absolute;
     display: inline;
     width: 100%;
     position: relative;
-    top: -291px;
+    margin-top: -65%;
   }
 
   #image-1 {
@@ -3212,7 +3247,6 @@ position: absolute;
   }
   #flower-banner-2 {
     position: relative;
-    top: -5%;
     display: block;
     margin-left:5%;
   }
@@ -3227,7 +3261,7 @@ position: absolute;
   }
 
   .about {
-    height: 1200px;
+    height: 1400px;
   }
 
   .about-column {
