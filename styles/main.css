@@ -510,7 +510,7 @@ position: relative;
   top: -30%;
 }
 .footer-linkedin{
-    margin-left:5%;
+    margin-left:-10%;
 }
 .footer-instagram{
     margin-left:5%;
@@ -1373,7 +1373,6 @@ p {
   font-weight: lighter;
   position: relative;
   top: 30%;
-  left:-10%;
 }
 #bottom-banner {
   width: 100%;
@@ -2026,7 +2025,7 @@ position: absolute;
        }
       #footer-text {
         font-size: 1.775rem;
-        margin-left:20%;
+        margin-left:15%;
       }
       .column-small {
         display: none;
@@ -2344,14 +2343,14 @@ position: absolute;
       #summary-user-research-heading {
         position: relative;
         font-size: 1.625rem;
-        margin-left: 30%;
+        left: -15%;
         margin-top:20%;
     }
       #summary-tools-used-heading {
         position :relative;
         margin-top: 140%;
         font-size: 1.625rem;
-        margin-left: 35%;
+        left: -15%;
       }
       #summary-user-research {
         position: relative;
