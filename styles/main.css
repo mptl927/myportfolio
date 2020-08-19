@@ -455,10 +455,12 @@ position: relative;
   width: 40px;
   height: 40px;
   margin-bottom: 2%;
+  margin-left: 10%;
 }
 .skills-blue-diamond {
   width: 85px;
   height: 60px;
+  margin-left: 10%;
 }
 .skills-heading {
   font-size: 2rem;
