@@ -342,6 +342,7 @@ h5 {
 #nebula-content {
   position: relative;
   text-align: left;
+  margin-top: 40%;
 }
 #nebula-column-image-two {
   position: relative;
@@ -1361,6 +1362,14 @@ p {
   margin-top:30%;
 }
 
+#contact-background-image {
+  background-image: url('../images/contact-page-image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
 /*
   footer
 */
@@ -1589,19 +1598,8 @@ body {
 /*
  contact
 */
-#contact-page-image {
-  width: 80%;
-  padding: 10%
-}
-#overlay {
-position: absolute;
-     top: 25%;
-     left: 0;
-     height: 216%;
-     width: 100%;
-     z-index: 10;
-     background-color: rgba(22, 39, 83, 0.9);
-   }
+
+
 #contact-page-header {
     color: #E2C8B1;
     font-family: "Abel", sans-serif;
@@ -1609,7 +1607,7 @@ position: absolute;
     font-size: 2rem;
     text-align: left;
     position: relative;
-    top: 5%;
+    top: 60px;
     margin-left: 10%;
   }
 
@@ -1627,6 +1625,7 @@ position: absolute;
       position: relative;
       margin-left: 10%;
       margin-top: 10%;
+      padding-bottom: 2%;
     }
   #fs-frm input, textarea {
     display: block;
@@ -3465,18 +3464,11 @@ position: absolute;
   #contact-footer {
     display: none;
   }
-  #contact-page {
-    position: relative;
-    height: 1000px;
-  }
-  #contact-page-image {
-    position: relative;
-    top: 15%;
-  }
+
+
   #contact-page-header {
     margin-left: 10%;
     margin-right: 10%;
-    top: 10%;
     position: relative;
     font-size: 2.0rem;
   }
