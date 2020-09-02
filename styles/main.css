@@ -473,6 +473,7 @@ position: relative;
 }
 .skills-list {
     margin-left: 10%;
+    margin-top: 2.5%;
 }
 .skill-list-item {
   text-align: center;
@@ -1700,13 +1701,18 @@ body {
       display: none;
     }
     .footer-icons {
-      margin-left: 9%;
+      margin-left: 24%;
     }
 
 /*
   media queries -- mobile phone
 */
 @media screen and (min-width: 375px) and (max-width: 480px){
+
+#skills-main-header {
+  font-size: 2rem;
+  margin-left: 2%;
+}
 
     .container {
         width: 100%;
@@ -2103,48 +2109,55 @@ body {
         position: relative;
         top: 10px;
         font-size: 1.625rem;
+        margin-left: 8%;
       }
       #skills-list-one {
         position: relative;
         top: 10px;
+        margin-left: 15%;
       }
       #skills-heading-two {
         position: relative;
         top: -312px;
         font-size: 1.625rem;
+        margin-left: 8%;
       }
       #skills-list-two {
         position: relative;
           top: -308px;
+          margin-left: 15%;
       }
       #skills-heading-three {
         position: relative;
         top: 10px;
         font-size: 1.625rem;
+        margin-left: 8%;
       }
       #skills-list-three {
         position: relative;
         top: 10px;
+        margin-left: 15%;
       }
       #skills-heading-four {
         position: relative;
         top: -300px;
         font-size: 1.625rem;
-        margin-left: -3%;
+        margin-left: 7%;
       }
       #skills-list-four {
         position: relative;
         top: -300px;
+        margin-left: 15%;
       }
       #skills-blue-diamond1 {
         position: relative;
         top: -305px;
-        margin-left: -15%;
+        margin-left: 5%;
       }
       #skills-blue-diamond2 {
         position: relative;
         top: 260px;
-        margin-left: -15%;
+        margin-left: 5%;
       }
       #skills-blue-flower2 {
         position: relative;
@@ -2154,7 +2167,7 @@ body {
         margin-top:-20%;
         width: 40px;
         height: 40px;
-        margin-left: -15%;
+        margin-left: 5%;
       }
 
 
@@ -3624,7 +3637,7 @@ body {
     font-size: 1.625rem;
     color: #641B36;
     font-family: "Abel", sans-serif;
-    margin-top: 20%;
+    margin-top: 5%;
     text-align: center;
     position: relative;
   }
@@ -3639,7 +3652,7 @@ body {
   }
   .skills-list {
     position: relative;
-    margin-top: -30%;
+    margin-top: -15%;
     margin-left: 20%;
   }
   #problem-header {
