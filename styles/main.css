@@ -1013,9 +1013,8 @@ p {
   color: #E2C8B1;
 }
 #user-flow-image {
-  width: 85%;
-  padding-left: 10%;
-  padding-right: 5%;
+  max-width: 100%;
+  height: 75%;
 
 }
 #user-flow-link {
@@ -1051,7 +1050,7 @@ p {
   text-align: left;
 }
 #wireframes-image-one {
-  margin-top: 15%;
+  margin-top: 5%;
 }
 .wireframes-image-two {
     margin-left: 12%;
@@ -2766,7 +2765,7 @@ body {
 
   #wireframes-image-one{
       position: relative;
-      margin-top: 20%;
+      margin-top: 15%;
       margin-left: 5%;
       width: 90%;
   }
