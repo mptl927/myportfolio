@@ -1174,6 +1174,9 @@ p {
   padding-right: 25%;
   top:-10%;
 }
+#branding-image-four {
+  margin-left: 10%;
+}
 .branding-row {
   height: 25%;
 }
@@ -1700,7 +1703,7 @@ body {
       display: none;
     }
     .footer-icons {
-      margin-left: 24%;
+      margin-left: 10%;
     }
 
 /*
@@ -1712,7 +1715,9 @@ body {
   font-size: 2rem;
   margin-left: 2%;
 }
-
+.footer-icons {
+  margin-left: 24%;
+}
     .container {
         width: 100%;
         overflow: hidden;
