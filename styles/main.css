@@ -840,7 +840,7 @@ p {
 }
 #ca-first-inner-row {
   position: relative;
-  top: 5%;
+  margin-top: 6%;
 }
 .ca-second-inner-row {
   height: 75%;
