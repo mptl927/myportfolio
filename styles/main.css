@@ -816,7 +816,12 @@ p {
   position: relative;
   height: 80%;
 }
-
+.strength {
+  font-weight: bold;
+}
+.weakness {
+  font-weight: bold;
+}
 #ur-link{
   color: #641B36;
   font-family: "Abel", sans-serif;
