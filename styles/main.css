@@ -2974,7 +2974,7 @@ body {
     position: relative;
     margin-top: 30%;
     width: 80%;
-    margin-left: 10%;
+    margin-left: 20%;
   }
 
   #branding-text-one {
@@ -3066,7 +3066,7 @@ body {
 
   #prototyping-bold-text-three {
     position: absolute;
-    margin-left: 1%;
+    margin-left: 5%;
     font-size: 1.0rem;
     margin-top: 27%;
   }
@@ -3074,7 +3074,7 @@ body {
   #prototype-multi-logo {
     width: 35%;
     position: relative;
-    margin-left: 0%;
+    margin-left: 10%;
     height: 200px;
     margin-top: 30%;
   }
@@ -4107,6 +4107,7 @@ body {
 #prototype-multi-logo {
   position: relative;
   top:-30%;
+  margin-left: 10%;
 }
 #prototype-monochrome-logo {
   position: relative;
