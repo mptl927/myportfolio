@@ -380,6 +380,9 @@ top: 38px;
   float: left;
   width: 40%;
 }
+#bio-column-image-two {
+      top: 67%;
+}
 #flower-banner-1 {
   display: none;
 }
@@ -771,6 +774,7 @@ p {
 }
 #person-right-column-image-2 {
   top: 60%;
+  margin-left: 0%;
 }
 #person-right-column-image-3 {
   top: 90%;
@@ -911,7 +915,7 @@ p {
 }
 /* Persona stuff*/
 #persona-page-section{
-  height: 3200px;
+  height: 2500px;
   padding-top: 5%;
 }
 #persona-blue-diamond{
@@ -934,24 +938,34 @@ p {
 .persona-motivations-row {
   height: 15%;
 }
+.persona-goals-row {
+  margin-top: 5%;
+}
 .persona-inner-column {
   padding-right: 15%;
 }
 
 .persona-frustrations-row {
   position: relative;
-  top: -121px;
+  margin-top: 0%;
 }
 .persona-user-stories-row {
   height: 15%;
+  margin-top: 15%;
 }
 #persona-user-stories-text {
   position: relative;
   top:-40%;
 }
+
+.persona-user-story-image {
+  margin: 5%;
+}
 #persona-user-stories-image-one{
   position: relative;
-  margin-top: -15%;
+}
+#persona-user-stories-image-two{
+  position: relative;
 }
 #persona-user-stories-image-two{
   position: relative;
@@ -1051,6 +1065,9 @@ p {
 }
 #wireframes-image-one {
   margin-top: 5%;
+}
+#wireframes-column-image-two {
+  margin-left: 0%;
 }
 .wireframes-image-two {
     margin-left: 12%;
@@ -1351,11 +1368,76 @@ p {
   line-height: 25px;
   background-color: #FEACC6;
   position: relative;
-  margin-left: 43%;
+  margin-left: 30%;
   text-decoration: none;
-  margin-top:10%;
+  margin-top:5%;
 }
 #contact-button:hover {
+  background-color: #162753;
+  color:#FEACC6;
+}
+#email-button{
+    color: #162753;
+  font-family: "Abel", sans-serif;
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #4E9CAF;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  line-height: 25px;
+  background-color: #FEACC6;
+  position: relative;
+  margin-left: 30%;
+  text-decoration: none;
+  margin-top:5%;
+}
+#email-button:hover {
+  background-color: #162753;
+  color:#FEACC6;
+}
+#email-button2{
+  color: #162753;
+  font-family: "Abel", sans-serif;
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #4E9CAF;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  line-height: 25px;
+  background-color: #FEACC6;
+  position: relative;
+  text-decoration: none;
+  margin-top:5%;
+}
+#email-button2:hover {
+  background-color: #E2C8B1;
+  color:#162753;
+}
+#resume-button{
+    color: #162753;
+  font-family: "Abel", sans-serif;
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #4E9CAF;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  line-height: 25px;
+  background-color: #FEACC6;
+  position: relative;
+  margin-left: 30%;
+  text-decoration: none;
+  margin-top:5%;
+}
+#resume-button:hover {
   background-color: #162753;
   color:#FEACC6;
 }
@@ -2102,7 +2184,6 @@ body {
         margin-left: -2%;
       }
       .skill-list-item {
-        padding-right: 50px;
         text-align: center;
         font-size: 1.2rem;
       }
@@ -2361,14 +2442,14 @@ body {
       #summary-user-research-heading {
         position: relative;
         font-size: 1.625rem;
-        left: -15%;
+        left: -10%;
         margin-top:20%;
     }
       #summary-tools-used-heading {
         position :relative;
         margin-top: 140%;
         font-size: 1.625rem;
-        left: -15%;
+        left: -10%;
       }
       #summary-user-research {
         position: relative;
@@ -2626,7 +2707,7 @@ body {
     */
 
     #persona-page-section {
-      height: 1700px;
+      height: 3500px;
     }
 
     #persona-header {
@@ -2642,14 +2723,12 @@ body {
 
     #neha-image {
       position: relative;
-      top: 860%;
       width: 50%;
       margin-left: 25%;
     }
 
     #neha-bio {
       position: relative;
-      top: 1800%;
       margin-left: 20%;
       color: #641B36;
       font-size: 1.5rem;
@@ -2657,7 +2736,7 @@ body {
 
     #neha-quote {
       position: relative;
-      top: 2400%;
+      margin-top:90%;
       width: 85%;
       margin-left: 10%;
       color: #641B36;
@@ -2665,20 +2744,20 @@ body {
     }
     #ty-image {
       position: relative;
-      top: 2700%;
       width: 50%;
       margin-left: 25%;
+      margin-top: 95%;
     }
     #ty-bio {
       position: relative;
-      top: 4400%;
+      margin-top: 100%;
       margin-left: 20%;
       color: #641B36;
       font-size: 1.5rem;
     }
     #ty-quote {
       position: relative;
-      top: 4000%;
+      margin-top: 155%;
       color: #641B36;
       font-size: 1.225rem;
       margin-left: 10%;
@@ -2695,21 +2774,21 @@ body {
     }
 
     #view-user-persona-link {
-          top: 720px;
+          top: 450px;
           font-size: 1.0rem;
           margin-left: 33%;
     }
     #persona-user-stories-text {
       position: relative;
-      top: 360%;
+      margin-top: 175%;
       margin-left: 5%;
       margin-right: 5%;
     }
 
   #persona-user-stories-image-one {
     position: absolute;
-    top: 475%;
     margin-bottom:  5%;
+    margin-top: -30%;
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
@@ -2717,13 +2796,18 @@ body {
 
   #persona-user-stories-image-two {
     position: absolute;
-    top: 550%;
-    margin-top:  5%;
+    margin-top:  125%;
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
   }
-
+  #persona-user-stories-image-three {
+    position: absolute;
+    margin-top:  280%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
   /*
   user flows
   */
