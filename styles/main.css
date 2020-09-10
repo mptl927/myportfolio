@@ -3637,7 +3637,10 @@ body {
        width: 40%;
      }
    }
+
+
 @media screen and (min-width: 481px) and (max-width: 768px){
+
   .container {
     overflow: hidden
   }
@@ -3737,8 +3740,18 @@ body {
   #summary-blue-diamond {
     transform: rotateY(180deg);
     width: 214%;
-      left: -65%;
-      top: 77%;
+    left: -65%;
+    top: 77%;
+  }
+  #summary-user-research-heading {
+    position: relative;
+    margin-top: 25%;
+    margin-left: 13%;
+  }
+  #summary-tools-used-heading {
+    position: relative;
+    margin-top: 25%;
+    margin-left: 13%;
   }
   .skill-list-item {
     font-size: 1.225rem;
@@ -3857,7 +3870,7 @@ body {
 
   #ca-first-inner-row {
     position: relative;
-    margin-top: 10%;
+    margin-top: 20%;
   }
   .ca-second-inner-row{
     top: -10%;
@@ -3933,21 +3946,29 @@ body {
     margin-left: 5%;
   }
   .persona-frustrations-row {
-    margin-top: 15%;
     position: relative;
     margin-left: 5%;
+  }
+  .persona-user-stories-row {
+    height: 15%;
+    margin-top: 45%;
   }
   #view-user-persona-link {
       position: relative;
       margin-left: 35%;
       font-size: 1.225rem;
-      top:5%;
+      top: -160px;
   }
   #persona-page-section{
     height: 2400px;
   }
   #persona-user-stories-text {
     font-size: 1.225rem;
+  }
+
+  .persona-user-story-image {
+    width: 30%;
+    margin: 0%;
   }
 
   #user-flows-page-section {
@@ -3965,6 +3986,9 @@ body {
   }
   #wireframes-page-section {
     height: 1400px;
+  }
+  #wireframes-image-one {
+    margin-top: 15%;
   }
   .wireframes-image-two {
     margin-left: 10%;
