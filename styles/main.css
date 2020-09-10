@@ -316,7 +316,7 @@ h5 {
     font-size: 1rem;
     font-family: "Abel", sans-serif;
     border-radius: 6px;
-    width: 30%;
+    width: 20%;
     position:relative;
     text-decoration: none;
     margin-top :10%;
@@ -1402,7 +1402,7 @@ p {
   color: #162753;
   font-family: "Abel", sans-serif;
   display: block;
-  width: 115px;
+  width: 20%;
   height: 25px;
   background: #4E9CAF;
   padding: 10px;
@@ -2082,7 +2082,9 @@ body {
           height: 30%;
           position:relative;
           text-decoration: none;
-          margin-left: 20%;
+      }
+      #email-button2 {
+        width: 50%;
       }
       #desktop-nav-links {
         display:none;
