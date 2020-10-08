@@ -24,54 +24,45 @@
 .column {
   float: left;
   width: 70%;
-  height: 100%;
   position: relative;
 }
 .column-half {
   float: left;
   width: 50%;
-  height: 100%;
   position: relative;
 }
 .column-quarter {
   float: left;
   width: 25%;
-  height: 100%;
   position: relative;
 }
 .column-third {
   float: left;
   width: 33%;
-  height: 100%;
   position: relative;
 }
 .column-small {
   float: left;
   width: 10%;
-  height: 100%;
   position: relative;
 }
 .column-big {
   float: left;
   width: 80%;
-  height: 100%;
   position: relative;
 }
 
 /*rows*/
 .row {
   width: 100%;
-  height: 50%;
   position: relative;
 }
 .row-half {
   width: 100%;
-  height: 50%;
   position: relative;
 }
 .row-quarter {
   width: 100%;
-  height: 25%;
   position: relative;
 }
 .row-third {
@@ -81,17 +72,14 @@
 }
 .row-big {
   width: 100%;
-  height: 90%;
   position: relative;
 }
 .row-small {
   width: 100%;
-  height: 10%;
   position: relative;
 }
 .row-smallest {
   width: 100%;
-  height: 5%;
   position: relative;
 }
 
@@ -99,7 +87,6 @@
 .full-image {
   position: relative;
   width: 100%;
-  height: 100%;
 }
 .full-width-image {
   position: relative;
@@ -115,7 +102,6 @@
   width: 90%;
   padding-left: 5%;
   padding-right: 5%;
-  transform: rotateY(180deg);
 }
 .column-mid-image {
   position: absolute;
@@ -287,10 +273,11 @@ h5 {
 }
 #hero-column-header {
     margin-bottom: 5%;
+    margin-top: 20%;
 }
 #hero-flower-image {
   position: relative;
-  top: 15%;
+  margin-top: 10%;
   margin-left: 20%;
 }
 
@@ -335,18 +322,20 @@ h5 {
 }
 #nebula-neb-image {
   width: 573px;
-      position: relative;
-      padding-top: 8%;
-      padding-left: 15%;
+  position: relative;
+  padding-top: 8%;
+  margin-left: 30%;
 }
 #nebula-content {
   position: relative;
   text-align: left;
   margin-top: 40%;
+  margin-left: 20%;
 }
 #nebula-column-image-two {
   position: relative;
-  top: 65%;
+  margin-top: 250%;
+  margin-left: 75%;
 }
 .nebula-button {
   background-color: #162753;
@@ -381,7 +370,8 @@ top: 38px;
   width: 40%;
 }
 #bio-column-image-two {
-      top: 67%;
+  margin-top: 300%;
+  margin-left: 75%;
 }
 #flower-banner-1 {
   display: none;
@@ -394,9 +384,9 @@ top: 38px;
 }
 
 #bio-content-1 {
-  padding-top: 20%;
-  padding-left: 15%;
-}
+  margin-top: 20%;
+  margin-left: 50%;
+  width: 100%;}
 #bio-content-2 {
   padding-top:20%;
   padding-left: 10%;
@@ -411,12 +401,13 @@ top: 38px;
 #bio-home-image {
   width: 418px;
   height: 433px;
+  margin-left: 50%;
 }
 #bio-link {
   color: #E2C8B1;
   font-size: 1.625rem;
   font-family: "Abel", sans-serif;
-  margin-left: 15%;
+  margin-left: 50%;
   top: 50px;
 position: relative;
 }
@@ -532,7 +523,8 @@ position: relative;
 }
 
 #footer-bottom-image {
-  top: 40%;
+  margin-top: 100%;
+  margin-left: 75%;
 }
 
 
@@ -618,12 +610,7 @@ p {
   background-color: #162753;
   height: 1400px;
 }
-#hero-row {
-  height: 60%;
-}
-#hero-row-small {
-    height: 40%;
-}
+
 #hero-neb-image {
   position: relative;
   top: 20%;
@@ -671,9 +658,6 @@ p {
   transform: rotateY(180deg);
 }
 
-.summary-row-two {
-  height: 60%;
-}
 /* Problem stuff*/
 
 #problem-page-section {
@@ -714,9 +698,7 @@ p {
   height: 1200px;
   padding-top: 5%;
 }
-#solution-smaller-row {
-  height: 30%;
-}
+
 #solution-bigger-row {
   height: 70%;
   top:-10%;
@@ -780,18 +762,13 @@ p {
   top: 90%;
 }
 
-#ur-row-smaller {
-  height: 25%;
-}
 .ur-row-bigger {
   height: 30%;
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
 }
-#ur-row-small {
-  height: 4%;
-}
+
 .ur-image {
   width: 45%;
   padding-top: 2%;
@@ -837,12 +814,7 @@ p {
   background-color: #162753;
   padding-top: 5%;
 }
-.ca-first-row {
-  height: 35%;
-}
-.ca-second-row {
-  height: 55%;
-}
+
 #ca-first-inner-row {
   position: relative;
   margin-top: 6%;
@@ -937,12 +909,6 @@ p {
   font-size: 1.625rem;
   color: #641B36;
 }
-.persona-names-row {
-  height: 3%;
-}
-.persona-motivations-row {
-  height: 15%;
-}
 .persona-goals-row {
   margin-top: 5%;
 }
@@ -955,7 +921,6 @@ p {
   margin-top: 0%;
 }
 .persona-user-stories-row {
-  height: 15%;
   margin-top: 15%;
 }
 #persona-user-stories-text {
@@ -1033,8 +998,6 @@ p {
 }
 #user-flow-image {
   max-width: 100%;
-  height: 75%;
-
 }
 #user-flow-link {
   position: relative;
@@ -1048,11 +1011,7 @@ p {
   color: #F2F2F2;
 }
 #user-flow-row-1 {
-  height: 20%;
   padding-top: 10%;
-}
-#user-flow-row-2 {
-  height: 70%;
 }
 
 .user-flow-column-image {
@@ -1096,12 +1055,6 @@ p {
 #wireframes-row-one {
   padding-top: 10%;
 }
-#wireframes-row-two {
-  height: 35%;
-}
-#wireframes-row-three {
-  height: 35%;
-}
 #wireframes-link {
     position: relative;
     margin-left: 40%;
@@ -1128,11 +1081,7 @@ p {
 .mockups-text{
   color: #F2F2F2;
 }
-#mockups-row-1 {
-  height: 35%;
-}
 #mockups-row-2 {
-  height: 65%;
   top:-10%;
 }
 #mockups-image-1 {
@@ -1199,12 +1148,9 @@ p {
 #branding-image-four {
   margin-left: 10%;
 }
-.branding-row {
-  height: 25%;
-}
+
 .branding-other-row {
   padding-top: 5%;
-  height: 20%;
 }
 
 /*
@@ -1283,16 +1229,11 @@ p {
 #prototyping-logos-row {
   top: 10%;
 }
-.prototyping-row-one {
-  height: 30%;
-}
 .prototyping-smaller-row {
-  height: 15%;
   top:-5%;
 }
 .prototyping-other-row {
-  height: 30%;
-      top: 1%;
+  top: 1%;
 }
 
 /*
@@ -1307,11 +1248,7 @@ p {
   padding-bottom: 2%;
 }
 
-.conclusion-row-one {
-  height: 60%;
-}
 .conclusion-row-two {
-  height: 30%;
   top:-1%;
 }
 #conclusion-column-two-header {
@@ -1473,7 +1410,8 @@ p {
   font-family: "Abel", sans-serif;
   font-weight: lighter;
   position: relative;
-  top: 30%;
+  margin-left: 30%;
+  margin-bottom:5%;
 }
 #bottom-banner {
   width: 100%;
@@ -1658,11 +1596,7 @@ body {
   text-align: center;
 }
 .footer-diamond-image {
-  height: 20%;
   top: 70%;
-}
-.footer-flower-image {
-  height: 20%;
 }
 #footer-text {
   color:#FFFFFF;
@@ -1790,7 +1724,7 @@ body {
       display: none;
     }
     .footer-icons {
-      margin-left: 10%;
+      margin-left: 40%;
     }
 
 /*
@@ -1813,35 +1747,30 @@ body {
       .column-big {
         float: left;
         width: 100%;
-        height: 80%;
         position: relative;
       }
 
       .column-small {
         float: left;
         width: 100%;
-        height: 10%;
         position: relative;
       }
 
       .column-third {
         float: left;
         width: 100%;
-        height: 33%;
         position: relative;
       }
 
       .column-quarter {
         float: left;
         width: 100%;
-        height: 25%;
         position: relative;
       }
 
       .column-half {
         float: left;
         width: 100%;
-        height: 50%;
         position: relative;
       }
 
@@ -2110,11 +2039,9 @@ body {
         }
         #nebula-column-two {
           width: 100%;
-          height: 50%;
         }
         #nebula-column-three {
           width: 100%;
-          height: 30%;
         }
         #nebula-neb-image {
          width : 200px;
@@ -2258,14 +2185,8 @@ body {
         margin-left: -2%;
       }
 
-
-      .column-half {
-        height: 40%;
-      }
-
       .bio-column {
         float: left;
-        height: 40%;
         width: 100%;
       }
       #bio-column-image-one {
@@ -2503,18 +2424,13 @@ body {
         margin-left: 10%;
         margin-right: 10%;
       }
-      #solution-smaller-row {
-        height: 60%;
-      }
       #solution-bigger-row {
-        height: 40%;
         padding-top: 10%;
       }
       .solution-image {
         width: 27%;
         margin-left: 3%;
         margin-right: 2%;
-        height: 110%;
       }
 
     /*
@@ -3610,16 +3526,6 @@ body {
     position: relative;
     top: 25px;
   }
-  #overlay {
-      position: absolute;
-       top: 10%;
-       left: 0;
-       height: 100%;
-       width: 100%;
-       z-index: 10;
-       top:-1%;
-       background-color: rgba(22, 39, 83, 0.9);
-    }
      .footer-page-section {
          height: 250px;
      }
@@ -3646,9 +3552,6 @@ body {
 
   .container {
     overflow: hidden
-  }
-  #overlay {
-    height: 138%;
   }
   #hero-column-header {
     font-size: 2.225rem;
@@ -3686,7 +3589,6 @@ body {
   }
   #bio-home-image {
     width: 100%;
-    height: 75%;
     padding-left: 15%;
   }
   h5 {
@@ -3939,7 +3841,6 @@ body {
     margin-left: 2%;
   }
   .persona-motivations-row {
-      height: 15%;
       top:-10%;
       position: relative;
       margin-left: 5%;
@@ -3953,7 +3854,6 @@ body {
     margin-left: 5%;
   }
   .persona-user-stories-row {
-    height: 15%;
     margin-top: 45%;
   }
   #view-user-persona-link {
@@ -4117,12 +4017,10 @@ body {
   top:-30%;
 }
 .prototyping-other-row {
-    height: 30%;
     top: -2%;
 }
   .prototyping-smaller-row {
-    height: 15%;
-        top: -14%;
+    top: -14%;
   }
   #prototype-last-row {
     position: relative;
@@ -4137,7 +4035,6 @@ body {
   }
 
   .conclusion-row-two {
-      height: 30%;
       padding-top: 15%;
       top: 0%;
   }
@@ -4236,9 +4133,4 @@ body {
 }
 #skills-page-section{
   height: 900px;
-}
-#overlay{
-  height: 80%;
-  top:15%;
-}
 }
