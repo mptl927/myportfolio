@@ -330,7 +330,8 @@ h5 {
   position: relative;
   text-align: left;
   margin-top: 40%;
-  margin-left: 20%;
+  margin-left: 25%;
+  width: 100%;
 }
 #nebula-column-image-two {
   position: relative;
@@ -1736,6 +1737,10 @@ body {
   font-size: 2rem;
   margin-left: 2%;
 }
+#bio-content-1 {
+  margin-top:10%;
+  margin-left: 10%;
+}
 .footer-icons {
   margin-left: 24%;
 }
@@ -2006,7 +2011,7 @@ body {
           text-align: center;
           font-weight: bold;
           line-height: 25px;
-
+          margin-left: 20%;
           background-color: #FEACC6;
           color: #162753;
           font-size: 1rem;
@@ -2019,6 +2024,7 @@ body {
       }
       #email-button2 {
         width: 50%;
+        margin-left: 20%;
       }
       #desktop-nav-links {
         display:none;
@@ -2045,10 +2051,9 @@ body {
         }
         #nebula-neb-image {
          width : 200px;
-         /*width: 100%;*/
          position: relative;
-         padding-top: 7%;
          padding-left: 15%;
+         padding-bottom: 10%;
        }
       #footer-text {
         font-size: 1.775rem;
@@ -2061,7 +2066,7 @@ body {
         top:-10%;
       }
       #nebula-content {
-        padding-left: 10%;
+        margin-left: 10%;
         text-align: center;
         margin-top:10%
       }
@@ -2073,6 +2078,8 @@ body {
       #bio-home-image {
         width: 300px;
         height: 250px;
+        margin-left: -1%;
+        margin-top:-15%;
       }
       #bio-link {
         color: #E2C8B1;
@@ -2146,23 +2153,23 @@ body {
       }
       #skills-heading-three {
         position: relative;
-        top: 10px;
+        top: -541px;
         font-size: 1.625rem;
         margin-left: 8%;
       }
       #skills-list-three {
         position: relative;
-        top: 10px;
+        top: -538px;
       }
       #skills-heading-four {
         position: relative;
-        top: -300px;
+        top: -837px;
         font-size: 1.625rem;
         margin-left: 4%;
       }
       #skills-list-four {
         position: relative;
-        top: -300px;
+        top: -830px;
       }
       #skills-blue-diamond1 {
         position: relative;
@@ -2171,12 +2178,12 @@ body {
       }
       #skills-blue-diamond2 {
         position: relative;
-        top: 260px;
+        top: -283px;
         margin-left: -2%;
       }
       #skills-blue-flower2 {
         position: relative;
-            top: -540px;
+        top: -1091px;
       }
       .skills-blue-flower {
         margin-top:-20%;
@@ -3576,7 +3583,6 @@ body {
   #nebula-neb-image {
     width: 75%;
     padding-top: 15%;
-    padding-left:10%;
   }
   h3 {
     font-size: 1.625rem;
@@ -3589,10 +3595,14 @@ body {
   }
   #bio-home-image {
     width: 100%;
-    padding-left: 15%;
+    height: 75%;
+    margin-top:15%;
+  }
+  #bio-content-1 {
+    margin-left: 25%;
   }
   h5 {
-    font-size: 2rem;
+    font-size: 1.625rem;
     margin-top:10%;
   }
   #bio-text {
@@ -3600,10 +3610,10 @@ body {
     width: 120%;
   }
   #bio-link{
-    padding-left:15%;
     font-size: 1.225rem;
     position: relative;
     top:15px;
+    margin-left: 25%;
   }
   #footer-text{
     font-size: 2.5rem;
