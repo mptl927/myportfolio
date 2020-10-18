@@ -173,6 +173,7 @@ h3 {
   font-family: "Abel", sans-serif;
   font-size: 2rem;
   font-weight: lighter;
+  margin-left: 20%;
 }
 h4 {
   color: #641B36;
@@ -282,14 +283,16 @@ h5 {
 }
 
 #hero-neb-text {
-  top: 10%;
+  margin-top: 5%;
   position: relative;
   text-align: center;
+  margin-left: 25%;
 }
 #hero-neb-smaller-text {
-  top: 10%;
+  margin-top: 2%;
   position: relative;
   text-align: center;
+  margin-left: 25%;
 }
 .hero-button-home-page {
     display: block;
@@ -467,7 +470,7 @@ position: relative;
   margin-left: 10%;
 }
 .skills-list {
-    margin-left: 10%;
+    margin-left: 50%;
     margin-top: 2.5%;
 }
 .skill-list-item {
@@ -562,16 +565,17 @@ p {
   font-size: 1.625rem;
   line-height: 1.5em;
   margin-top:2%;
+  margin-left: 20%;
 }
 #summary-user-research-heading {
   position: relative;
   margin-top:15%;
-  margin-left: 40%
+  margin-left: 60%
 }
 #summary-tools-used-heading {
   position: relative;
   margin-top:15%;
-  margin-left: 45%
+  margin-left: 65%
 }
 #backToTopButton {
   position: fixed;
@@ -614,8 +618,8 @@ p {
 
 #hero-neb-image {
   position: relative;
-  top: 20%;
-  margin-left: 20%;
+  margin-top: 10%;
+  margin-left: 35%;
   width: 60%;
 }
 #hero-heading {
@@ -642,8 +646,8 @@ p {
   line-height: 25px;
   background-color: #FEACC6;
   position: relative;
-  margin-left: 45%;
-  top: 15%;
+  margin-left: 58%;
+  margin-top: 5%;
   text-decoration: none;
 }
 .hero-button:hover {
@@ -701,8 +705,7 @@ p {
 }
 
 #solution-bigger-row {
-  height: 70%;
-  top:-10%;
+  margin-left: 15%;
 }
 
 .solution-image {
@@ -766,8 +769,8 @@ p {
 .ur-row-bigger {
   height: 30%;
   width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
+  margin-left: 25%;
+  margin-top: 8%;
 }
 
 .ur-image {
@@ -806,7 +809,7 @@ p {
   font-size: 1.625rem;
   position: relative;
   top: 80%;
-  margin-left: 45%;
+  margin-left: 60%;
 }
 
 /* competitive analysis section */
@@ -844,31 +847,40 @@ p {
   color: #F2F2F2;
 }
 #ca-google-drive-image {
-  margin-left: 10%;
+  margin-left: 80%;
 }
 #ca-dropbox-image {
-  margin-left: 15%;
+  margin-left: 60%;
 }
 #ca-onedrive-image {
   width: 80%;
+  margin-left: 40%;
 }
 .ca-google-list {
   font-family: "Abel", sans-serif;
   font-size: 1.625rem;
   color: #E2C8B1;
-  margin: 15% 0 10px 0;
+  /* margin: 0% 11px 10px 0; */
+  position: relative;
+  left: -523px;
 }
 .ca-dropbox-list {
   font-family: "Abel", sans-serif;
-  font-size: 1.625rem;
-  color: #E2C8B1;
-  margin: 15% 0 10px 0;
+      font-size: 1.625rem;
+      color: #E2C8B1;
+      /* margin: 15% 0 10px 0; */
+      position: relative;
+      left: 600px;
+      top: -49px;
 }
 .ca-onedrive-list {
   font-family: "Abel", sans-serif;
-  font-size: 1.625rem;
-  color: #E2C8B1;
-  margin: 15% 0 10px 0;
+      font-size: 1.625rem;
+      color: #E2C8B1;
+      /* margin: 15% 0 10px 0; */
+      position: relative;
+      left: 665px;
+      top: -82px;
 }
 .ca-list-header {
   font-weight: bold;
@@ -879,7 +891,8 @@ p {
   font-family: "Abel", sans-serif;
   font-size: 1.625rem;
   position: relative;
-  margin-left: 35%;
+  margin-left: 20%;
+  top: 108px;
 }
 #strengths-row {
   position: relative;
@@ -890,6 +903,19 @@ p {
   top: -20%;
 }
 #ca-dropbox-weaknesses {
+  position: relative;
+    left: -779px;
+    top: 66px;
+}
+#ca-onedrive-strengths {
+  position: relative;
+      left: -113px;
+      top: 25px;
+}
+#ca-onedrive-weaknesses {
+  position: relative;
+      left: 279px;
+      top: 25px;
 }
 /* Persona stuff*/
 #persona-page-section{
@@ -923,6 +949,7 @@ p {
 }
 .persona-user-stories-row {
   margin-top: 15%;
+  margin-left: 15%;
 }
 #persona-user-stories-text {
   position: relative;
@@ -955,19 +982,27 @@ p {
   color: #162753;
   position: relative;
   font-size: 1.5rem;
+  padding-top: 30%;
+  margin-left: 75%;
 }
 #ty-quote {
   width: 100%;
   position: relative;
   font-size: 1.5rem;
+  padding-top:30%;
+  margin-left: 90%;
 }
 #neha-image{
   width: 100%;
   position: relative;
+  margin-left: 70%;
+  padding-top: 25%;
 }
 #ty-image {
   width: 100%;
   position: relative;
+  margin-left: 90%;
+  padding-top: 25%;
 }
 .neha-info {
   color:#162753;
@@ -991,14 +1026,16 @@ p {
 */
 #user-flows-page-section {
   background-color: #162753;
-  height: 1400px;
+  height: 2200px;
 }
 #user-flows-column-two-header {
   text-align: left;
   color: #E2C8B1;
 }
 #user-flow-image {
-  max-width: 100%;
+margin-left: 15%;
+margin-top: 5%;
+margin-bottom: 5%;
 }
 #user-flow-link {
   position: relative;
@@ -1006,7 +1043,7 @@ p {
   font-family: "Abel", sans-serif;
   font-size: 1.625rem;
   top: 5%;
-  margin-left: 45%;
+  margin-left: 55%;
 }
 .user-flow-text {
   color: #F2F2F2;
@@ -1030,15 +1067,17 @@ p {
 }
 #wireframes-image-one {
   margin-top: 5%;
+  margin-left: 15%;
 }
 #wireframes-column-image-two {
   margin-left: 0%;
 }
 .wireframes-image-two {
     margin-left: 12%;
-      /* width: 55%; */
-      margin-top: 30%;
       display: visible;
+}
+#wireframes-row-three {
+  margin-left: 15%;
 }
 #mobile-wireframes {
   display: none;
@@ -1062,7 +1101,7 @@ p {
     color: #641B36;
     font-family: "Abel", sans-serif;
     font-size: 1.625rem;
-    top: 5%;
+    top:15px;
 }
 
 
@@ -2134,7 +2173,7 @@ body {
         position: relative;
         top: 10px;
         font-size: 1.625rem;
-        margin-left: 8%;
+        margin-left: 5%;
       }
       #skills-list-one {
         position: relative;
@@ -2155,7 +2194,7 @@ body {
         position: relative;
         top: -541px;
         font-size: 1.625rem;
-        margin-left: 8%;
+        margin-left: 5%;
       }
       #skills-list-three {
         position: relative;
