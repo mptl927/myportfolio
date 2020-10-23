@@ -3765,9 +3765,11 @@ body {
       position: relative;
       margin-top: 20%;
   }
-  #process-page-section {
-    height: 500px;
-  }
+  #solution-bigger-row {
+    margin-left: 12%;
+    margin-top: -10%;
+}
+
   #process-header {
     font-size: 1.625rem;
   }
@@ -3788,11 +3790,12 @@ body {
       padding-left: 2%;
       padding-right: 2%;
       position: relative;
-      margin-top:15%;
+      margin-left: -2%;
   }
   #ur-link {
-    font-size: 1.225rem;
-    margin-left: 40%;
+      font-size: 1.225rem;
+      margin-left: 52%;
+      top: 10px;
   }
   #ca-page-section {
     height: 1200px;
@@ -3811,13 +3814,13 @@ body {
     top:45%;
   }
   #ca-google-drive-image {
-    margin-top:20%;
+    margin-top:150%;
   }
   #ca-dropbox-image {
-    margin-top:20%;
+    margin-top:150%;
   }
   #ca-onedrive-image {
-    margin-top:20%;
+    margin-top:150%;
   }
   #ca-dropbox-strengths {
     position: relative;
@@ -3952,28 +3955,29 @@ body {
   }
 
   #user-flows-page-section {
-    height: 900px;
+    height: 1000px;
   }
   .user-flow-text {
     font-size: 1.225rem;
   }
   #user-flow-image {
-      padding-top: 15%;
+    width: 70%;
+    margin-left: 20%;
   }
   #user-flow-link {
     font-size: 1.225rem;
-    margin-left:40%;
+    margin-left:45%;
   }
   #wireframes-page-section {
-    height: 1400px;
+    height: 1200px;
   }
   #wireframes-image-one {
-    margin-top: 15%;
+    margin-left: 15%;
   }
   .wireframes-image-two {
     margin-left: 10%;
     width: 20%;
-    margin-top: 20%;
+    margin-top: 10%;
   }
   #wireframes-text {
     font-size: 1.225rem;
@@ -4011,10 +4015,10 @@ body {
   }
   #mockups-link {
     font-size: 1.225rem;
-    margin-left:40%;
+    margin-left:5%;
   }
   #branding-page-section {
-    height: 2200px;
+    height: 2250px;
   }
   .branding-text-content {
       font-size: 1.225rem;
@@ -4026,9 +4030,17 @@ body {
     margin-top: 5%;
   }
   #branding-image-one {
-      padding-left: 25%;
-      padding-right: 25%;
-      margin-top:20%;
+      margin-left: 30%;
+  }
+  #branding-image-two {
+    margin-left: 30%;
+  }
+  #branding-image-three {
+    margin-left: 30%;
+  }
+  #branding-image-four {
+    margin-left: 20%;
+    margin-top: 0%;
   }
   .row-third {
       width: 100%;
@@ -4042,7 +4054,7 @@ body {
 
 
   #prototyping-page-section {
-    height: 1800px;
+    height: 1500px;
   }
 
   .prototyping-text {
@@ -4051,47 +4063,43 @@ body {
 
   #prototyping-round-button {
     position: relative;
-    margin-top: -85%;
+    margin-left: 40%;
   }
   #prototyping-square-button {
     position: relative;
-    margin-top: -85%;
+    margin-left: 40%;
   }
 
   #prototyping-bold-text-one {
     color: #E2C8B1;
     position: relative;
-    margin-left: 19%;
-    margin-top: 50%;
+    margin-left: 30%;
   }
   #prototyping-bold-text-two {
     color: #E2C8B1;
     position: relative;
-    margin-left: 27%;
-    margin-top:25%;
+    margin-left: 40%;
 }
 #prototyping-light-logo {
   position: relative;
-  margin-top: 7%;
+  margin-left: 40%;
 }
 #prototyping-dark-logo {
   position: relative;
-  margin-top: 5%;
+  margin-left: 40%;
 }
 #prototyping-bold-text-three {
     color: #E2C8B1;
     position: relative;
-    margin-left: 15%;
-    top:-175%;
+    margin-left: 25%;
   }
 #prototype-multi-logo {
   position: relative;
-  top:-30%;
-  margin-left: 10%;
+  margin-left: 40%;
 }
 #prototype-monochrome-logo {
   position: relative;
-  top:-30%;
+  margin-left: 40%;
 }
 .prototyping-other-row {
     top: -2%;
@@ -4105,7 +4113,7 @@ body {
   }
 
 #conclusion-page-section {
-  height: 1500px;
+  height: 1700px;
 }
   .conclusion-text-content {
     font-size: 1.225rem;
@@ -4115,7 +4123,15 @@ body {
       padding-top: 15%;
       top: 0%;
   }
-
+#conclusion-image-one {
+  margin-top: -75%;
+}
+#conclusion-image-two {
+  margin-top: -75%;
+}
+#conclusion-image-three {
+  margin-top: -75%;
+}
   .conclusion-button {
     color: #162753;
     font-family: "Abel", sans-serif;
@@ -4130,7 +4146,7 @@ body {
     line-height: 25px;
     background-color: #FEACC6;
     position: relative;
-    margin-left: 38%;
+    margin-left: 55%;
     text-decoration: none;
 }
 
