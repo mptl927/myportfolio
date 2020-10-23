@@ -2062,16 +2062,19 @@ body {
        margin-left: 10%;
       }
       #hero-neb-image {
-        width: 60%;
+        margin-top: 30%;
+        margin-left: 20%;
       }
       #hero-neb-text {
-        top: -7%;
-        margin-right: 5%;
+        margin-left: 5%;
+      }
+      #hero-neb-smaller-text {
+        margin-left: 5%;
       }
       .hero-button {
-        margin-left: 30%;
+        margin-left: 35%;
         position: relative;
-        top: 30%;
+        margin-top: 20%;
       }
       .nav-logo {
         height: 50px;
@@ -2445,22 +2448,20 @@ body {
       #summary-user-research-heading {
         position: relative;
         font-size: 1.625rem;
-        left: -10%;
-        margin-top:20%;
+        margin-left: 30%;
     }
       #summary-tools-used-heading {
         position :relative;
         margin-top: 140%;
         font-size: 1.625rem;
-        left: -10%;
+        margin-left: 35%;
       }
       #summary-user-research {
         position: relative;
-        margin-top: -5%;
+        margin-top: -140%;
       }
       #summary-tools-used {
         position: relative;
-        top: 350px;
       }
 
       /*
@@ -2504,7 +2505,8 @@ body {
         margin-right: 10%;
       }
       #solution-bigger-row {
-        padding-top: 10%;
+        margin-top: 5%;
+        margin-left: 1%;
       }
       .solution-image {
         width: 27%;
@@ -2579,7 +2581,7 @@ body {
 
     .ur-row-bigger {
       position: relative;
-      top: 10%;
+      margin-left: 10%;
     }
     #ur-row-small {
       position: relative;
