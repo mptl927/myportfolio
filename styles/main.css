@@ -598,8 +598,7 @@ p {
     padding-left: 15px;
 }
 .nav-links {
-  float: right;
-  left:-5%
+  margin-top:15%;
 }
 .nav-link {
     display: inline-block;
@@ -917,6 +916,17 @@ p {
       left: 279px;
       top: 25px;
 }
+
+#ca-google-drive-strengths {
+  position: relative;
+  top: 80px;
+}
+
+#ca-google-drive-weaknesses {
+  position: relative;
+  top: 90px;
+}
+
 /* Persona stuff*/
 #persona-page-section{
   height: 2500px;
@@ -1005,12 +1015,27 @@ p {
   padding-top: 25%;
 }
 .neha-info {
-  color:#162753;
+  color: #162753;
   font-size: 1.5rem;
+  position: relative;
+  margin-top: 10%;
+  margin-left: -60%;
+  width: 100%;
+}
+
+#neha-bio {
+  position: relative;
+  margin-top: 5%;
+  left:-5%;
+  top:20px;
 }
 .ty-info {
-  color:#162753;
-  font-size: 1.5rem;
+  color: #162753;
+      font-size: 1.5rem;
+      position: relative;
+      /* margin-top: 10%; */
+      margin-left: 210%;
+      width: 100%;
 }
 #view-user-persona-link {
   position: relative;
@@ -1021,6 +1046,20 @@ p {
   top: -201px;
 }
 
+#tys-motivations {
+  position: relative;
+  margin-top: -416px;
+}
+
+#neha-goals {
+  position: relative;
+  margin-left:  50%;
+}
+#ty-goals {
+  position: relative;
+      margin-left: -98%;
+      margin-top: 4%;
+}
 /*
   User flows stuff
 */
@@ -2610,7 +2649,7 @@ body {
 
     #ca-google-drive-strengths {
       font-size: 1.0rem;
-          position: relative;
+        position: relative;
           top: 78%;
           margin-left: 20%;
     }
@@ -2693,7 +2732,6 @@ body {
 
     #neha-bio {
       position: relative;
-      margin-left: 20%;
       color: #641B36;
       font-size: 1.5rem;
     }
@@ -3656,16 +3694,12 @@ body {
     height: 750px;
   }
   #hero-neb-text {
-    top:0%;
+    margin-left: 35%;
     font-size: 3rem;
   }
   #hero-neb-smaller-text {
     top:5%;
-    padding-left: 10%;
     text-align: left;
-  }
-  .hero-button {
-    margin-left:40%;
   }
   .summary-text-content {
     font-size: 1.225rem;
@@ -3694,12 +3728,12 @@ body {
   #summary-user-research-heading {
     position: relative;
     margin-top: 25%;
-    margin-left: 13%;
+    margin-left: 50%;
   }
   #summary-tools-used-heading {
     position: relative;
     margin-top: 25%;
-    margin-left: 13%;
+    margin-left: 50%;
   }
   .skill-list-item {
     font-size: 1.225rem;
@@ -3707,7 +3741,7 @@ body {
   .skills-list {
     position: relative;
     margin-top: -15%;
-    margin-left: 20%;
+    margin-left: 53%;
   }
   #problem-header {
     font-size: 1.625rem;
