@@ -2535,7 +2535,7 @@ body {
       ur
     */
     #ur-page-section {
-      height : 1200px;
+      height : 1250px;
       padding-top:  10%;
     }
     #ur-header {
@@ -2565,18 +2565,14 @@ body {
       top: 24px;
     }
     #ur-image-three {
-      margin-top: 5%;
       margin-left: 5%;
       margin-right: 5%;
       width: 90%;
-      top: 124px;
     }
     #ur-image-four {
-      margin-top : 5%;
       margin-left: 5%;
       margin-right: 5%;
       width : 90%;
-      top: 104px;
     }
 
     .ur-row-bigger {
@@ -2830,7 +2826,7 @@ body {
   }
 
   #user-flow-image {
-    top: 40%;
+    width: 70%;
   }
   #user-flow-link {
     top: 50%;
@@ -2870,7 +2866,8 @@ body {
   }
   .wireframes-mobile-image{
     width: 75%;
-    margin-left: 10%;
+    margin-left: -5%;
+    margin-top:5%;
   }
   .wireframes-mobile-text {
     position: relative;
@@ -2878,7 +2875,6 @@ body {
   }
   #wireframes-row-three {
     position: relative;
-    margin-top:-140%;
   }
   #wireframes-link {
     position: relative;
@@ -2886,7 +2882,8 @@ body {
     color: #641B36;
     font-family: "Abel", sans-serif;
     font-size: 1rem;
-    top: 5%;
+    margin-top: 5%;
+    left:-25%;
 }
 
   /*
@@ -2910,28 +2907,27 @@ body {
   #mockups-image-1 {
     width: 50%;
     position: relative;
-    margin-left: 20%;
+    margin-left: 5%;
   }
 
   #mockups-image-2 {
     width: 50%;
     position: relative;
-    margin-left: 20%;
-    margin-top: 50%;
+    margin-left: 5%;
+    margin-top: 10%;
   }
 
   #mockups-image-3 {
     width: 50%;
     position: relative;
-    margin-left: 20%;
-    margin-top: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
   }
 
   #mockups-link {
       position: relative;
-      top: 50%;
       font-size: 1rem;
-      margin-left: 35%;
+      margin-left: 25%;
   }
 
 
@@ -2959,32 +2955,29 @@ body {
 
   #branding-image-one {
       position: relative;
-      margin-top: 150%;
+      margin-left: 25%;
   }
   #branding-image-two {
       position: relative;
-      margin-top: -20%;
+      margin-left: 25%;
+      margin-top: -10%;
   }
   #branding-image-three {
     position: relative;
-    margin-top: -10%;
+    margin-left: 25%;
+    margin-top: -5%;
   }
   #branding-image-four {
     position: relative;
-    margin-top: 30%;
     width: 80%;
     margin-left: 20%;
   }
 
   #branding-text-one {
     position: relative;
-    margin-top: 100%;
+    margin-top: -20%;
   }
 
-  #branding-text-two {
-    position: relative;
-    margin-top:100%;
-  }
 
   /*
   prototyping
@@ -3015,21 +3008,19 @@ body {
     position: absolute;
     font-size: 1.0rem;
     margin-left: 10%;
-        /* top: -31%; */
-    margin-top: 46%;
   }
 
   #prototyping-round-button {
     width: 30%;
     position: absolute;
-    margin-top: 7%;
-    margin-left: 5%;
+    margin-top: 20%;
+    margin-left: 15%;
   }
   #prototyping-square-button {
     width: 30%;
     position: absolute;
-    margin-left: 30%;
-    margin-top: -29%;
+    margin-left: 55%;
+    margin-top: 20%;
   }
 
   .prototyping-smaller-row {
