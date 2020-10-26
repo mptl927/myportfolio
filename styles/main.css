@@ -1872,6 +1872,7 @@ body {
       #about-page-contact {
         text-align: center;
         font-size: 2rem;
+        margin-top:0%;
       }
       #contact-button {
         margin-left: 30%;
@@ -2133,6 +2134,7 @@ body {
       #footer-text {
         font-size: 1.775rem;
         margin-left:15%;
+        margin-top: 30%;
       }
       .column-small {
         display: none;
@@ -2935,7 +2937,7 @@ body {
     branding
   */
   #branding-page-section {
-    height : 2100px;
+    height : 2150px;
   }
 
   #branding-page-section p{
@@ -3032,21 +3034,21 @@ body {
     position: absolute;
     margin-left: 5%;
     font-size: 1.0rem;
-    margin-top: 110%;
+    margin-top: 55%;
     margin-left: 17%;
   }
 
   #prototyping-light-logo {
     width: 35%;
     position: absolute;
-    margin-left: -15%;
-    margin-top: 117%;
+    margin-left: 15%;
+    margin-top: 80%;
   }
   #prototyping-dark-logo {
     width: 35%;
     position: absolute;
-    margin-top: 115%;
-    margin-left: 25%;
+    margin-top: 80%;
+    margin-left: 55%;
   }
 
   #prototype-last-row {
@@ -3058,23 +3060,22 @@ body {
     position: absolute;
     margin-left: 5%;
     font-size: 1.0rem;
-    margin-top: 27%;
+    margin-top: 80%;
   }
 
   #prototype-multi-logo {
     width: 35%;
     position: relative;
-    margin-left: 10%;
+    margin-left: 15%;
     height: 200px;
-    margin-top: 30%;
+    margin-top:105%;
   }
 
   #prototype-monochrome-logo {
     width: 35%;
     position: relative;
-    margin-left: 35%;
-    height: 200px;
-    margin-top: 12%;
+    margin-left: 55%;
+    margin-top: -50%;
   }
   /*
   conclusion
@@ -3096,23 +3097,24 @@ body {
 
   #conclusion-image-one {
     position: relative;
-    margin-top: -120%;
-    left:10%
+    margin-top: 1%;
+    margin-left:-5%
   }
   #conclusion-image-two {
     position: relative;
-    top: 30%;
+    margin-top: 15%;
+    margin-left: -12%;
   }
   #conclusion-image-three {
     position: relative;
-    margin-top: 70%;
-    padding:10%;
+    margin-top: 15%;
+    margin-left:-22%;
   }
 
   .conclusion-button {
     position: relative;
-        margin-top: 175%;
-        margin-left: 31%;
+    margin-top: 525%;
+    margin-left: 35%;
   }
   .back-to-top {
       position: fixed;
@@ -3329,7 +3331,7 @@ body {
 
   #hero-heading {
     font-size: 1.5rem;
-    margin-top:-10%;
+    margin-top:30%;
   }
 
   #hero-gold-flower {
@@ -3341,7 +3343,7 @@ body {
     display: inline;
     width: 100%;
     position: relative;
-    margin-top: -65%;
+    margin-top: 25%;
   }
 
   #image-1 {
