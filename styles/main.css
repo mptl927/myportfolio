@@ -606,7 +606,9 @@ p {
     padding-bottom: 15px;
     padding-left: 15px;
 }
-
+.nav-links {
+  margin-top:15%;
+}
 .nav-link {
     display: inline-block;
     float: left;
@@ -756,20 +758,20 @@ p {
   top: 10%;
 }
 #person-left-column-image-2 {
-  top: 40%;
+  top: 650px;
 }
 #person-left-column-image-3 {
-  top: 70%;
+  top: 1200px;
 }
 #person-right-column-image-1 {
   top: 30%;
 }
 #person-right-column-image-2 {
-  top: 60%;
-  margin-left: 0%;
+  top: 650px;
+  margin-left: 30%;
 }
 #person-right-column-image-3 {
-  top: 90%;
+  top: 1200px;
 }
 
 .ur-row-bigger {
@@ -970,7 +972,7 @@ p {
 }
 #persona-user-stories-text {
   position: relative;
-  top:-40%;
+  left: -12%;
 }
 
 .persona-user-story-image {
@@ -1040,7 +1042,7 @@ p {
   color: #162753;
       font-size: 1.5rem;
       position: relative;
-      /* margin-top: 10%; */
+      margin-top: 10%;
       margin-left: 210%;
       width: 100%;
 }
@@ -1050,7 +1052,7 @@ p {
   font-family: "Abel", sans-serif;
   color: #641B36;
   font-size: 1.625rem;
-  top: -201px;
+  margin-top: 10%;
 }
 
 #tys-motivations {
@@ -1060,12 +1062,21 @@ p {
 
 #neha-goals {
   position: relative;
-  margin-left:  50%;
+  margin-left:  48%;
 }
 #ty-goals {
   position: relative;
-      margin-left: -98%;
-      margin-top: 4%;
+      margin-left: -96%;
+}
+
+#neha-frustrations {
+  position: relative;
+  margin-left: 50%;
+  margin-top: 10%;
+}
+#ty-frustrations {
+  position: relative;
+  margin-top: -25%;
 }
 /*
   User flows stuff
