@@ -2649,13 +2649,13 @@ body {
     }
     .ca-dropbox-list {
       font-size: 1.2rem;
-      margin-top: 5%;
+      margin-top: 2%;
       margin-left: 10%;
-      margin-right: 30%;
+      margin-right: 0%;
     }
     .ca-onedrive-list {
       font-size: 1.2rem;
-      margin-top: 5%;
+      margin-top: 2%;
       margin-left: 10%;
       margin-right: 30%;
     }
@@ -2668,53 +2668,54 @@ body {
 
     #ca-google-drive-strengths {
       font-size: 1.0rem;
-        position: relative;
-          top: 78%;
-          margin-left: 20%;
+      position: relative;
+      margin-top: -245%;
+      margin-left: 174%;
     }
     #ca-google-drive-weaknesses {
       font-size: 1.0rem;
-          position: relative;
-          top: -43%;
-          left: 18%;
+      position: relative;
+      margin-top: -254%;
+      margin-left: 173%;
     }
 
     #ca-dropbox-image {
-        position: relative;
-        top: 650%;
-        margin-left: 35%;
-        width: 20%;
+      position: relative;
+          margin-top: 100%;
+          margin-left: 34%;
+          width: 25%;
     }
     #ca-dropbox-strengths {
       font-size: 1.0rem;
           position: relative;
-          top: 375%;
-          margin-left: 19%;
+          margin-top: -84%;
+          margin-left: -159%;
     }
     #ca-dropbox-weaknesses {
+      margin-top: -113%;
       font-size: 1.0rem;
-          position: relative;
-          top: 220%;
-          margin-left: 19%;
+      position: relative;
+      /* top: 220%; */
+      margin-left: 73%;
     }
 
     #ca-onedrive-image {
-        position: relative;
-        top: 720px;
-        margin-left: 20%;
-        width: 40%;
+      position: relative;
+      margin-top: 77%;
+      margin-left: 22%;
+      width: 40%;
     }
     #ca-onedrive-strengths {
       font-size: 1.0rem;
-      position: relative;
-      top: 600px;
-      margin-left: 20%;
+          position: relative;
+          margin-top: 18%;
+          margin-left: -150%;
     }
     #ca-onedrive-weaknesses {
       font-size: 1.0rem;
           position: relative;
-          top: 499px;
-          margin-left: 20%;
+          margin-top: 0%;
+          margin-left: -266%;
     }
 
     #ca-link {
@@ -2747,42 +2748,46 @@ body {
       position: relative;
       width: 50%;
       margin-left: 25%;
+      margin-top: -20%;
     }
 
     #neha-bio {
       position: relative;
-      color: #641B36;
-      font-size: 1.5rem;
+          color: #641B36;
+          font-size: 1.5rem;
+          margin-top: -106%;
+          margin-left: 20%;
     }
 
     #neha-quote {
       position: relative;
-      margin-top:90%;
-      width: 85%;
-      margin-left: 10%;
-      color: #641B36;
-      font-size: 1.225rem;
+          margin-top: 10%;
+          width: 85%;
+          margin-left: 12%;
+          color: #641B36;
+          font-size: 1.225rem;
+          padding-top: 0%;
     }
     #ty-image {
       position: relative;
       width: 50%;
       margin-left: 25%;
-      margin-top: 95%;
+      margin-top: 35%;
     }
     #ty-bio {
       position: relative;
-      margin-top: 100%;
-      margin-left: 20%;
-      color: #641B36;
-      font-size: 1.5rem;
-    }
+          margin-top: 15%;
+          margin-left: 20%;
+          color: #641B36;
+          font-size: 1.5rem;
+      }
     #ty-quote {
       position: relative;
-      margin-top: 155%;
-      color: #641B36;
-      font-size: 1.225rem;
-      margin-left: 10%;
-      width: 85%;
+          margin-top: -110%;
+          color: #641B36;
+          font-size: 1.225rem;
+          margin-left: 10%;
+          width: 85%;
     }
     .persona-motivations-row {
       display: none;
@@ -2795,37 +2800,36 @@ body {
     }
 
     #view-user-persona-link {
-          top: 450px;
           font-size: 1.0rem;
-          margin-left: 33%;
+          margin-left: 20%;
     }
     #persona-user-stories-text {
       position: relative;
-      margin-top: 175%;
-      margin-left: 5%;
-      margin-right: 5%;
+          margin-top: 10%;
+          margin-left: 5%;
+          margin-right: 5%;
     }
 
   #persona-user-stories-image-one {
-    position: absolute;
-    margin-bottom:  5%;
-    margin-top: -30%;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+    position: relative;
+        margin-bottom: 5%;
+        margin-top: 10%;
+        margin-left: 0%;
+        margin-right: 10%;
+        width: 80%;
   }
 
   #persona-user-stories-image-two {
-    position: absolute;
-    margin-top:  125%;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+    position: relative;
+        margin-top: 20%;
+        margin-left: 0%;
+        margin-right: 10%;
+        width: 80%;
   }
   #persona-user-stories-image-three {
-    position: absolute;
-    margin-top:  280%;
-    margin-left: 10%;
+    position: relative;
+    margin-top: 20%;
+    margin-left: 0%;
     margin-right: 10%;
     width: 80%;
   }
@@ -3825,7 +3829,8 @@ body {
   }
   #ca-google-drive-strengths {
     position: relative;
-    top:45%;
+        margin-top: -28%;
+        margin-left: 166%;
   }
   #ca-google-drive-image {
     margin-top:150%;
@@ -3838,11 +3843,15 @@ body {
   }
   #ca-dropbox-strengths {
     position: relative;
-    top:45%;
+        /* top: 45%; */
+        margin-left: -210%;
+        margin-top: -17%;
   }
   #ca-onedrive-strengths {
     position: relative;
-    top:45%;
+    /* top: 45%; */
+    margin-left: -190%;
+    margin-top: -14%;
   }
   #ca-google-drive-weaknesses {
     position: relative;
