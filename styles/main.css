@@ -3844,26 +3844,39 @@ body {
   #ca-dropbox-strengths {
     position: relative;
         /* top: 45%; */
-        margin-left: -210%;
+        margin-left: -214%;
+        margin-right: 200%;
         margin-top: -17%;
   }
   #ca-onedrive-strengths {
     position: relative;
     /* top: 45%; */
     margin-left: -190%;
+    margin-right: 200%;
     margin-top: -14%;
   }
   #ca-google-drive-weaknesses {
     position: relative;
-    top:40%;
+    /* top: 40%; */
+    margin-left: 165%;
+    line-height: 2rem;
+    width: 75%;
   }
   #ca-dropbox-weaknesses {
     position: relative;
-    top:40%;
+    /* top: 40%; */
+    margin-left: 292%;
+    margin-top: -64%;
+    width: 75%;
+    line-height: 2rem;
   }
   #ca-onedrive-weaknesses {
     position: relative;
-    top:40%;
+    margin-left: -268%;
+    top: 0%;
+    left: 0%;
+    line-height: 2rem;
+    width: 75%;
   }
   .ca-onedrive-list {
     font-size: 1.225rem;
@@ -3873,7 +3886,9 @@ body {
   }
   #ca-link {
     font-size: 1.225rem;
-    margin-left:30%;
+        top: 125px;
+        left: -20%;
+        margin-left: 0%;
   }
 
   #ca-first-inner-row {
@@ -3908,7 +3923,7 @@ body {
       position: relative;
       font-size: 1rem;
       margin-top: 100%;
-      margin-left: -100%;
+      margin-left: -60%;
   }
 
   #ty-image {
@@ -3916,28 +3931,57 @@ body {
   }
   #neha-bio {
     font-size: 1.225rem;
-    position: relative;
-    top: -80%;
-    margin-left: 10%;
-    width: 100%;
+        position: relative;
+        margin-top: 10%;
+        margin-left: -110%;
+        width: 100%;
   }
   #ty-bio {
     font-size: 1.225rem;
-    position: relative;
-    top: -80%;
-    margin-left: 10%;
-    width: 100%;
+        position: relative;
+        /* top: -80%; */
+        margin-left: 175%;
+        width: 100%;
+        margin-top: 0%;
   }
   .neha-info {
     font-size: 1.225rem;
     position: relative;
     top: 50%;
+    margin-left: -85%;
   }
   .ty-info {
     font-size: 1.225rem;
     position: relative;
     top: 50%;
   }
+
+  #tys-motivations {
+    position: relative;
+    margin-top: -89%;
+    margin-left: -15%;
+  }
+  #nehas-motivations {
+    position: relative;
+    margin-top: 5%;
+    margin-left: -10%;
+  }
+
+  #neha-frustrations {
+    position: relative;
+    margin-left: 35%;
+    margin-top: 0%;
+  }
+  #ty-frustrations {
+    position: relative;
+    margin-top: -40%;
+    margin-left: -14%;
+  }
+
+  #neha-goals {
+        margin-left: 35%;
+  }
+
   .persona-names-row {
     position: relative;
     padding-top:8%;
@@ -3963,10 +4007,10 @@ body {
       position: relative;
       margin-left: 35%;
       font-size: 1.225rem;
-      top: -160px;
+      top: 575px;
   }
   #persona-page-section{
-    height: 2400px;
+    height: 2200px;
   }
   #persona-user-stories-text {
     font-size: 1.225rem;
@@ -3974,7 +4018,8 @@ body {
 
   .persona-user-story-image {
     width: 30%;
-    margin: 0%;
+    margin: 1%;
+    margin-top:5%;
   }
 
   #user-flows-page-section {
