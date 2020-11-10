@@ -2730,7 +2730,7 @@ body {
     */
 
     #persona-page-section {
-      height: 3500px;
+      height: 3200px;
     }
 
     #persona-header {
@@ -2814,7 +2814,7 @@ body {
     position: relative;
         margin-bottom: 5%;
         margin-top: 10%;
-        margin-left: 0%;
+        margin-left: -5%;
         margin-right: 10%;
         width: 80%;
   }
@@ -2822,14 +2822,14 @@ body {
   #persona-user-stories-image-two {
     position: relative;
         margin-top: 20%;
-        margin-left: 0%;
+        margin-left: -5%;
         margin-right: 10%;
         width: 80%;
   }
   #persona-user-stories-image-three {
     position: relative;
     margin-top: 20%;
-    margin-left: 0%;
+    margin-left: -5%;
     margin-right: 10%;
     width: 80%;
   }
@@ -3927,7 +3927,7 @@ body {
   }
 
   #ty-image {
-    margin-left:50%;
+    margin-left:100%;
   }
   #neha-bio {
     font-size: 1.225rem;
@@ -3949,6 +3949,9 @@ body {
     position: relative;
     top: 50%;
     margin-left: -85%;
+  }
+  #neha-image {
+    margin-left: 10%;
   }
   .ty-info {
     font-size: 1.225rem;
@@ -4030,11 +4033,11 @@ body {
   }
   #user-flow-image {
     width: 70%;
-    margin-left: 20%;
+    margin-left: 28%;
   }
   #user-flow-link {
     font-size: 1.225rem;
-    margin-left:45%;
+    margin-left:50%;
   }
   #wireframes-page-section {
     height: 1200px;
@@ -4097,17 +4100,9 @@ body {
     position: relative;
     margin-top: 5%;
   }
-  #branding-image-one {
-      margin-left: 30%;
-  }
-  #branding-image-two {
-    margin-left: 30%;
-  }
-  #branding-image-three {
-    margin-left: 30%;
-  }
+
+
   #branding-image-four {
-    margin-left: 20%;
     margin-top: 0%;
   }
   .row-third {
