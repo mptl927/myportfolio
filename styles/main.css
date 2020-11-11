@@ -668,9 +668,28 @@ p {
   padding-top: 2.5%;
 }
 #summary-blue-diamond {
-  transform: rotateY(180deg);
+  position: relative;
+      transform: rotateY(180deg);
+      margin-top: 565%;
 }
-
+#sumamry-blue-flower {
+  position: relative;
+}
+#summary-red-diamond{
+  position: relative;
+}
+#summary-red-flower {
+  position: relative;
+  margin-top: 445%;
+}
+.summary-row-one {
+  position: relative;
+  margin-left: -10%;
+}
+.summary-row-two {
+  position: relative;
+  margin-left: -10%;
+}
 /* Problem stuff*/
 
 #problem-page-section {
@@ -1071,8 +1090,8 @@ p {
 
 #neha-frustrations {
   position: relative;
-  margin-left: 50%;
-  margin-top: 10%;
+  margin-left: 48%;
+  margin-top: 4%;
 }
 #ty-frustrations {
   position: relative;
@@ -1128,6 +1147,8 @@ margin-bottom: 5%;
 }
 #wireframes-column-image-two {
   margin-left: 0%;
+      margin-top: 1125%;
+
 }
 .wireframes-image-two {
     margin-left: 12%;
@@ -1148,6 +1169,9 @@ margin-bottom: 5%;
 }
 #wireframes-column-image-three {
   top: 30%;
+}
+#wireframes-column-image-four {
+  margin-top: 1135%;
 }
 #wireframes-row-one {
   padding-top: 10%;
@@ -1244,9 +1268,35 @@ margin-bottom: 5%;
   margin-left: 25%;
   margin-top:5%;
 }
-
+#branding-column-image-one {
+  position: relative;
+}
+#branding-column-image-two {
+  position: relative;
+  margin-top: 600%;
+}
+#branding-column-image-three {
+  position: relative;
+  margin-top: 1200%;
+}
+#branding-column-image-four {
+  position: relative;
+}
+#branding-column-image-five {
+  position: relative;
+  margin-top: 600%;
+}
+#branding-column-image-six {
+  position: relative;
+  margin-top: 1200%;
+}
+.branding-row {
+  position: relative;
+  margin-left: -10%;
+}
 .branding-other-row {
   padding-top: 5%;
+  margin-left: -10%;
 }
 
 /*
@@ -1312,18 +1362,51 @@ margin-bottom: 5%;
   margin-top: 10%;
   margin-left: 50%;
 }
-#prototype-last-row{
+.prototyping-last-row{
     top: -10%;
+    margin-left: -10%;
+    position: relative;
 }
-#prototyping-logos-row {
+.prototyping-logos-row {
   top: 10%;
+  margin-left: -10%;
+  position: relative;
 }
 .prototyping-smaller-row {
   top:-5%;
+  margin-left: -16%;
+  position: relative;
 }
 .prototyping-other-row {
   top: 1%;
+  margin-left: -10%;
+  position: relative;
 }
+.prototyping-row-one {
+  top: 1%;
+  margin-left: -10%;
+  position: relative;
+}
+
+#prototype-column-image-one {
+  position: relative;
+}
+#prototype-column-image-two {
+  position: relative;
+  margin-top: 500%;
+}
+#prototype-column-image-three {
+  position: relative;
+  margin-top: 700%;
+}
+#prototype-column-image-four {
+  position: relative;
+}
+#prototype-column-image-five {
+  position: relative;
+  margin-top: 650%;
+}
+
 
 /*
   Conclusion
@@ -1336,10 +1419,14 @@ margin-bottom: 5%;
   padding-top: 2%;
   padding-bottom: 2%;
 }
-
-.conclusion-row-two {
+.conclusion-row-one {
+  position: relative;
   margin-top:15%;
-  margin-left: 15%;
+  margin-left: -10%;
+}
+.conclusion-row-two {
+  position: relative;
+  margin-top:15%;
 }
 #conclusion-column-two-header {
   text-align: left;
@@ -1362,6 +1449,20 @@ margin-bottom: 5%;
   padding-left: 20%;
   position: relative;
   margin-top: -40%;
+}
+#conclusion-column-image-one{
+  position: relative;
+}
+#conclusion-column-image-two{
+  position: relative;
+  margin-top: 1100%;
+}
+#conclusion-column-image-three{
+  position: relative;
+}
+#conclusion-column-image-four{
+  position: relative;
+  margin-top: 1100%;
 }
 
 .conclusion-button {
@@ -2225,7 +2326,7 @@ body {
       }
       .skills-heading {
         margin-left: -2%;
-}
+      }
       #skills-heading-one {
         position: relative;
         top: 10px;
@@ -2487,6 +2588,9 @@ body {
         margin-left: 0%;
       }
 
+      .summary-row-one {
+        margin-left: 0%;
+      }
       /*
         problem
       */
@@ -3433,6 +3537,11 @@ body {
   #bottom-banner {
     width: 100%;
   }
+  #case-study-bottom-banner {
+    position: relative;
+    /* margin-top: 22%; */
+    bottom: -12%;
+  }
 
   /*
   contact
@@ -3625,7 +3734,7 @@ body {
     top: 25px;
   }
      .footer-page-section {
-         height: 250px;
+         height: 400px;
      }
      #contact-message {
        width: 75%;
@@ -3643,7 +3752,8 @@ body {
      #email-address {
        width: 40%;
      }
-   }
+}
+/*  end of  mobile phone*/
 
 
 @media screen and (min-width: 481px) and (max-width: 768px){
@@ -3741,9 +3851,10 @@ body {
   }
   #summary-blue-diamond {
     transform: rotateY(180deg);
-    width: 214%;
-    left: -65%;
-    top: 77%;
+        width: 214%;
+        margin-left: -50%;
+        margin-top: 900%;
+        position: relative;
   }
   #summary-user-research-heading {
     position: relative;
@@ -3913,11 +4024,12 @@ body {
     font-size: 1.225rem;
   }
   #neha-quote {
-      width: 200%;
-      color: #162753;
-      position: relative;
-      font-size: 1rem;
-      margin-top: 100%;
+    width: 200%;
+        color: #162753;
+        position: relative;
+        font-size: 1rem;
+        margin-top: 100%;
+        margin-left: 130%;
   }
   #ty-quote {
       width: 200%;
@@ -3933,16 +4045,16 @@ body {
   }
   #neha-bio {
     font-size: 1.225rem;
-        position: relative;
-        margin-top: 10%;
-        margin-left: -110%;
-        width: 100%;
+    position: relative;
+    margin-top: 10%;
+    margin-left: -86%;
+    width: 100%;
   }
   #ty-bio {
     font-size: 1.225rem;
         position: relative;
         /* top: -80%; */
-        margin-left: 175%;
+        margin-left: 178%;
         width: 100%;
         margin-top: 0%;
   }
@@ -3953,7 +4065,7 @@ body {
     margin-left: -85%;
   }
   #neha-image {
-    margin-left: 10%;
+    margin-left: 60%;
   }
   .ty-info {
     font-size: 1.225rem;
@@ -3964,17 +4076,16 @@ body {
   #tys-motivations {
     position: relative;
     margin-top: -89%;
-    margin-left: -15%;
+    margin-left: -13%;
   }
   #nehas-motivations {
     position: relative;
     margin-top: 5%;
-    margin-left: -10%;
   }
 
   #neha-frustrations {
     position: relative;
-    margin-left: 35%;
+    margin-left: 45%;
     margin-top: 0%;
   }
   #ty-frustrations {
@@ -3984,7 +4095,11 @@ body {
   }
 
   #neha-goals {
-        margin-left: 35%;
+        margin-left: 45%;
+  }
+  #ty-goals {
+    margin-left: -13%;
+        margin-top: -39%;
   }
 
   .persona-names-row {
@@ -4059,8 +4174,28 @@ body {
     font-size: 1.225rem;
     margin-left:40%;
   }
+  #wireframes-column-image-one {
+    position: relative;
+  }
+  #wireframes-column-image-two {
+    position: relative;
+  }
   #mockups-page-section {
     height: 900px;
+  }
+  #wireframes-row-one {
+    position: relative;
+    margin-left: -10%;
+  }
+
+  #wireframes-row-two {
+    position: relative;
+    margin-left: -10%;
+  }
+
+  #wireframes-row-three {
+    position: relative;
+    margin-left: -5%;
   }
   .mockups-text {
     font-size: 1.225rem;
@@ -4144,31 +4279,31 @@ body {
     color: #E2C8B1;
     position: relative;
     margin-left: 40%;
-}
-#prototyping-light-logo {
-  position: relative;
-  margin-left: 40%;
-}
-#prototyping-dark-logo {
-  position: relative;
-  margin-left: 40%;
-}
-#prototyping-bold-text-three {
-    color: #E2C8B1;
-    position: relative;
-    margin-left: 25%;
   }
-#prototype-multi-logo {
-  position: relative;
-  margin-left: 40%;
-}
-#prototype-monochrome-logo {
-  position: relative;
-  margin-left: 40%;
-}
-.prototyping-other-row {
-    top: -2%;
-}
+  #prototyping-light-logo {
+    position: relative;
+    margin-left: 40%;
+  }
+  #prototyping-dark-logo {
+    position: relative;
+    margin-left: 40%;
+  }
+  #prototyping-bold-text-three {
+      color: #E2C8B1;
+      position: relative;
+      margin-left: 25%;
+    }
+  #prototype-multi-logo {
+    position: relative;
+    margin-left: 40%;
+  }
+  #prototype-monochrome-logo {
+    position: relative;
+    margin-left: 40%;
+  }
+  .prototyping-other-row {
+      top: -2%;
+  }
   .prototyping-smaller-row {
     top: -14%;
   }
@@ -4177,9 +4312,9 @@ body {
         top: -19%;
   }
 
-#conclusion-page-section {
-  height: 1700px;
-}
+  #conclusion-page-section {
+    height: 1700px;
+  }
   .conclusion-text-content {
     font-size: 1.225rem;
   }
@@ -4188,107 +4323,121 @@ body {
       padding-top: 15%;
       top: 0%;
   }
-#conclusion-image-one {
-  margin-top: -75%;
-}
-#conclusion-image-two {
-  margin-top: -75%;
-}
-#conclusion-image-three {
-  margin-top: -75%;
-}
+  #conclusion-image-one {
+    margin-top: -75%;
+  }
+  #conclusion-image-two {
+    margin-top: -75%;
+  }
+  #conclusion-image-three {
+    margin-top: -75%;
+  }
   .conclusion-button {
-    color: #162753;
-    font-family: "Abel", sans-serif;
-    display: block;
-    width: 115px;
-    height: 25px;
-    background: #4E9CAF;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    font-weight: bold;
-    line-height: 25px;
-    background-color: #FEACC6;
-    position: relative;
-    margin-left: 55%;
-    text-decoration: none;
-}
+      color: #162753;
+      font-family: "Abel", sans-serif;
+      display: block;
+      width: 115px;
+      height: 25px;
+      background: #4E9CAF;
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
+      font-weight: bold;
+      line-height: 25px;
+      background-color: #FEACC6;
+      position: relative;
+      margin-left: 55%;
+      text-decoration: none;
+  }
 
-.my-story-text {
-  font-size: 1.225rem;
-
-}
-#hero-heading {
-    position: relative;
-    top: 45%;
-    text-align: center;
-    font-size: 3.5rem;
-}
-#image-1 {
-  width: 80%;
-  margin-top:-10%;
-}
-#image-2 {
-  width: 80%;
-  margin-top:-10%;
-}
-#image-3 {
-  width: 80%;
-  margin-top:10%;
-}
-#bio-red-flower {
-    width: 20%;
-    padding-top: 20%;
-}
-#bio-blue-flower {
-    width: 20%;
-    padding-top: 45%;
-}
-#bio-red-flower-2 {
-    width: 20%;
-    padding-left: 5%;
-}
-.hero {
-  height: 300px;
-}
-.about {
-  height: 1300px;
-}
-
-#image-1 {
-    width: 80%;
-    margin-top: -10%;
-    margin-left: -13%;
-}
-#image-2 {
-    width: 80%;
-    margin-top: 0%;
-    margin-right: -26px;
-}
-#image-3 {
-    width: 80%;
-    margin-top: 10%;
-    margin-left: -12%;
-}
-#footer-text {
-  font: 2rem;
-}
-.footer {
-  height: 300px;
-}
-.footer-page-section {
-    height: 300px;
-}
-#footer-text {
-  font-size: 2rem;
-}
-.skill-list-item {
+  .my-story-text {
     font-size: 1.225rem;
-    top: 75px;
+
+  }
+  #hero-heading {
+      position: relative;
+      top: 45%;
+      text-align: center;
+      font-size: 3.5rem;
+  }
+  #image-1 {
+    width: 80%;
+    margin-top:-10%;
+  }
+  #image-2 {
+    width: 80%;
+    margin-top:-10%;
+  }
+  #image-3 {
+    width: 80%;
+    margin-top:10%;
+  }
+  #bio-red-flower {
+      width: 20%;
+      padding-top: 20%;
+  }
+  #bio-blue-flower {
+      width: 20%;
+      padding-top: 45%;
+  }
+  #bio-red-flower-2 {
+      width: 20%;
+      padding-left: 5%;
+  }
+  .hero {
+    height: 300px;
+  }
+  .about {
+    height: 1300px;
+  }
+
+  #image-1 {
+      width: 80%;
+      margin-top: -10%;
+      margin-left: -13%;
+  }
+  #image-2 {
+      width: 80%;
+      margin-top: 0%;
+      margin-right: -26px;
+  }
+  #image-3 {
+      width: 80%;
+      margin-top: 10%;
+      margin-left: -12%;
+  }
+  #footer-text {
+    font: 2rem;
+  }
+  .footer {
+    height: 300px;
+  }
+  .footer-page-section {
+      height: 600px;
+  }
+  #footer-text {
+    font-size: 2rem;
+  }
+  .skill-list-item {
+      font-size: 1.225rem;
+      top: 75px;
+      position: relative;
+      margin-left: -95%;
+  }
+  #skills-page-section{
+    height: 900px;
+  }
+
+  #summary-blue-flower {
     position: relative;
-    margin-left: -10%;
-}
-#skills-page-section{
-  height: 900px;
+  }
+  #summary-red-flower {
+    position: relative;
+    margin-top: 900%;
+  }
+
+  #bottom-banner {
+    position: relative;
+    top: 10%;
+  }
 }
