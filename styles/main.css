@@ -3068,6 +3068,14 @@ body {
     height : 2150px;
   }
 
+  .branding-row {
+    position: relative;
+    margin-left: 0%;
+  }
+  .branding-other-row {
+    position: relative;
+    margin-left: 0%;
+  }
   #branding-page-section p{
     padding-top: 3%;
     padding-bottom: 3%;
@@ -3129,9 +3137,20 @@ body {
     font-size: 1.0rem;
   }
 
+  .prototyping-row-one {
+    margin-left: 0%;
+  }
+
   .prototyping-other-row {
     position: relative;
     top: 35%;
+    margin-left: 0%;
+  }
+  .prototyping-last-row{
+      margin-left: 0%;
+  }
+  .prototyping-smaller-row{
+      margin-left: 0%;
   }
 
   #prototyping-bold-text-one {
@@ -3215,6 +3234,10 @@ body {
   #conclusion-column-two-header {
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  .conclusion-row-one {
+    margin-left: 0%;
   }
 
   .conclusion-text-content {
@@ -3514,7 +3537,7 @@ body {
   }
 
   .about {
-    height: 1400px;
+    height: 1425px;
   }
 
   .about-column {
