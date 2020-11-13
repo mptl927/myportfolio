@@ -607,7 +607,7 @@ p {
     padding-left: 15px;
 }
 .nav-links {
-  margin-top:15%;
+  margin-top:5%;
 }
 .nav-link {
     display: inline-block;
@@ -621,7 +621,7 @@ p {
 */
 #hero-page-section {
   background-color: #162753;
-  height: 1400px;
+  height: 1200px;
 }
 
 #hero-neb-image {
