@@ -173,7 +173,7 @@ h3 {
   font-family: "Abel", sans-serif;
   font-size: 2rem;
   font-weight: lighter;
-  margin-left: 20%;
+
 }
 h4 {
   color: #641B36;
@@ -1323,7 +1323,7 @@ margin-bottom: 5%;
 #prototyping-bold-text-two {
   color: #E2C8B1;
   position: relative;
-  margin-left: 50%;
+  margin-left: 55%;
   padding-top: 15%;
 }
 #prototyping-bold-text-three {
@@ -1345,12 +1345,12 @@ margin-bottom: 5%;
 #prototyping-light-logo {
   width: 50%;
   margin-top: 10%;
-  margin-left: 50%;
+  margin-left: 60%;
 }
 #prototyping-dark-logo {
   width: 50%;
   margin-top: 10%;
-  margin-left: 50%;
+  margin-left: 60%;
 }
 #prototype-multi-logo {
   width: 60%;
