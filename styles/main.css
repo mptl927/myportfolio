@@ -202,6 +202,9 @@ h5 {
     padding-bottom: 15px;
     padding-left: 15px;
 }
+#home-page-nav-section {
+  height: 150px;
+}
 .nav-links {
   float: right;
   margin-top:5%;
@@ -239,6 +242,7 @@ h5 {
 }
 
 #desktop-nav-links {
+  margin-top: 15%;
 }
 
 #hamburgerMenuToggle {
@@ -599,13 +603,6 @@ p {
   float: left;
   width: 50%;
 }
-.nav-logo {
-    height: 80px;
-    width: 80px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-}
 .nav-links {
   margin-top:5%;
 }
@@ -686,6 +683,9 @@ p {
   position: relative;
   margin-left: -10%;
 }
+#summary-heading {
+  margin-left: 20%;
+}
 .summary-row-two {
   position: relative;
   margin-left: -10%;
@@ -696,6 +696,9 @@ p {
   height: 300px;
   background-color: #641B36;
   padding-top: 5%;
+}
+#problem-header {
+  margin-left: 20%;
 }
 #problem-column-two {
   width: 80%;
@@ -734,6 +737,9 @@ p {
 #solution-bigger-row {
   margin-left: 15%;
 }
+#solution-header {
+  margin-left: 20%;
+}
 
 .solution-image {
   margin:1.5%;
@@ -749,6 +755,7 @@ p {
   background-color: #162753;
   padding-top: 5%;
 }
+
 #process-diamond {
   transform: rotateY(180deg);
   position: relative;
@@ -759,6 +766,7 @@ p {
   font-family: "Abel", sans-serif;
   font-size: 2rem;
   font-weight: lighter;
+  margin-left: 20%;
 }
 .process-text-content {
   color: #F2F2F2;
@@ -772,7 +780,9 @@ p {
   height: 1200px;
   padding-top: 5%;
 }
-
+#ur-header {
+  margin-left: 20%;
+}
 #person-left-column-image-1 {
   top: 10%;
 }
@@ -869,6 +879,7 @@ p {
 #ca-header {
   color: #E2C8B1;
   font-size: 2rem;
+  margin-left: 20%;
 }
 .ca-content {
   color: #F2F2F2;
@@ -890,6 +901,7 @@ p {
   /* margin: 0% 11px 10px 0; */
   position: relative;
   left: -523px;
+  margin: 4%;
 }
 .ca-dropbox-list {
   font-family: "Abel", sans-serif;
@@ -898,7 +910,8 @@ p {
       /* margin: 15% 0 10px 0; */
       position: relative;
       left: 600px;
-      top: -49px;
+      top: -115px;
+      margin: 4%;
 }
 .ca-onedrive-list {
   font-family: "Abel", sans-serif;
@@ -907,7 +920,8 @@ p {
       /* margin: 15% 0 10px 0; */
       position: relative;
       left: 665px;
-      top: -82px;
+      top: -145px;
+      margin: 4%;
 }
 .ca-list-header {
   font-weight: bold;
@@ -932,7 +946,7 @@ p {
 #ca-dropbox-weaknesses {
   position: relative;
     left: -779px;
-    top: 66px;
+    top: 75px;
 }
 #ca-onedrive-strengths {
   position: relative;
@@ -942,7 +956,7 @@ p {
 #ca-onedrive-weaknesses {
   position: relative;
       left: 279px;
-      top: 25px;
+      top: -25px;
 }
 
 #ca-google-drive-strengths {
@@ -969,6 +983,7 @@ p {
 #persona-header{
   font-size: 2rem;
   color:#162753;
+  margin-left: 20%;
 }
 #persona-content {
   font-size: 1.625rem;
@@ -1107,6 +1122,7 @@ p {
 #user-flows-column-two-header {
   text-align: left;
   color: #E2C8B1;
+  margin-left: 20%;
 }
 #user-flow-image {
 margin-left: 15%;
@@ -1140,6 +1156,7 @@ margin-bottom: 5%;
 }
 #wireframes-column-two-header {
   text-align: left;
+  margin-left: 20%;
 }
 #wireframes-image-one {
   margin-top: 5%;
@@ -1198,6 +1215,7 @@ margin-bottom: 5%;
 #mockups-column-two-header {
   text-align: left;
   color: #E2C8B1;
+  margin-left: 20%;
 }
 .mockups-text{
   color: #F2F2F2;
@@ -1243,6 +1261,10 @@ margin-bottom: 5%;
 #branding-column-two-header {
   text-align: left;
   margin-bottom: 5%;
+  margin-left: 20%;
+}
+#branding-big-text {
+  margin-left: 20%;
 }
 #branding-image-one {
   margin-left: 35%;
@@ -1311,6 +1333,7 @@ margin-bottom: 5%;
 #prototyping-column-two-header {
   text-align: left;
   color: #E2C8B1;
+  margin-left: 20%;
 }
 .prototyping-text{
   color: #F2F2F2;
@@ -1429,6 +1452,7 @@ margin-bottom: 5%;
 }
 #conclusion-column-two-header {
   text-align: left;
+  margin-left: 20%;
 }
 #conclusion-image-one {
   width: 80%;
@@ -1705,11 +1729,12 @@ body {
   width: 50%;
 }
 .nav-logo {
-    height: 80px;
-    width: 80px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
+  height: 80px;
+  width: 80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-top: 2%;
 }
 .nav-links {
   float: right;
@@ -1923,6 +1948,10 @@ body {
 */
 @media screen and (min-width: 375px) and (max-width: 480px){
 
+#home-page-nav-section {
+  height: 100px;
+}
+
 #skills-main-header {
   font-size: 2rem;
   margin-left: 2%;
@@ -1997,12 +2026,12 @@ body {
       }
       #hamburgerMenuToggle {
         display: block;
-        position: relative;
-        top: -46px;
-        left: 310px;
-        z-index: 1;
-        -webkit-user-select: none;
-        user-select: none;
+            position: relative;
+            top: -53px;
+            left: 310px;
+            z-index: 1;
+            -webkit-user-select: none;
+            user-select: none;
       }
 #skills-page-section {
       height: 1200px;
@@ -2139,7 +2168,10 @@ body {
       }
       .mobile-banner {
         display: block;
-        width: 100%;
+        position: absolute;
+      }
+      .mobile-banner-bottom {
+        margin-top: 60%;
       }
       #bottom-banner {
         display: none;
@@ -2159,9 +2191,12 @@ body {
     #hero-page-section-home-page {
       background-color: #162753;
       height: 800px;
-      padding-top: 10%;
+      padding-top: 15%;
+      margin-top: 5%;
     }
-
+#branding-big-text {
+  margin-left: 10%;
+}
       #hero-column-one {
         top: 40%;
       }
@@ -2179,6 +2214,7 @@ body {
        position: relative;
        top: 30%;
        margin-left: 10%;
+       margin=top: 15%;
       }
       #hero-neb-image {
         margin-top: 30%;
@@ -2198,6 +2234,7 @@ body {
       .nav-logo {
         height: 50px;
         width: 50px;
+        margin-top: 10%;
       }
       .hero-button-home-page {
           display: block;
@@ -2413,7 +2450,7 @@ body {
       #hamburgerMenuToggleTwo {
         display: block;
         position: relative;
-        top: 33px;
+        top: 45px;
         left: 129px;
         z-index: 1;
         -webkit-user-select: none;
@@ -2748,21 +2785,24 @@ body {
     }
     .ca-google-list {
       font-size: 1.2rem;
-      margin-top: 5%;
-      margin-left: 10%;
+      margin-left: 0%;
       margin-right: 30%;
     }
     .ca-dropbox-list {
       font-size: 1.2rem;
-      margin-top: 2%;
       margin-left: 10%;
       margin-right: 0%;
+      margin: 2%;
     }
     .ca-onedrive-list {
       font-size: 1.2rem;
       margin-top: 2%;
       margin-left: 10%;
       margin-right: 30%;
+      margin: 1%;
+    }
+    #ca-list-header-one-drive {
+      padding-bottom: 5%;
     }
 
     #ca-google-drive-image {
@@ -2774,60 +2814,65 @@ body {
     #ca-google-drive-strengths {
       font-size: 1.0rem;
       position: relative;
-      margin-top: -245%;
-      margin-left: 174%;
+      margin-top: -223%;
+      margin-left: 159%;
+      width: 100%;
     }
     #ca-google-drive-weaknesses {
       font-size: 1.0rem;
-      position: relative;
-      margin-top: -254%;
-      margin-left: 173%;
+          position: relative;
+          margin-top: -253%;
+          margin-left: 158%;
+          width: 100%;
     }
 
     #ca-dropbox-image {
       position: relative;
-          margin-top: 100%;
-          margin-left: 34%;
+          margin-top: 90%;
+          margin-left: 28%;
           width: 25%;
     }
     #ca-dropbox-strengths {
       font-size: 1.0rem;
           position: relative;
-          margin-top: -84%;
-          margin-left: -159%;
+          margin-top: -58%;
+          margin-left: -148%;
     }
     #ca-dropbox-weaknesses {
-      margin-top: -113%;
+      margin-top: -110%;
       font-size: 1.0rem;
       position: relative;
       /* top: 220%; */
-      margin-left: 73%;
+      margin-left: 63%;
+      width: 100%;
     }
 
     #ca-onedrive-image {
       position: relative;
-      margin-top: 77%;
+      margin-top: 70%;
       margin-left: 22%;
       width: 40%;
     }
     #ca-onedrive-strengths {
       font-size: 1.0rem;
-          position: relative;
-          margin-top: 18%;
-          margin-left: -150%;
+      position: relative;
+      margin-top: 42%;
+      margin-left: -132%;
+      /* margin: 1%; */
+      width: 100%;
     }
     #ca-onedrive-weaknesses {
       font-size: 1.0rem;
           position: relative;
-          margin-top: 0%;
-          margin-left: -266%;
+          margin-top: 26%;
+          margin-left: -239%;
     }
 
     #ca-link {
-        font-size: 1rem;
-        position: absolute;
-        margin-top: 110%;
-        margin-left: 30%;
+      font-size: 1rem;
+          position: absolute;
+          margin-top: 298%;
+          margin-left: -83%;
     }
 
     /*
@@ -3215,7 +3260,8 @@ body {
     position: relative;
     margin-left: 15%;
     height: 200px;
-    margin-top:105%;
+    margin-top: 105%;
+    top: 17px;
   }
 
   #prototype-monochrome-logo {
@@ -3337,7 +3383,7 @@ body {
   #hamburgerMenuToggleThree {
     display: block;
     position: relative;
-    top: 33px;
+    top: 46px;
     left: 129px;
     z-index: 1;
     -webkit-user-select: none;
@@ -3364,7 +3410,7 @@ body {
     width: 40px;
     height: 32px;
     position: absolute;
-    top: -7px;
+    top: 7px;
     left: -5px;
 
     cursor: pointer;
@@ -3572,7 +3618,7 @@ body {
   #hamburgerMenuToggleFour {
     display: block;
     position: relative;
-    top: 33px;
+    top: 49px;
     left: 129px;
     z-index: 1;
     -webkit-user-select: none;
@@ -3826,6 +3872,7 @@ body {
   }
   h3 {
     font-size: 1.625rem;
+    margin-left: 20%;
   }
   h4 {
     font-size: 1.225rem;
@@ -3844,10 +3891,12 @@ body {
   h5 {
     font-size: 1.625rem;
     margin-top:10%;
+    margin-left: 2%;
   }
   #bio-text {
     font-size: 1.325rem;
     width: 120%;
+    margin-left: 2%;
   }
   #bio-link{
     font-size: 1.225rem;
@@ -4001,40 +4050,41 @@ body {
   }
   #ca-dropbox-strengths {
     position: relative;
-        /* top: 45%; */
-        margin-left: -214%;
-        margin-right: 200%;
-        margin-top: -17%;
+    /* top: 45%; */
+    margin-left: -214%;
+    margin-right: 200%;
+    margin-top: 28%;
   }
   #ca-onedrive-strengths {
     position: relative;
     /* top: 45%; */
     margin-left: -190%;
     margin-right: 200%;
-    margin-top: -14%;
+    margin-top: 31%;
   }
   #ca-google-drive-weaknesses {
     position: relative;
     /* top: 40%; */
-    margin-left: 165%;
+    margin-left: 162%;
     line-height: 2rem;
     width: 75%;
   }
   #ca-dropbox-weaknesses {
     position: relative;
-    /* top: 40%; */
-    margin-left: 292%;
-    margin-top: -64%;
-    width: 75%;
-    line-height: 2rem;
+        /* top: 40%; */
+        margin-left: 35%;
+        margin-top: -31%;
+        width: 75%;
+        line-height: 2rem;
   }
   #ca-onedrive-weaknesses {
     position: relative;
-    margin-left: -268%;
+    margin-left: -136%;
     top: 0%;
     left: 0%;
     line-height: 2rem;
     width: 75%;
+    margin-top: -48%;
   }
   .ca-onedrive-list {
     font-size: 1.225rem;
@@ -4044,9 +4094,9 @@ body {
   }
   #ca-link {
     font-size: 1.225rem;
-        top: 125px;
-        left: -20%;
-        margin-left: 0%;
+    top: 0px;
+    left: 8%;
+    margin-left: 0%;
   }
 
   #ca-first-inner-row {
@@ -4458,7 +4508,7 @@ body {
     height: 300px;
   }
   .footer-page-section {
-      height: 350px;
+      height: 250px;
   }
   #footer-text {
     font-size: 2rem;
@@ -4482,7 +4532,5 @@ body {
   }
 
   #bottom-banner {
-    position: relative;
-    top: 10%;
-  }
+    position: absolute;
 }

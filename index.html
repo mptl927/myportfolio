@@ -14,17 +14,17 @@
     <div class="container">
       <img class="mobile-banner" src="images/mobile-banner.png">
 
-      <nav>
+      <nav id="home-page-nav-section">
         <!-- stretches across the top -->
         <img alt="image" id="top-banner" src="images/banner.png"/>
 
         <!-- column 1 -->
-        <div class="column-half">
-          <img alt="image" class= "nav-logo" src="images/logo.png"/>
+        <div class="column column-half">
+          <img alt="image" class= "nav-logo" id="nav-logo-image" src="images/logo.png"/>
         </div>
 
         <!-- column 2 -->
-        <div class="column-half">
+        <div class="column column-half">
 
           <!-- desktop nav links -->
           <ul class="nav-links" id="desktop-nav-links">
@@ -72,7 +72,7 @@
       <section class="page-section" id="hero-page-section-home-page">
 
         <!-- column 1 -->
-        <div class="column-half hero-column" id="hero-column-one">
+        <div class="column column-half hero-column" id="hero-column-one">
           <div id="hero-column-content">
             <h1 id="hero-column-header">Hi. I'm Mira, a designer based in the Windy City.</h1>
             <h2> Creating meaningful experiences and genuine connections to change the world.</h2>
@@ -84,7 +84,7 @@
         </div>
 
         <!-- column 2 -->
-        <div class="column-half hero-column" id="hero-column-two">
+        <div class="column column-half hero-column" id="hero-column-two">
           <img alt="flower" id="hero-flower-image" src= "images/flower.png">
         </div>
 
@@ -94,17 +94,17 @@
       <section class="page-section" id="nebula-page-section">
 
         <!-- column 1 -->
-        <div class="column-small">
+        <div class="column column-small">
           <img alt="image" class="column-small-image column-top-image" id= "nebula-column-image-one" src="images/red-diamond.png">
         </div>
 
         <!-- column 2 -->
-        <div class="column-half" id="nebula-column-two">
+        <div class="column column-half" id="nebula-column-two">
           <img alt="image" id= "nebula-neb-image" src="images/neb.png">
         </div>
 
         <!-- column 3 -->
-        <div class="column-third" id="nebula-column-three">
+        <div class="column column-third" id="nebula-column-three">
           <div id="nebula-content">
             <h3>Nebula</h3>
             <h4>A collaborative cloud storage app for the modern world.</h4>
@@ -115,7 +115,7 @@
         </div>
 
         <!-- column 4 -->
-        <div class="column-small">
+        <div class="column column-small">
           <img alt="red flower" class="column-small-image column-bottom-image" id= "nebula-column-image-two" src="images/red-flower.png">
         </div>
       </section>
@@ -124,7 +124,7 @@
       <section class="page-section" id="bio-page-section">
 
         <!-- column 1 -->
-        <div class="column-small">
+        <div class="column column-small">
             <img alt="image" class="column-small-image column-top-image" id="bio-column-image-one" src="images/flower.png">
         </div>
 
@@ -145,7 +145,7 @@
         </div>
 
         <!-- column 4 -->
-        <div class="column-small">
+        <div class="column column-small">
           <img alt="image" class="column-small-image column-bottom-image" id="bio-column-image-two" src="images/diamond.png">
         </div>
       </section>
@@ -155,10 +155,10 @@
 
         <h3 id="skills-main-header"> Skills </h3>
 
-        <div class="column-half">
+        <div class="column column-half">
 
           <!-- row 1 discovery -->
-          <div class="row-third" id="skills-cell-1">
+          <div class="row row-third" id="skills-cell-1">
             <img alt="image" class="skills-blue-flower" id="skills-blue-flower1" src="images/blue-flower.png">
             <h4 class="skills-heading" id="skills-heading-one">Discovery and Research</h4>
             <ul class="skills-list" id="skills-list-one">
@@ -170,7 +170,7 @@
           </div>
 
           <!-- row 2 design -->
-          <div class="row-third" id="skills-cell-2">
+          <div class="row row-third" id="skills-cell-2">
             <img alt="image" class="skills-blue-diamond" id="skills-blue-diamond1" src ="images/blue-diamond.png">
             <h4 class="skills-heading" id="skills-heading-two">Design</h4>
             <ul class="skills-list" id="skills-list-two">
@@ -185,9 +185,9 @@
         <!-- end of column 1 -->
         </div>
 
-        <div class="column-half">
+        <div class="column column-half">
 
-          <div class="row-third" id="skills-cell-3">
+          <div class="row row-third" id="skills-cell-3">
             <img alt="image" class="skills-blue-diamond" id="skills-blue-diamond2" src="images/blue-diamond.png">
             <h4 class="skills-heading" id="skills-heading-three">Information Architecture</h4>
             <ul class="skills-list" id="skills-list-three">
@@ -198,7 +198,7 @@
               </ul>
           </div>
 
-          <div class="row-third" id="skills-cell-4">
+          <div class="row row-third" id="skills-cell-4">
             <img alt="image" class="skills-blue-flower" id="skills-blue-flower2" src ="images/blue-flower.png">
             <h4 class="skills-heading" id="skills-heading-four">Tools</h4>
             <ul class="skills-list" id="skills-list-four">
@@ -218,7 +218,7 @@
       <footer class="page-section footer-page-section">
 
         <!-- column 1 -->
-        <div class="column-small">
+        <div class="column column-small">
           <img alt="diamond" class="column-top-image footer-homepage-image" src ="images/diamond.png">
         </div>
 
@@ -249,13 +249,13 @@
         </div>
 
         <!-- column 3 -->
-        <div class="column-small">
+        <div class="column column-small">
           <img alt="flower" class="column-bottom-image footer-homepage-image" id="footer-bottom-image" src="images/flower.png">
         </div>
 
         <!-- strethes across the bottom -->
         <img alt="image" id="bottom-banner" src="images/bottom-banner.png">
-        <img alt="bottom banner" class="mobile-banner" src="images/mobile-banner.png">
+        <img alt="bottom banner" class="mobile-banner mobile-banner-bottom" src="images/mobile-banner.png">
       </footer>
 
       </div> <!-- end of container -->
