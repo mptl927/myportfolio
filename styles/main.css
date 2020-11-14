@@ -3344,13 +3344,13 @@ body {
 
   .back-to-top::before,
   .back-to-top::after {
-  	content: '';
-  	position: absolute;
-  	margin-left: 0;
-  	width: 0;
-  	height: 0;
-  	border: 20px solid transparent;
-  	border-top: 0;
+    content: '';
+    position: absolute;
+    margin-left: 59px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top: 0;
   }
 
   .back-to-top::before {
